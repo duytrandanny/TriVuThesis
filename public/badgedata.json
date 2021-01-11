@@ -1,0 +1,80 @@
+[
+  {
+    "id": 0,
+    "category": 1,
+    "name": "Stone Age",
+    "description": "Archaic humans first use to tools"
+  },
+  {
+    "id": 1,
+    "category": 5,
+    "name": "Sapiens",
+    "description": "The story for our species begins"
+  },
+  {
+    "id": 2,
+    "category": 3,
+    "name": "Grain",
+    "description": "Human species start eating cereal and The breakfast staple"
+  },
+  {
+    "id": 3,
+    "category": 6,
+    "name": "Bigger Brain",
+    "description": "The Cerebrel cortex of the brain is formed, responsible for the regulation of conscious life."
+  },
+  {
+    "id": 4,
+    "category": 3,
+    "name": "Man's Best Friend",
+    "description": "Humans have successfully domesticated man's best friend."
+  },
+  {
+    "id": 5,
+    "category": 6,
+    "name": "Cave Painting",
+    "description": "Humans have started to visualize ourselves in art. Artsy"
+  },
+  {
+    "id": 6,
+    "category": 5,
+    "name": "Only Survivor",
+    "description": "Homo sapiens outlasts all the other human species and becomes the last human species."
+  },
+  {
+    "id": 7,
+    "category": 2,
+    "name": "Agricultural Revolution",
+    "description": "Agriculture starts in the Levant (Eastern Mediterranean region of Western Asia)"
+  },
+  {
+    "id": 8,
+    "category": 4,
+    "name": "First City",
+    "description": "A concentration of humans with domesticated livestock and plants."
+  },
+  {
+    "id": 9,
+    "category": 3,
+    "name": "Cattle farming",
+    "description": "Dawn of the cheeseburger"
+  },
+  {
+    "id": 10,
+    "category": 2,
+    "name": "Irrigation",
+    "description": "Water system to supply water for crops and livestock"
+  },
+  {
+    "id": 11,
+    "category": 6,
+    "name": "Religion",
+    "description": "Our collective imagination of in spiritual entities are stronger than ever and have pushed us to cooperate in building the first places of worship."
+  },
+  {
+    "id": 12,
+    "category": 0,
+    "name": "Traders",
+    "description": "Long distance Trading among different communities is a thing now"
+  }
+]

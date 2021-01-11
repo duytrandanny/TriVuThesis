@@ -1,0 +1,394 @@
+[
+  {
+    "id": 0,
+    "q": "First hominin of homo genus appeared in Africa",
+    "time": -7000000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1,
+    "q": "First evidence of stone tools found in present day Kenya",
+    "time": -2500000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 2,
+    "badgeEarn": [
+      0
+    ],
+    "requiredBadge": []
+  },
+  {
+    "id": 2,
+    "q": "Homo erectus is first hominin to migrate out of Africa - large brains, dexterous fingers, long legs.",
+    "time": -2000000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 3,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 3,
+    "q": "First boats",
+    "time": -900000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 4,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 4,
+    "q": "First use of fire, which leads to advancements in cooking meat lead to larger brain development.",
+    "time": -800000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 5,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 5,
+    "q": "a divergence happens between the homo Neanderthals and Denisovans.",
+    "time": -473000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 6,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 6,
+    "q": "Basic communication and language is suggested among Homo genus",
+    "time": -350000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 7,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 7,
+    "q": "Trade and transport of resources",
+    "time": -320000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 8,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 8,
+    "q": "Homo sapiens first emerged. Highly adaptable.",
+    "time": -320000,
+    "a1": "Yes",
+    "a2": "No",
+    "a1Link": 9,
+    "a2Link": 1000,
+    "nextQ": null,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 9,
+    "q": "Homo-sapiens emerge out of Africa and fill the globe quickly",
+    "time": -250000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 10,
+    "badgeEarn": [
+      1
+    ],
+    "requiredBadge": []
+  },
+  {
+    "id": 10,
+    "q": "First evidence of wearing clothes",
+    "time": -170000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 11,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 11,
+    "q": "Cultivating wild grains begin",
+    "time": -105000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 12,
+    "badgeEarn": [
+      2
+    ],
+    "requiredBadge": []
+  },
+  {
+    "id": 12,
+    "q": "Earliest structures. Behavioral modernity behavioral and cognitive traits, abstract thinking, symbolic behavior, planning depth",
+    "time": -100000,
+    "a1": "Yes",
+    "a2": "No",
+    "a1Link": 13,
+    "a2Link": 1001,
+    "nextQ": null,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 13,
+    "q": "Homo floresiensis also known as Hobbits died out.",
+    "time": -100000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 14,
+    "badgeEarn": [
+      3
+    ],
+    "requiredBadge": []
+  },
+  {
+    "id": 14,
+    "q": "Homo sapiens arrive in Europe.",
+    "time": -70000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 15,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 15,
+    "q": "First evidence of abstract art.",
+    "time": null,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 16,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 16,
+    "q": "Homo sapiens arrive in India.",
+    "time": -45000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 17,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 17,
+    "q": "First known musical instrument, a flute found in modern day Germany.",
+    "time": -41000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 18,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 18,
+    "q": "Extinction of Neanderthal. Human settlement of Australia.",
+    "time": -40000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 19,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 19,
+    "q": "Venus figurine found in Europe. Suggests a belief in Gods.",
+    "time": -40000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 20,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 20,
+    "q": "evidence of domesticated dog skulls in Europe and Siberia.",
+    "time": -33000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 21,
+    "badgeEarn": [
+      4
+    ],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 21,
+    "q": "light skin in Europeans and East Asians",
+    "time": -30000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 22,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 22,
+    "q": "people around the world use fibers to make baby carriers, clothes, bags, baskets, and nets.",
+    "time": -26000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 23,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 23,
+    "q": "cave painting culture started in modern day France and spread throughout Europe.",
+    "time": -20000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 24,
+    "badgeEarn": [
+      5
+    ],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 24,
+    "q": "Pottery is found in Japan",
+    "time": -16000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 25,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 25,
+    "q": "First signs of warfare",
+    "time": -12000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 26,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 26,
+    "q": "Extinction of late surviving archaic humans due to competition, interbreeding and climate change.",
+    "time": null,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 27,
+    "badgeEarn": [6],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 27,
+    "q": "Human migration to North America.",
+    "time": null,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 28,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 1000,
+    "q": "Homo sapiens were quickly wiped out due to competition with the Neanderthals who have mastered stone tools",
+    "time": "Evolution have not been kind",
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 2000,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1001,
+    "q": "Not to worry, homo sapiens are still thriving.",
+    "time": "Evolution didn't take place.",
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 13,
+    "badgeEarn": [],
+    "requiredBadge": []
+  }
+]
