@@ -33,14 +33,7 @@ export default class QuestionComponent extends React.Component {
             console.log("called fetch question")
             this.fetchTimeout = setTimeout(() => {
                 this.props.fetchQuestion(this.state.question.nextQ);
-            }, 3000)
-        }
-    }
-
-    renderOption = nextQ => {
-        switch(nextQ) {
-            case null:
-
+            }, 500)
         }
     }
 

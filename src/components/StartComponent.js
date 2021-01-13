@@ -147,11 +147,18 @@ export default class StartComponent extends React.Component {
     fetchQuestion = link => {
         console.log("fetching question: " + link)
         const fetchedQ = this.state.questionData.find(x => x.id === link)
-        if(this.state.badge.filter(b => fetchedQ.requiredBadge.includes(b.id)).length === 0) {
+        if(fetchedQ.requiredBadge.length === 0) {
             this.setState({
                 curQuestion: this.state.questionData.find(x => x.id === link)
             }, () => {
-                this.updateBadge();
+                this.updateBadge()
+            })
+        } else if (this.state.badge.filter(b => fetchedQ.requiredBadge.includes(b.id))
+            .every(x => fetchedQ.requiredBadge.includes(x.id))) {
+            this.setState({
+                curQuestion: this.state.questionData.find(x => x.id === link)
+            }, () => {
+                this.updateBadge()
             })
         } else {
             if(fetchedQ.nextQ) {

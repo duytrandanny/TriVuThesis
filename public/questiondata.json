@@ -574,7 +574,7 @@
     "a1": "Yes",
     "a2": "No",
     "a1Link": 42,
-    "a2Link": null,
+    "a2Link": 1004,
     "nextQ": null,
     "badgeEarn": [],
     "requiredBadge": [
@@ -660,7 +660,19 @@
     "a2": null,
     "a1Link": null,
     "a2Link": null,
-    "nextQ": 34,
+    "nextQ": 35,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1004,
+    "q": "As humans continue to hunt, wild game decreases, humans resort to eating a more varied plant based diet.",
+    "time": "Plant-based diet",
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 2000,
     "badgeEarn": [],
     "requiredBadge": []
   }
