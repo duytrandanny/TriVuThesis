@@ -368,6 +368,255 @@
     ]
   },
   {
+    "id": 28,
+    "q": "Domestication of cats.",
+    "time": null,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 29,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 29,
+    "q": "End of the most recent glacial episode within the current Quaternary Ice Age. Ice Age megafauna (large animals) go extinct like the sabre-toothed cat and the mammoth abrupt period of global warming accelerates the glacial retreat.",
+    "time": -11700,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 30,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 30,
+    "q": "In northern Mesopotamia, now Iraq, cultivation of barley and wheat begins. Some hunters and gatherers experience dreams of the beings, entrusting them these sacred grains, promising a future of food stability.",
+    "time": -11500,
+    "a1": "Yes",
+    "a2": "No",
+    "a1Link": 31,
+    "a2Link": 1002,
+    "nextQ": null,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 31,
+    "q": "the eight Neolithic founder crops, emmer and einkorn wheat, hulled barley, peas, lentils, bitter vetch, chick peas and flax were cultivated",
+    "time": null,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 32,
+    "badgeEarn": [
+      7
+    ],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 32,
+    "q": "Beginnings of Agriculture in the Middle East.",
+    "time": null,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 33,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 33,
+    "q": "Ice Age ends, allows for human migration to islands what is now Japn.",
+    "time": -10000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 34,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 34,
+    "q": "Wild sheep flocks are managed in Zagros mountain.",
+    "time": -9000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 35,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 35,
+    "q": "Alcohol fermentation starts in China.",
+    "time": -9000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 36,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 36,
+    "q": "Wooly mammoths go into serious decline.",
+    "time": -9000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 37,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 37,
+    "q": "Religious activity near Stonehenge, evidence shows it happened long before the monuments.",
+    "time": -8500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 38,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 38,
+    "q": "Ovens for pottery are used in the Near East.",
+    "time": -8000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 39,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 39,
+    "q": "Long distance trade in obsidian begins.",
+    "time": -7500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 40,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 39,
+    "q": "Humans inhabit Egypt.",
+    "time": -7200,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 40,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 40,
+    "q": "Plant cultivation starts in North America.",
+    "time": -7000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 41,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 41,
+    "q": "Wild game start to decrease. Humans have started domestication of animals but rarely for food. Desperate times, desperate measures? (\"Against the Grain\" - James C. Scott)",
+    "time": -7000,
+    "a1": "Yes",
+    "a2": "No",
+    "a1Link": 42,
+    "a2Link": null,
+    "nextQ": null,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 42,
+    "q": "Domesticated animals used for food increased during this period.",
+    "time": null,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 2000,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+
+
+
+
+
+
+
+  {
+    "id": 2000,
+    "q": "The end",
+    "time": "Thanks for playing",
+    "a1": "Restart",
+    "a2": null,
+    "a1Link": 0,
+    "a2Link": null,
+    "nextQ": null,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
     "id": 1000,
     "q": "Homo sapiens were quickly wiped out due to competition with the Neanderthals who have mastered stone tools",
     "time": "Evolution have not been kind",
@@ -388,6 +637,30 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 13,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1002,
+    "q": "The hunters and gatherers continued on their days. Use of barley and wheat does not transcend to bread. \nBread is never invented.",
+    "time": "Just dreams",
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1003,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1003,
+    "q": "The Ice Age continues, we continue our hunter and gatherer ways.",
+    "time": -10000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 34,
     "badgeEarn": [],
     "requiredBadge": []
   }

@@ -29,11 +29,18 @@ export default class QuestionComponent extends React.Component {
         }
         clearTimeout(this.fetchTimeout)
 
-        if(this.state.question.nextQ !== null && this.state.question.nextQ !== 2000) {
+        if(this.state.question.nextQ !== null && this.state.question.nextQ !== 2001) {
             console.log("called fetch question")
             this.fetchTimeout = setTimeout(() => {
                 this.props.fetchQuestion(this.state.question.nextQ);
             }, 3000)
+        }
+    }
+
+    renderOption = nextQ => {
+        switch(nextQ) {
+            case null:
+
         }
     }
 
@@ -43,6 +50,7 @@ export default class QuestionComponent extends React.Component {
                 <h1>{this.state.question.q}</h1>
                 {
                     this.state.question.nextQ === null &&
+                    this.state.question.id !== 2000 &&
                     <div className="row">
                         <span className="col-6 answer-box"
                               onClick={() => this.props.fetchQuestion(this.state.question.a1Link)}>
@@ -51,6 +59,16 @@ export default class QuestionComponent extends React.Component {
                         <span className="col-6 answer-box"
                               onClick={() => this.props.fetchQuestion(this.state.question.a2Link)}>
                             {this.state.question.a2}
+                        </span>
+                    </div>
+                }
+                {
+                    this.state.question.nextQ === null &&
+                    this.state.question.id === 2000 &&
+                    <div className="row">
+                        <span className="col-6 answer-box"
+                              onClick={() => this.props.restart()}>
+                            {this.state.question.a1}
                         </span>
                     </div>
                 }

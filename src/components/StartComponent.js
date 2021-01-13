@@ -88,7 +88,6 @@ export default class StartComponent extends React.Component {
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         if(prevState.curQuestion.id !== this.state.curQuestion.id) {
-            this.updateBadge();
         }
     }
 
@@ -109,8 +108,6 @@ export default class StartComponent extends React.Component {
                 badge: [...prevState.badge, newBadge]
             }))
         }
-        console.log("new badge list :");
-        console.log(this.state.badge);
     }
 
     replaceBadge = (newBadge, cat) => {
@@ -127,7 +124,6 @@ export default class StartComponent extends React.Component {
             this.setState(prevState => ({
                 badge: [...prevState.badge, newBadge]
             }))
-
         }
     }
 
@@ -138,18 +134,39 @@ export default class StartComponent extends React.Component {
         console.log("found badge:");
         console.log(earnedBadge);
         if (earnedBadge !== undefined) {
-            if(earnedBadge.category === 1 || earnedBadge.category === 5) {
+            // if(earnedBadge.category === 1 || earnedBadge.category === 5) {
                 this.replaceBadge(earnedBadge, earnedBadge.category);
-            } else {
-                this.setBadge(earnedBadge)
-            }
+            // } else {
+            //     this.setBadge(earnedBadge)
+            // }
         }
+        console.log("new badge list :");
+        console.log(this.state.badge);
     }
 
     fetchQuestion = link => {
         console.log("fetching question: " + link)
+        const fetchedQ = this.state.questionData.find(x => x.id === link)
+        if(this.state.badge.filter(b => fetchedQ.requiredBadge.includes(b.id)).length === 0) {
+            this.setState({
+                curQuestion: this.state.questionData.find(x => x.id === link)
+            }, () => {
+                this.updateBadge();
+            })
+        } else {
+            if(fetchedQ.nextQ) {
+                this.fetchQuestion(fetchedQ.nextQ)
+            } else {
+                this.fetchQuestion(fetchedQ.a1Link)
+            }
+        }
+    }
+
+    restart = () => {
         this.setState({
-            curQuestion: this.state.questionData.find(x => x.id === link)
+            badge: []
+        }, () => {
+            this.fetchQuestion(0)
         })
     }
 
@@ -180,6 +197,7 @@ export default class StartComponent extends React.Component {
                 }
                 <QuestionComponent
                     id={this.state.curQuestion.id}
+                    restart={this.restart}
                     fetchQuestion={this.fetchQuestion}
                     question={this.state.curQuestion}
                     setTime={this.setTime}
