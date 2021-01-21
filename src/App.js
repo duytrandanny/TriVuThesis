@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 import './css/App.css';
 import React from "react";
 import StartComponent from "./components/StartComponent";
@@ -22,7 +22,6 @@ class App extends React.Component {sa
             </div>
         );
     }
-    r
 }
 
 export default App;

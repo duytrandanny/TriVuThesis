@@ -1,7 +1,6 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import QuestionComponent from "./QuestionComponent";
 import BadgeComponent from "./BadgeComponent";
-import { CSSTransition } from "react-transition-group";
 
 
 export default class StartComponent extends React.Component {
@@ -54,7 +53,7 @@ export default class StartComponent extends React.Component {
             .then(r => {
                 this.setState({
                     questionData: r
-                });
+                })
             })
             .then(() => {
                 this.setState({
@@ -82,6 +81,8 @@ export default class StartComponent extends React.Component {
                 console.log(r);
                 this.setState({
                     badgeData: r
+                }, () => {
+                    this.updateBadge()
                 });
             });
     }
@@ -89,10 +90,6 @@ export default class StartComponent extends React.Component {
     componentDidUpdate(prevProps, prevState, snapshot) {
         if(prevState.curQuestion.id !== this.state.curQuestion.id) {
         }
-    }
-
-    componentWillUnmount() {
-        // clearInterval(this.interval)
     }
 
     setTime = (newTime) => {
@@ -128,20 +125,17 @@ export default class StartComponent extends React.Component {
     }
 
     updateBadge() {
-        console.log("looking for badge for question: " + this.state.curQuestion.id);
-        console.log("this question includes badge id: " + this.state.curQuestion.badgeEarn[0]);
+        console.log("Called updateBadge")
         const earnedBadge = this.state.badgeData.find(b => this.state.curQuestion.badgeEarn.includes(b.id));
-        console.log("found badge:");
-        console.log(earnedBadge);
         if (earnedBadge !== undefined) {
-            // if(earnedBadge.category === 1 || earnedBadge.category === 5) {
+            if(earnedBadge.upgrade) {
                 this.replaceBadge(earnedBadge, earnedBadge.category);
-            // } else {
-            //     this.setBadge(earnedBadge)
-            // }
+            } else {
+                this.setBadge(earnedBadge)
+            }
         }
-        console.log("new badge list :");
-        console.log(this.state.badge);
+        console.log("Finished updateBadge")
+        console.log(this.state.badge)
     }
 
     fetchQuestion = link => {
@@ -153,8 +147,7 @@ export default class StartComponent extends React.Component {
             }, () => {
                 this.updateBadge()
             })
-        } else if (this.state.badge.filter(b => fetchedQ.requiredBadge.includes(b.id))
-            .every(x => fetchedQ.requiredBadge.includes(x.id))) {
+        } else if (fetchedQ.requiredBadge.every(b => this.state.badge.find(x => b===x.id) !== undefined)) {
             this.setState({
                 curQuestion: this.state.questionData.find(x => x.id === link)
             }, () => {
@@ -186,14 +179,14 @@ export default class StartComponent extends React.Component {
                     typeof(this.state.curQuestion.time) === "number" &&
                     this.state.curQuestion.time < 0 &&
                     <h4>
-                        {0 - this.state.curQuestion.time} BCE
+                        {(0 - this.state.curQuestion.time).toLocaleString()} BCE
                     </h4>
                 }
                 {
                     typeof(this.state.curQuestion.time) === "number" &&
                     this.state.curQuestion.time >= 0 &&
                     <h4>
-                        Year {0 - this.state.curQuestion.time}
+                        Year {(0 - this.state.curQuestion.time).toLocaleString()}
                     </h4>
                 }
                 {
@@ -217,6 +210,7 @@ export default class StartComponent extends React.Component {
                     typeof(this.state.badge) !== 'undefined' &&
                     this.state.badge.map(badge =>
                         <BadgeComponent
+                            key={badge.id}
                             category={badge.category}
                             name={badge.name}/>
                     )

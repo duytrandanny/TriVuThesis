@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from "react-router-dom";
 
 export default class QuestionComponent extends React.Component {
     constructor(props) {
@@ -11,17 +10,18 @@ export default class QuestionComponent extends React.Component {
     }
 
     componentDidMount() {
-        if(this.state.question.nextQ !== null) {
+        if (this.state.question.nextQ !== null) {
             setTimeout(() => {
                 this.props.fetchQuestion(this.state.question.nextQ);
             }, 3000)
         }
     }
+
     componentWillUpdate(nextProps, nextState, nextContext) {
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
-        if(prevProps.id !== this.props.id) {
+        if (prevProps.id !== this.props.id) {
             console.log("current: " + this.props.id)
             this.setState({
                 question: this.props.question
@@ -29,7 +29,7 @@ export default class QuestionComponent extends React.Component {
         }
         clearTimeout(this.fetchTimeout)
 
-        if(this.state.question.nextQ !== null && this.state.question.nextQ !== 2001) {
+        if (this.state.question.nextQ !== null && this.state.question.nextQ !== 2001) {
             console.log("called fetch question")
             this.fetchTimeout = setTimeout(() => {
                 this.props.fetchQuestion(this.state.question.nextQ);
@@ -38,7 +38,7 @@ export default class QuestionComponent extends React.Component {
     }
 
     render() {
-        return(
+        return (
             <div>
                 <h1>{this.state.question.q}</h1>
                 {
