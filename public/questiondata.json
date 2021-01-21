@@ -8,7 +8,9 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 1,
-    "badgeEarn": [],
+    "badgeEarn": [
+      13
+    ],
     "requiredBadge": []
   },
   {
@@ -58,12 +60,14 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 5,
-    "badgeEarn": [],
+    "badgeEarn": [
+      14
+    ],
     "requiredBadge": []
   },
   {
     "id": 5,
-    "q": "a divergence happens between the homo Neanderthals and Denisovans.",
+    "q": "a divergence happens within Homo erectus creating the Neanderthals and Denisovans.",
     "time": -473000,
     "a1": null,
     "a2": null,
@@ -76,7 +80,7 @@
   {
     "id": 6,
     "q": "Basic communication and language is suggested among Homo genus",
-    "time": -350000,
+    "time": "350,000 - 150,000 BCE",
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -87,7 +91,7 @@
   },
   {
     "id": 7,
-    "q": "Trade and transport of resources",
+    "q": "Begin the trade and transport of resources",
     "time": -320000,
     "a1": null,
     "a2": null,
@@ -99,8 +103,8 @@
   },
   {
     "id": 8,
-    "q": "Homo sapiens first emerged. Highly adaptable.",
-    "time": -320000,
+    "q": "Homo Heidelbergensis evolves further. Does this evolutionary process take place?",
+    "time": -315000,
     "a1": "Yes",
     "a2": "No",
     "a1Link": 9,
@@ -151,7 +155,7 @@
   },
   {
     "id": 12,
-    "q": "Earliest structures. Behavioral modernity behavioral and cognitive traits, abstract thinking, symbolic behavior, planning depth",
+    "q": "The earliest structures are found. Archaelogy believes that behavioral modernity happens granting Sapiens behavioral and cognitive traits, abstract thinking, symbolic behavior, and planning depth. Does the evolutionary step take place?",
     "time": -100000,
     "a1": "Yes",
     "a2": "No",
@@ -164,7 +168,7 @@
   {
     "id": 13,
     "q": "Homo floresiensis also known as Hobbits died out.",
-    "time": -100000,
+    "time": "100,000 - 60,000 BCE",
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -190,7 +194,7 @@
   {
     "id": 15,
     "q": "First evidence of abstract art.",
-    "time": null,
+    "time": -70000,
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -232,7 +236,7 @@
   {
     "id": 18,
     "q": "Extinction of Neanderthal. Human settlement of Australia.",
-    "time": -40000,
+    "time": "40,000 - 30,000 BCE",
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -329,7 +333,7 @@
   },
   {
     "id": 25,
-    "q": "First signs of warfare",
+    "q": "First signs of warfare between tribes.",
     "time": -12000,
     "a1": null,
     "a2": null,
@@ -342,13 +346,15 @@
   {
     "id": 26,
     "q": "Extinction of late surviving archaic humans due to competition, interbreeding and climate change.",
-    "time": null,
+    "time": -12000,
     "a1": null,
     "a2": null,
     "a1Link": null,
     "a2Link": null,
     "nextQ": 27,
-    "badgeEarn": [6],
+    "badgeEarn": [
+      6
+    ],
     "requiredBadge": [
       3
     ]
@@ -356,7 +362,7 @@
   {
     "id": 27,
     "q": "Human migration to North America.",
-    "time": null,
+    "time": -12000,
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -370,7 +376,7 @@
   {
     "id": 28,
     "q": "Domestication of cats.",
-    "time": null,
+    "time": -12000,
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -383,7 +389,7 @@
   },
   {
     "id": 29,
-    "q": "End of the most recent glacial episode within the current Quaternary Ice Age. Ice Age megafauna (large animals) go extinct like the sabre-toothed cat and the mammoth abrupt period of global warming accelerates the glacial retreat.",
+    "q": "Start of the end of the Ice Age, megafauna (large animals) go extinct like the sabre-toothed cat and the mammoth abrupt period of global warming accelerates the glacial retreat.",
     "time": -11700,
     "a1": null,
     "a2": null,
@@ -397,7 +403,7 @@
   },
   {
     "id": 30,
-    "q": "In northern Mesopotamia, now Iraq, cultivation of barley and wheat begins. Some hunters and gatherers experience dreams of the beings, entrusting them these sacred grains, promising a future of food stability.",
+    "q": "In northern Mesopotamia, now Iraq, cultivation of barley and wheat begins. Some hunters and gatherers experience dreams of the beings, entrusting them these sacred grains, promising a future of food stability. Do these dreams influence their behavior?",
     "time": -11500,
     "a1": "Yes",
     "a2": "No",
@@ -412,7 +418,7 @@
   {
     "id": 31,
     "q": "the eight Neolithic founder crops, emmer and einkorn wheat, hulled barley, peas, lentils, bitter vetch, chick peas and flax were cultivated",
-    "time": null,
+    "time": -11500,
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -428,7 +434,7 @@
   {
     "id": 32,
     "q": "Beginnings of Agriculture in the Middle East.",
-    "time": null,
+    "time": -11500,
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -478,7 +484,8 @@
     "nextQ": 36,
     "badgeEarn": [],
     "requiredBadge": [
-      3
+      3,
+      7
     ]
   },
   {
@@ -492,8 +499,7 @@
     "nextQ": 37,
     "badgeEarn": [],
     "requiredBadge": [
-      3,
-      7
+      3
     ]
   },
   {
@@ -540,23 +546,9 @@
     ]
   },
   {
-    "id": 39,
+    "id": 40,
     "q": "Humans inhabit Egypt.",
     "time": -7200,
-    "a1": null,
-    "a2": null,
-    "a1Link": null,
-    "a2Link": null,
-    "nextQ": 40,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
-  },
-  {
-    "id": 40,
-    "q": "Plant cultivation starts in North America.",
-    "time": -7000,
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -569,11 +561,25 @@
   },
   {
     "id": 41,
+    "q": "Plant cultivation starts in North America.",
+    "time": -7000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 42,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3
+    ]
+  },
+  {
+    "id": 42,
     "q": "Wild game start to decrease. Humans have started domestication of animals but rarely for food. Desperate times, desperate measures? (\"Against the Grain\" - James C. Scott)",
     "time": -7000,
-    "a1": "Yes",
-    "a2": "No",
-    "a1Link": 42,
+    "a1": "Food",
+    "a2": "Friend",
+    "a1Link": 43,
     "a2Link": 1004,
     "nextQ": null,
     "badgeEarn": [],
@@ -583,31 +589,202 @@
     ]
   },
   {
-    "id": 42,
+    "id": 43,
     "q": "Domesticated animals used for food increased during this period.",
-    "time": null,
+    "time": -7000,
     "a1": null,
     "a2": null,
     "a1Link": null,
     "a2Link": null,
-    "nextQ": 2000,
+    "nextQ": 44,
+    "badgeEarn": [
+      15
+    ],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 44,
+    "q": "Domestication of goat and sheep.",
+    "time": -6700,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 45,
     "badgeEarn": [],
     "requiredBadge": [
       3,
       7
     ]
   },
-
-
-
-
-
-
-
+  {
+    "id": 45,
+    "q": "The concentration of people, domesticated animals and livestock let to a surge of epidemics. Human population is plagued with diseases and decreases rapidly during the early days.",
+    "time": -6700,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 46,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 46,
+    "q": "Jericho is the first major walled city with a population of around 2500. Populations sees a steady increase.",
+    "time": -6500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 47,
+    "badgeEarn": [
+      8
+    ],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 47,
+    "q": "Possibly the last time Britain was connected to land.",
+    "time": -6500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 48,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 48,
+    "q": "Domestication of pigs.",
+    "time": -6500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 49,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7,
+      15
+    ]
+  },
+  {
+    "id": 49,
+    "q": "Rice cultivation begins in the Yangtze River valley in China.",
+    "time": -6500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 50,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 50,
+    "q": "Copper is smelted in Anatolia, modern day Turkey.",
+    "time": -6200,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 51,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 51,
+    "q": "Burial of the dead in Egypt.",
+    "time": -6000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 52,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 52,
+    "q": "Domestication of cattle",
+    "time": -6000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 53,
+    "badgeEarn": [
+      9
+    ],
+    "requiredBadge": [
+      3,
+      7,
+      15
+    ]
+  },
+  {
+    "id": 53,
+    "q": "First irrigation",
+    "time": -6000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 54,
+    "badgeEarn": [
+      10
+    ],
+    "requiredBadge": [
+      3,
+      7,
+      15
+    ]
+  },
+  {
+    "id": 54,
+    "q": "Cotton cultivation begins in India",
+    "time": -5500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 2000,
+    "badgeEarn": [
+      10
+    ],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
   {
     "id": 2000,
     "q": "The end",
-    "time": "Thanks for playing",
+    "time": null,
     "a1": "Restart",
     "a2": null,
     "a1Link": 0,
@@ -618,8 +795,8 @@
   },
   {
     "id": 1000,
-    "q": "Homo sapiens were quickly wiped out due to competition with the Neanderthals who have mastered stone tools",
-    "time": "Evolution have not been kind",
+    "q": "Evolution have not been kind. Homo sapiens were quickly wiped out due to competition with the Neanderthals who have mastered stone tools",
+    "time": -315000,
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -630,20 +807,20 @@
   },
   {
     "id": 1001,
-    "q": "Not to worry, homo sapiens are still thriving.",
-    "time": "Evolution didn't take place.",
+    "q": "Evolution didn't take place. Not to worry, homo sapiens are still thriving.",
+    "time": -100000,
     "a1": null,
     "a2": null,
     "a1Link": null,
     "a2Link": null,
-    "nextQ": 13,
+    "nextQ": 1100,
     "badgeEarn": [],
     "requiredBadge": []
   },
   {
     "id": 1002,
-    "q": "The hunters and gatherers continued on their days. Use of barley and wheat does not transcend to bread. \nBread is never invented.",
-    "time": "Just dreams",
+    "q": "Just dreams. The hunters and gatherers continued on their days. Use of barley and wheat does not transcend to bread. Bread is never invented.",
+    "time": -11500,
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -654,20 +831,214 @@
   },
   {
     "id": 1003,
-    "q": "The Ice Age continues, we continue our hunter and gatherer ways.",
+    "q": "The Ice Age starts to warm but we continue our hunter and gatherer ways.",
     "time": -10000,
     "a1": null,
     "a2": null,
     "a1Link": null,
     "a2Link": null,
-    "nextQ": 35,
+    "nextQ": 1004,
     "badgeEarn": [],
     "requiredBadge": []
   },
   {
     "id": 1004,
-    "q": "As humans continue to hunt, wild game decreases, humans resort to eating a more varied plant based diet.",
-    "time": "Plant-based diet",
+    "q": "Wild sheep flocks are managed in Zagros mountain.",
+    "time": -9000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1005,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1005,
+    "q": "Wooly mammoths go into serious decline.",
+    "time": -9000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1006,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1006,
+    "q": "Religious activity near Stonehenge, evidence shows it happened long before the monuments.",
+    "time": -8500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1007,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1007,
+    "q": "Long distance trade in obsidian begins.",
+    "time": -7500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1008,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1008,
+    "q": "Humans inhabit Egypt.",
+    "time": -7200,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1009,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1009,
+    "q": "Plant cultivation starts in North America.",
+    "time": -7000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1010,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1010,
+    "q": "Plant-based diet. As humans continue to hunt, wild game decreases, humans resort to eating a more varied plant based diet.",
+    "time": -7000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1011,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1011,
+    "q": "To increase diets from lack of wild game, cultivation of barley and wheat begins. Some hunters and gatherers experience dreams of god beings, entrusting them these sacred grains, promising a future of food stability. Do these dreams influence their behavior?",
+    "time": -6700,
+    "a1": "Yes",
+    "a2": "No",
+    "a1Link": 1012,
+    "a2Link": null,
+    "nextQ": null,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1012,
+    "q": "The eight Neolithic founder crops, emmer and einkorn wheat, hulled barley, peas, lentils, bitter vetch, chick peas and flax were cultivated",
+    "time": -6500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1013,
+    "badgeEarn": [
+      16
+    ],
+    "requiredBadge": []
+  },
+  {
+    "id": 1013,
+    "q": "Agriculture is founded in the Middle East. The Ice Age ends. Humans migrate to Japan.",
+    "time": -6500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 45,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1100,
+    "q": "Homo floresiensis also known as Hobbits died out.",
+    "time": "100,000-60,000 BCE",
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1101,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1101,
+    "q": "Homo sapiens arrive in Europe.",
+    "time": -70000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1102,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1102,
+    "q": "Homo sapiens arrive in India.",
+    "time": -45000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1103,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1103,
+    "q": "Extinction of Neanderthals. Human settlement of Australia.",
+    "time": "40,000-30,000 BCE",
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1104,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1104,
+    "q": "light skin in Europeans and East Asians",
+    "time": -30000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1105,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1105,
+    "q": "First signs of warfare between tribes.",
+    "time": -12000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 1106,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1106,
+    "q": "Extinction. Homo sapiens were severely disadvantaged compared to the other archaic humans who had already developed stone weapons.",
+    "time": -12000,
     "a1": null,
     "a2": null,
     "a1Link": null,
