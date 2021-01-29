@@ -67,7 +67,7 @@
   },
   {
     "id": 5,
-    "q": "a divergence happens within Homo erectus creating the Neanderthals and Denisovans.",
+    "q": "A divergence happens within Homo erectus creating the Neanderthals and Denisovans.",
     "time": -473000,
     "a1": null,
     "a2": null,
@@ -261,7 +261,7 @@
   },
   {
     "id": 20,
-    "q": "evidence of domesticated dog skulls in Europe and Siberia.",
+    "q": "Evidence of domesticated dog skulls in Europe and Siberia.",
     "time": -33000,
     "a1": null,
     "a2": null,
@@ -277,7 +277,7 @@
   },
   {
     "id": 21,
-    "q": "light skin in Europeans and East Asians",
+    "q": "Beginning of lighter skin in Europeans and East Asians.",
     "time": -30000,
     "a1": null,
     "a2": null,
@@ -303,7 +303,7 @@
   },
   {
     "id": 23,
-    "q": "cave painting culture started in modern day France and spread throughout Europe.",
+    "q": "Cave painting culture started in modern day France and spread throughout Europe.",
     "time": -20000,
     "a1": null,
     "a2": null,
@@ -389,7 +389,7 @@
   },
   {
     "id": 29,
-    "q": "Start of the end of the Ice Age, megafauna (large animals) go extinct like the sabre-toothed cat and the mammoth abrupt period of global warming accelerates the glacial retreat.",
+    "q": "Start of the end of the Ice Age, megafauna (large animals) go extinct like the sabre-toothed cat and the mammoth abrupt period of global warming accelerates the glacial retreat. Rising sea levels seperate the Americas.",
     "time": -11700,
     "a1": null,
     "a2": null,
@@ -715,7 +715,7 @@
   },
   {
     "id": 51,
-    "q": "Burial of the dead in Egypt.",
+    "q": "Evidence of burial of the dead in Egypt.",
     "time": -6000,
     "a1": null,
     "a2": null,
@@ -748,7 +748,7 @@
   },
   {
     "id": 53,
-    "q": "First irrigation",
+    "q": "Evidence of first irrigation system.",
     "time": -6000,
     "a1": null,
     "a2": null,
@@ -766,16 +766,1469 @@
   },
   {
     "id": 54,
-    "q": "Cotton cultivation begins in India",
+    "q": "Cotton cultivation begins in India.",
     "time": -5500,
     "a1": null,
     "a2": null,
     "a1Link": null,
     "a2Link": null,
+    "nextQ": 55,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 55,
+    "q": "First sail boats were found.",
+    "time": -5500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 56,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 56,
+    "q": "Domestication of chicken begins in China.",
+    "time": -5200,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 57,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 57,
+    "q": "Agriculture community develops in Faiyum (modern day Egypt) and in the Mesopotamia (modern day Syria).",
+    "time": -5000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 58,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 58,
+    "q": "Gold and silver are used in Egypt for jewellery.",
+    "time": -5000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 59,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 59,
+    "q": "Hiearchal cities emerge in Europe.",
+    "time": -5000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 60,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 60,
+    "q": "Cuneiform scripts are developed by Sumerians in Mesopotamia to communicate trade between cities.",
+    "time": -5000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 61,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 61,
+    "q": "People in Sumeria built their first temples.",
+    "time": -4500,
+    "a1": "Yes",
+    "a2": "No",
+    "a1Link": 62,
+    "a2Link": null,
+    "nextQ": null,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 62,
+    "q": "Invention of the plow.",
+    "time": -4500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 63,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 63,
+    "q": "Rise of cities in Tigris and Euphrates river.",
+    "time": -4500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 64,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 64,
+    "q": "Farming settlements established in the Indus Valley. Docks are built for trade.",
+    "time": -4000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 65,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 65,
+    "q": "Use of wool for textiles.",
+    "time": -4000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 66,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 66,
+    "q": "Evidence of Bronze working. Beginning of Bronze Age.",
+    "time": -3800,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 67,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 67,
+    "q": "Last wooly mamoth die out in Siberia.",
+    "time": -3700,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 68,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 68,
+    "q": "Invention of the wheel.",
+    "time": -3650,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 69,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 69,
+    "q": "Writing is invented in Sumer at Uruk with cunieform letters.",
+    "time": -3600,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 70,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 70,
+    "q": "Saharan desert spread throughout Africa because of climate change.",
+    "time": -3500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 71,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 71,
+    "q": "Farming spreads across Europe.",
+    "time": -3500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 72,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 72,
+    "q": "First evidence of religion in Sumerian cunieform.",
+    "time": -3500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 73,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 73,
+    "q": "First evidence of currency in the form of Bronze coins.",
+    "time": -3300,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 74,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 74,
+    "q": "Stonehenge begins construction.",
+    "time": -3100,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 75,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 75,
+    "q": "Evidence of sea-going ships, by Austronesians, modern-day Southern China, Taiwan.",
+    "time": -3000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 76,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 76,
+    "q": "Potatoes are grown in the Andes.",
+    "time": -3000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 77,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 77,
+    "q": "The domestication of the alpaca also begins in the Andes.",
+    "time": -3000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 78,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 78,
+    "q": "First bronze age settlement in Jerusaleum.",
+    "time": -3000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 79,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 79,
+    "q": "Period of Great Flood when Euphrates rose.",
+    "time": -2900,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 80,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 80,
+    "q": "The first secular rulers appear instead of priests.",
+    "time": -2750,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 81,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 81,
+    "q": "The Egyptian wrting develops the alphabet using hieroglyphs to represent syllables.",
+    "time": -2700,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 82,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 82,
+    "q": "Cultivation of corn begins in Mesopotamia.",
+    "time": -2700,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 83,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 83,
+    "q": "First war is recorded in History between Elam and Sumer. The King of Kish commands the forces of the Sumer against the Elamites over what is now modern-day Iraq. Does this war proceed according to History?",
+    "time": -2700,
+    "a1": "Yes",
+    "a2": "No",
+    "a1Link": 84,
+    "a2Link": null,
+    "nextQ": null,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 84,
+    "q": "The Sumerians defeat the Elamites.",
+    "time": -2700,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 85,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 85,
+    "q": "King Djoser of Egypt builds the first pyramid.",
+    "time": -2670,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 86,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 86,
+    "q": "King Sneferu of Egypt builds the first true pyramid.",
+    "time": -2613,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 87,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 87,
+    "q": "Mayan culture appears in the Yacan Peninsula.",
+    "time": -2600,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 88,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 88,
+    "q": "Pharaoh Khufu constructs the Great Pyramid of Giza.",
+    "time": -2560,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 89,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 89,
+    "q": "Papyrus is used for writing for the first time. The first material for paper.",
+    "time": -2560,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 90,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 90,
+    "q": "The Great Sphinx of Giza is built.",
+    "time": -2500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 91,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 91,
+    "q": "The Egyptians develop filigree technique that allows the manufacturing of gold products.",
+    "time": -2500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 92,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 92,
+    "q": "Evidence of metal working found in Ireland.",
+    "time": -2500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 93,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 93,
+    "q": "First use of war chariots in Mesopotamia.",
+    "time": -2400,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 94,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 94,
+    "q": "Widespread use and production of soap.",
+    "time": -2334,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 95,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 95,
+    "q": "The reign of Sargon of Akkad begins in Mesopotamia. He intends to expand his land through conquest. Does he become the first known Empire?",
+    "time": -2300,
+    "a1": "Yes",
+    "a2": "No",
+    "a1Link": 96,
+    "a2Link": null,
+    "nextQ": null,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 96,
+    "q": "Sargon fought and won 34 battles across Mesopotamia and expanded the Akkadian empire from present-day Iran to Syria in the west, the Persian Gulf in the south, and into present-day Turkey in the north.",
+    "time": -2300,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 97,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 97,
+    "q": "Beer is brewed in Egypt.",
+    "time": -2250,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 98,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 98,
+    "q": "First written code of laws king Ur-Nammu of Mesopotamia.",
+    "time": -2250,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 99,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 99,
+    "q": "Beginning of the 4.2 kiloyear event. A 100-year period of ultra-dry conditions worldwide.",
+    "time": -2200,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 100,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 100,
+    "q": "The Indus Valley civilzation disappears. However civilizations spawn in North America, Europe and China. In Europe, the Minoans form on the Island of Crete. However a volcano erupts and the Mycenean Greeks arise. This eruption could have birthed the Atlantis myth. The Akkadian Empire evolves into the Babylonian Empire.",
+    "time": -2200,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 101,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 101,
+    "q": "The poem of Gilgamesh of the Babylonian Empire in Mesopotamia first describes the apocalypse. Music also becomes widespread.",
+    "time": -2000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 102,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 102,
+    "q": "Horses become domesticated in Mesopotamia.",
+    "time": -2000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 103,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 103,
+    "q": "Trade flourishes and expands. Mesopotamia and Palestine become important trade hub.",
+    "time": -2000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 104,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 104,
+    "q": "The Egypt Book of the End is written in papyrus.",
+    "time": -1991,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 105,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 105,
+    "q": "First professional army of formed in Egypt under king Amenemhat I.",
+    "time": -1991,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 106,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 106,
+    "q": "The Kahun Gynecological Papyrus writes about women's health and contraception.",
+    "time": -1800,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 107,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 107,
+    "q": "Reign of Hammurabi, king of Babylon.",
+    "time": -1795,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 108,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 108,
+    "q": "The Code of Hammurabi is written, one of the earlies complete code of laws in the world.",
+    "time": -1772,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 109,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 109,
+    "q": "Hammurabi rules the first Babylonian Empire over the whole of Mesopotamia.",
+    "time": -1755,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 110,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 110,
+    "q": "The Shang Dynasty in China begins. Writing develops under their rule.",
+    "time": -1600,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 111,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 111,
+    "q": "Mycenaean Greece civilization thrives.",
+    "time": -1600,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 112,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 112,
+    "q": "The Phoenician alphabet is developed.",
+    "time": -1580,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 113,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 113,
+    "q": "Palestine is absorbed by the Egyptian Empire.",
+    "time": -1550,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 114,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 114,
+    "q": "The Egyptian Empire extends to the Euphrates and is at it's greatest extent.",
+    "time": -1500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 115,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 115,
+    "q": "Indian scholars commit the Vedas to written form, the basic tenets of Hinduism are established. The origin of the Vedas are unknown.",
+    "time": -1500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 116,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 116,
+    "q": "The sundial is invented in Mesopotamia, using the sun is used to measure time.",
+    "time": -1500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 117,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 117,
+    "q": "The Bronze Age reaches Scotland.",
+    "time": -1400,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 118,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 118,
+    "q": "Evidence of oldest known song.",
+    "time": -1400,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 119,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 119,
+    "q": "The Egyptian Empire declines under the rule of Akhenaten.",
+    "time": -1353,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 120,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 120,
+    "q": "Trade agreements are restored under the reign of King Horemheb and the Egyptian Empire revives.",
+    "time": -1320,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 121,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 121,
+    "q": "The Trojan War is fought between Greeks and the city of Troy. First mentioned in Homer's Iliad, the story defines Greek culture.",
+    "time": -1250,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 122,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 122,
+    "q": "Beginning of the Dark Ages, a period where historical records go blank. The Minocean Greeks and the Egyptian Kingdom disappear. The Indo-Iranians migrate to India. During this period however, several world legends are born including the Jewish Torah, the Hindu Mahabharata and the Hebrew Bible.",
+    "time": -1200,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 123,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 123,
+    "q": "Ancient Greek civilization begins in Greece and the Mediterranean.",
+    "time": -1000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 124,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 124,
+    "q": "Evidence of the worship of Yahweh, the monotheistic god and 10 commandments which was brought by the returning Jews to Jerusalem.",
+    "time": -1000,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 125,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 125,
+    "q": "The first Temple of Judaism is built in Jerusalem.",
+    "time": -950,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 126,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 126,
+    "q": "Homer of Greece writes his Illiad and Odyssey.",
+    "time": -800,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 127,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 127,
+    "q": "The oracle of Zeus is established in Dodona.",
+    "time": -800,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 128,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 128,
+    "q": "Greek alphabetic script is developed.",
+    "time": -800,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 129,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 129,
+    "q": "The Olmec civilization begins in central America.",
+    "time": -800,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 130,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 130,
+    "q": "First athletic games in honor of Zeus, held at Olympia with one event, the foot race.",
+    "time": -776,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 131,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 131,
+    "q": "An Ancient Greek lawyer named Draco writes down the Draconian laws in Athens. Some are punishable by death.",
+    "time": -754,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 132,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 132,
+    "q": "The legendary founding date for the city of Rome. Beginning of Classic Antiquity.",
+    "time": -753,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 133,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 133,
+    "q": "The legendary founding date for the city of Rome. Beginning of Classic Antiquity.",
+    "time": -753,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 134,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 134,
+    "q": "The Assyrian Empire conquers Israel. Part of the Jewish population travels to Jeruselam and Judea.",
+    "time": -722,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 135,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 135,
+    "q": "The Greek builds the first medical school.",
+    "time": -700,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 136,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 136,
+    "q": "The Assyrian Empire evades Egypt. It turns into the first Persian Empire or the Achaemenid Empire under Cyrus the Great.",
+    "time": -671,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 137,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 137,
+    "q": "The crossbow is invented in China.",
+    "time": -650,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 138,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 138,
+    "q": "Birth of Lao Tzu, founder of Daoism.",
+    "time": -604,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 139,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 139,
+    "q": "Thales of Mietus discovers static electricity He is regarded as one of the first Western philosophers and mathematicians.",
+    "time": -600,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 140,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 140,
+    "q": "The Neo-Babylonian Empire conquers Jerusalem and destroys the First Temple prompting the Jewish people to move to Babylon, the capital.",
+    "time": -587,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 141,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 141,
+    "q": "The archon Solon of Ancient Greek lays the foundation for democracy, replacing Draconian laws in Athens.",
+    "time": -594,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 142,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 142,
+    "q": "Birth of Pythagoras, a Greek mathematician who made major advances in science, math and philosophy. He is also the first to propose Earth is a sphere and that the soul is immortal.",
+    "time": -570,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 143,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 143,
+    "q": "Birth of Siddhartha Gautama, a prince from Nepal and later founder of Buddhism.",
+    "time": -563,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 144,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 144,
+    "q": "Kong Fuzi is born, founder of Confucianism.",
+    "time": -551,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 145,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 145,
+    "q": "The Persian Empire is founded by Cyrus the Great. It reigns over the Mesopotamia, Egypt and Central Asia.",
+    "time": -550,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 146,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 146,
+    "q": "They adopted Zoroastrianism which was based on the Iranian prophet Zoroaster who believed in a single unifying God, at a time of dominant polytheism.",
+    "time": -550,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 147,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 147,
+    "q": "The Persian Empire conquers Ionian Greece. The Persians believed in Zurvanism, a sect derived from Zoroastrianism and believed humans were given free-will.",
+    "time": -546,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 148,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 148,
+    "q": "The Persian Empire under Darius the Great conquers Egypt, Thrace (modern day Turkey) and Macedonia. It is its largest extent.",
+    "time": -512,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 149,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 149,
+    "q": "Democracy introduced into Athens by Cleisthenes. He establishes a constitution and is often called the “Father of Athenian Democracy”. Romans rise up against King Tarquinius and establish the Roman republic.",
+    "time": -508,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 150,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 150,
+    "q": "The Persian Empire conquers Babylon but allows freedom of religion. Jewish people return to Jerusalem and thrive.",
+    "time": -507,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 151,
+    "badgeEarn": [],
+    "requiredBadge": [
+      3,
+      7
+    ]
+  },
+  {
+    "id": 151,
+    "q": "Nazca people of Peru experimented with balloon fight.",
+    "time": -500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
     "nextQ": 2000,
-    "badgeEarn": [
-      10
-    ],
+    "badgeEarn": [],
     "requiredBadge": [
       3,
       7
@@ -819,7 +2272,7 @@
   },
   {
     "id": 1002,
-    "q": "Just dreams. The hunters and gatherers continued on their days. Use of barley and wheat does not transcend to bread. Bread is never invented.",
+    "q": "Just dreams, the hunters and gatherers continued on their days. Use of barley and wheat does not transcend to bread. Bread is never invented.",
     "time": -11500,
     "a1": null,
     "a2": null,
@@ -915,7 +2368,7 @@
   },
   {
     "id": 1010,
-    "q": "Plant-based diet. As humans continue to hunt, wild game decreases, humans resort to eating a more varied plant based diet.",
+    "q": "As humans continue to hunt, wild game decreases, humans resort to eating a more varied plant based diet.",
     "time": -7000,
     "a1": null,
     "a2": null,
