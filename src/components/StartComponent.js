@@ -36,6 +36,29 @@ export default class StartComponent extends React.Component {
     }
 
     componentDidMount() {
+        fetch('badgedata.json'
+            ,{
+                headers : {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                }})
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    const error = new Error("Error fetching data");
+                    throw(error);
+                }
+            })
+            .then(r => {
+                console.log(r);
+                this.setState({
+                    badgeData: r
+                }, () => {
+                    this.updateBadge()
+                });
+            });
+
         fetch('questiondata.json'
             ,{
                 headers : {
@@ -58,32 +81,14 @@ export default class StartComponent extends React.Component {
             .then(() => {
                 this.setState({
                     curQuestion: this.state.questionData[0],
-                    curID: 0,
+                    curID: 0
+                })
+            })
+            .then(() => {
+                this.updateBadge()
+                this.setState({
                     _isLoading: false
                 })
-            });
-
-        fetch('badgedata.json'
-            ,{
-                headers : {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                }})
-            .then(response => {
-                if (response.ok) {
-                    return response.json();
-                } else {
-                    const error = new Error("Error fetching data");
-                    throw(error);
-                }
-            })
-            .then(r => {
-                console.log(r);
-                this.setState({
-                    badgeData: r
-                }, () => {
-                    this.updateBadge()
-                });
             });
     }
 
