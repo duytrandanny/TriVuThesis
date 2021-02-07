@@ -4,10 +4,12 @@ import '../css/HomeStyling.css'
 
 const HomeComponent = () => {
         return(
-            <div className="">
-                <h1>Welcome!</h1>
+            <div>
+                <h1>ENTROPY</h1>
                 <div>
-                    <Link to="/start">Click here to start</Link>
+                    <Link to="/start">
+                        <p>Click here to start</p>
+                    </Link>
                 </div>
             </div>
         )

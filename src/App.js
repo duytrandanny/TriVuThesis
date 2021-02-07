@@ -3,21 +3,16 @@ import './css/App.css';
 import React from "react";
 import StartComponent from "./components/StartComponent";
 import HomeComponent from "./components/HomeComponent";
+import EditComponent from "./components/EditComponent";
 
-class App extends React.Component {sa
-
-    constructor() {
-        super();
-        this.state = {
-        }
-    }
-
+class App extends React.Component {
     render() {
         return (
-            <div className="App">
+            <div className="App container">
                 <Router>
                     <Route path="/" exact component={HomeComponent}/>
                     <Route path="/start" exact component={StartComponent}/>
+                    <Route path="/edit" exact component={EditComponent}/>
                 </Router>
             </div>
         );

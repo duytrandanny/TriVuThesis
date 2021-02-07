@@ -1,6 +1,7 @@
 import React from 'react';
 import QuestionComponent from "./QuestionComponent";
-import BadgeComponent from "./BadgeComponent";
+import BadgeListComponent from "./BadgeListComponent"
+import TimeComponent from "./TimeComponent"
 
 
 export default class StartComponent extends React.Component {
@@ -179,48 +180,29 @@ export default class StartComponent extends React.Component {
         return(
             this.state._isLoading ?
             <h1>Loading...</h1> :
-            <div>
-                {
-                    typeof(this.state.curQuestion.time) === "number" &&
-                    this.state.curQuestion.time < 0 &&
-                    <h4>
-                        {(0 - this.state.curQuestion.time).toLocaleString()} BCE
-                    </h4>
-                }
-                {
-                    typeof(this.state.curQuestion.time) === "number" &&
-                    this.state.curQuestion.time >= 0 &&
-                    <h4>
-                        Year {(0 - this.state.curQuestion.time).toLocaleString()}
-                    </h4>
-                }
-                {
-                    typeof(this.state.curQuestion.time) === "string" &&
-                    <h4>
-                        {this.state.curQuestion.time}
-                    </h4>
-                }
-                <QuestionComponent
-                    id={this.state.curQuestion.id}
-                    restart={this.restart}
-                    fetchQuestion={this.fetchQuestion}
-                    question={this.state.curQuestion}
-                    setTime={this.setTime}
-                    setBadge={this.setBadge}/>
-                <h4>
-                    Badge Earned:
-                </h4>
-                <div>
-                {
-                    typeof(this.state.badge) !== 'undefined' &&
-                    this.state.badge.map(badge =>
-                        <BadgeComponent
-                            key={badge.id}
-                            category={badge.category}
-                            name={badge.name}/>
-                    )
-                }
-                </div>
+            <div className="container">
+                <span className="E-body row ">
+                    <span className="col-3">
+                        <h6>TIME</h6>
+                        <TimeComponent time={this.state.curQuestion.time}/>
+                    </span>
+
+                    <span className="col-9">
+                        <h6>EVENTS</h6>
+                        <QuestionComponent
+                            id={this.state.curQuestion.id}
+                            restart={this.restart}
+                            fetchQuestion={this.fetchQuestion}
+                            question={this.state.curQuestion}
+                            setTime={this.setTime}
+                            setBadge={this.setBadge}/>
+                    </span>
+                </span>
+                <span className="badge-component-style col-12 ">
+                    <BadgeListComponent
+                        badge={this.state.badge}/>
+                </span>
+
             </div>
         )
     }

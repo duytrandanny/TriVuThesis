@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "q": "First hominin of homo genus appeared in Africa",
+    "q": "First hominin of homo genus appeared in Africa.",
     "time": -7000000,
     "a1": null,
     "a2": null,
@@ -15,7 +15,7 @@
   },
   {
     "id": 1,
-    "q": "First evidence of stone tools found in present day Kenya",
+    "q": "First evidence of stone tools found in present day Kenya.",
     "time": -2500000,
     "a1": null,
     "a2": null,
@@ -29,7 +29,7 @@
   },
   {
     "id": 2,
-    "q": "Homo erectus is first hominin to migrate out of Africa - large brains, dexterous fingers, long legs.",
+    "q": "Homo erectus is the first hominin to migrate out of Africa.They have larger brains, dexterous fingers and long legs. They were the first to walk upright.",
     "time": -2000000,
     "a1": null,
     "a2": null,
@@ -41,7 +41,7 @@
   },
   {
     "id": 3,
-    "q": "First boats",
+    "q": "Oldest boats were found.",
     "time": -900000,
     "a1": null,
     "a2": null,
@@ -79,7 +79,7 @@
   },
   {
     "id": 6,
-    "q": "Basic communication and language is suggested among Homo genus",
+    "q": "Basic communication and language is suggested among Homo genus.",
     "time": "350,000 - 150,000 BCE",
     "a1": null,
     "a2": null,
@@ -91,7 +91,7 @@
   },
   {
     "id": 7,
-    "q": "Begin the trade and transport of resources",
+    "q": "Begin the trade and transport of resources.",
     "time": -320000,
     "a1": null,
     "a2": null,
@@ -115,7 +115,7 @@
   },
   {
     "id": 9,
-    "q": "Homo-sapiens emerge out of Africa and fill the globe quickly",
+    "q": "Homo-sapiens emerge out of Africa and fill the globe quickly.",
     "time": -250000,
     "a1": null,
     "a2": null,
@@ -129,7 +129,7 @@
   },
   {
     "id": 10,
-    "q": "First evidence of wearing clothes",
+    "q": "First evidence of wearing clothes.",
     "time": -170000,
     "a1": null,
     "a2": null,
@@ -141,7 +141,7 @@
   },
   {
     "id": 11,
-    "q": "Cultivating wild grains begin",
+    "q": "Cultivating wild grains begin.",
     "time": -105000,
     "a1": null,
     "a2": null,
@@ -319,7 +319,7 @@
   },
   {
     "id": 24,
-    "q": "Pottery is found in Japan",
+    "q": "Pottery is found in Japan.",
     "time": -16000,
     "a1": null,
     "a2": null,
@@ -417,7 +417,7 @@
   },
   {
     "id": 31,
-    "q": "the eight Neolithic founder crops, emmer and einkorn wheat, hulled barley, peas, lentils, bitter vetch, chick peas and flax were cultivated",
+    "q": "The eight Neolithic founder crops, emmer and einkorn wheat, hulled barley, peas, lentils, bitter vetch, chick peas and flax were cultivated.",
     "time": -11500,
     "a1": null,
     "a2": null,
@@ -447,7 +447,7 @@
   },
   {
     "id": 33,
-    "q": "Ice Age ends, allows for human migration to islands what is now Japn.",
+    "q": "Ice Age ends, allows for human migration to islands what is now Japan.",
     "time": -10000,
     "a1": null,
     "a2": null,
@@ -575,7 +575,7 @@
   },
   {
     "id": 42,
-    "q": "Wild game start to decrease. Humans have started domestication of animals but rarely for food. Desperate times, desperate measures? (\"Against the Grain\" - James C. Scott)",
+    "q": "Wild game start to decrease. Humans have started domestication of animals but rarely for food. Desperate times, desperate measures?",
     "time": -7000,
     "a1": "Food",
     "a2": "Friend",
@@ -730,7 +730,7 @@
   },
   {
     "id": 52,
-    "q": "Domestication of cattle",
+    "q": "Domestication of cattle.",
     "time": -6000,
     "a1": null,
     "a2": null,

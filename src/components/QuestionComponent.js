@@ -40,7 +40,7 @@ export default class QuestionComponent extends React.Component {
     render() {
         return (
             <div>
-                <h1>{this.state.question.q}</h1>
+                <p>{this.state.question.q}</p>
                 {
                     this.state.question.nextQ === null &&
                     this.state.question.id !== 2000 &&
