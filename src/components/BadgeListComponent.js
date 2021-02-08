@@ -7,56 +7,84 @@ export default class BadgeListComponent extends React.Component {
         
         this.state = {
             badgeList: this.props.badge,
-            era: this.props.badge.filter(a => a.category === 1),
-            technology: this.props.badge.filter(a => a.category === 2),
-            ecology: this.props.badge.filter(a => a.category === 3),
-            civics: this.props.badge.filter(a => a.category === 4),
-            culture: this.props.badge.filter(a => a.category === 5)
+            era: [],
+            technology: [],
+            ecology: [],
+            civics: [],
+            culture: []
+        }
+    }
+
+    updateLists = () => {
+        this.setState({
+            era: this.state.badgeList.filter(a => a.category === 1),
+            technology: this.state.badgeList.filter(a => a.category === 2),
+            ecology: this.state.badgeList.filter(a => a.category === 3),
+            civics: this.state.badgeList.filter(a => a.category === 4),
+            culture: this.state.badgeList.filter(a => a.category === 5)
+        })
+    }
+
+    componentDidMount() {
+        this.updateLists();
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if(prevState.badgeList.length !== this.props.badge.length) {
+            this.setState({
+                badgeList: this.props.badge
+            }, () => this.updateLists());
         }
     }
 
     render() {
         return(
-            <footer className="container">
-                <hr/>
-                <span className="row justify-content-center E-scrollable">
+            <div className="">
+                <span className="row">
+                    <span className="col-sm-1"/>
+                    <hr className="col-sm-5"/>
+                    <span className="col-sm-6"/>
+                </span>
+                <span className="row  ">
+                    <span className="col-sm-1"/>
+                    <span className="col-sm-1">
+                        <h6>ERA</h6>
                 {
                     this.state.era.length > 0 &&
-                    <span className="col-sm-2">
-                        <h6>ERA</h6>
-                        <BadgeComponent list={this.state.era}/>
-                    </span>
+                        <BadgeComponent className="E-scrollable" list={this.state.era}/>
                 }
+                    </span>
+                    <span className="col-sm-1">
+                        <h6>TECHNOLOGY</h6>
                 {
                     this.state.technology.length > 0 &&
-                    <span className="col-sm-3">
-                        <h6>TECHNOLOGY</h6>
                         <BadgeComponent list={this.state.technology}/>
-                    </span>
                 }
+                    </span>
+                    <span className="col-sm-1">
+                        <h6>ECOLOGY</h6>
                 {
                     this.state.ecology.length > 0 &&
-                    <span className="col-sm-2">
-                        <h6>ECOLOGY</h6>
                         <BadgeComponent list={this.state.ecology}/>
-                    </span>
                 }
+                    </span>
+                    <span className="col-sm-1">
+                        <h6>CIVICS</h6>
                 {
                     this.state.civics.length > 0 &&
-                    <span className="col-sm-3">
-                        <h6>CIVICS</h6>
                         <BadgeComponent list={this.state.civics}/>
-                    </span>
                 }
+                    </span>
+                    <span className="col-sm-1">
+                        <h6>CULTURE</h6>
                 {
                     this.state.culture.length > 0 &&
-                    <span className="col-sm-2">
-                        <h6>CULTURE</h6>
                         <BadgeComponent list={this.state.culture}/>
-                    </span>
                 }
+                    </span>
+                    <span className="col-sm-6"/>
                 </span>
-            </footer>)
+            </div>)
     }
 
 }

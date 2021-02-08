@@ -1,22 +1,14 @@
 .App {
-    padding-top: 20vh;
+    /*padding-top: 20vh;*/
     justify-content: start;
-    /*align-items: center;*/
-    max-width: 960px;
+    max-width: 1800px;
     margin: 0 auto;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    /*text-align: center;*/
-}
+    overflow-x: hidden;
 
-.answer-box {
-    background: #282c34;
-    color: white;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+    /*background-color: darkred;*/
 }
 
 .badge-style-cat0 {
@@ -76,22 +68,51 @@
   }
 }
 
-.badge-component-style {
-    background-color: black;
-    text-align: center;
-    position: fixed;
-    bottom: 100px;
-    left: 0;
-}
 
 .E-body {
-    /*height: 100%;*/
-    /*width: 100%;*/
-    /*display: flex;*/
+    /*background-color: #61dafb;*/
+    height: 100%;
+    margin: 0;
+
+}
+
+.E-content {
+    /*background-color: yellow;*/
+    padding: 200px 0 10px 0;
+
+    /*flex: 1 0 auto;*/
+
+}
+
+.E-badge-component-style {
+    background-color: black;
+    text-align: center;
+    height: 400px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px 100px 20px;
 }
 
 .E-scrollable {
-    max-height: 100px;
-    overflow-y: scroll;
+    max-height: 200px;
+    overflow-y: auto;
     overflow-x: hidden;
+}
+
+.answer-box {
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 10px;
+    padding: 3px;
+    text-align: center;
+    font-family: 'Lexend Giga', monospace;
+    text-transform: uppercase;
+    font-size: 7pt;
+    cursor: pointer;
+}
+
+.answer-box:hover {
+    background: dimgray;
 }

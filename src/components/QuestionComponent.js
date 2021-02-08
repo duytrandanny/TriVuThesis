@@ -44,7 +44,7 @@ export default class QuestionComponent extends React.Component {
                 {
                     this.state.question.nextQ === null &&
                     this.state.question.id !== 2000 &&
-                    <div className="row">
+                    <span className="E-choice row">
                         <span className="col-6 answer-box"
                               onClick={() => this.props.fetchQuestion(this.state.question.a1Link)}>
                             {this.state.question.a1}
@@ -53,13 +53,13 @@ export default class QuestionComponent extends React.Component {
                               onClick={() => this.props.fetchQuestion(this.state.question.a2Link)}>
                             {this.state.question.a2}
                         </span>
-                    </div>
+                    </span>
                 }
                 {
                     this.state.question.nextQ === null &&
                     this.state.question.id === 2000 &&
                     <div className="row">
-                        <span className="col-6 answer-box"
+                        <span className="col-12 answer-box"
                               onClick={() => this.props.restart()}>
                             {this.state.question.a1}
                         </span>

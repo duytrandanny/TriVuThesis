@@ -8,7 +8,7 @@ import EditComponent from "./components/EditComponent";
 class App extends React.Component {
     render() {
         return (
-            <div className="App container">
+            <div className="App ">
                 <Router>
                     <Route path="/" exact component={HomeComponent}/>
                     <Route path="/start" exact component={StartComponent}/>

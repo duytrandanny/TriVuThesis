@@ -180,14 +180,32 @@ export default class StartComponent extends React.Component {
         return(
             this.state._isLoading ?
             <h1>Loading...</h1> :
-            <div className="container">
-                <span className="E-body row ">
-                    <span className="col-3">
+            <div className="E-body">
+                <span className="row mt-5">
+                    <span className="col-sm-1"/>
+                    <span className="col-sm-1">
+                        <h6>HOW TO PLAY</h6>
+                    </span>
+                    <span className="col-sm-3"/>
+                    <span className="col-sm-2 text-center">
+                        <h5>ENTROPY</h5>
+                    </span>
+                    <span className="col-sm-3"/>
+                    <span className="col-sm-1 text-right">
+                        <h6>ABOUT US</h6>
+                    </span>
+                    <span className="col-sm-1"/>
+                </span>
+
+
+                <span className="E-content row">
+                    <span className="col-1"/>
+                    <span className="col-1">
                         <h6>TIME</h6>
                         <TimeComponent time={this.state.curQuestion.time}/>
                     </span>
 
-                    <span className="col-9">
+                    <span className="col-4">
                         <h6>EVENTS</h6>
                         <QuestionComponent
                             id={this.state.curQuestion.id}
@@ -197,10 +215,16 @@ export default class StartComponent extends React.Component {
                             setTime={this.setTime}
                             setBadge={this.setBadge}/>
                     </span>
+                    <span className="col-6"/>
                 </span>
-                <span className="badge-component-style col-12 ">
-                    <BadgeListComponent
-                        badge={this.state.badge}/>
+
+                <span className="row">
+                    <span className="E-badge-component-style">
+                        <span className="">
+                            <BadgeListComponent
+                                badge={this.state.badge}/>
+                        </span>
+                    </span>
                 </span>
 
             </div>
