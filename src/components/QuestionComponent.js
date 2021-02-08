@@ -10,11 +10,11 @@ export default class QuestionComponent extends React.Component {
     }
 
     componentDidMount() {
-        if (this.state.question.nextQ !== null) {
-            setTimeout(() => {
-                this.props.fetchQuestion(this.state.question.nextQ);
-            }, 3000)
-        }
+        // if (this.state.question.nextQ !== null) {
+        //     setTimeout(() => {
+        //         this.props.fetchQuestion(this.state.question.nextQ);
+        //     }, 3000)
+        // }
     }
 
     componentWillUpdate(nextProps, nextState, nextContext) {
@@ -27,44 +27,20 @@ export default class QuestionComponent extends React.Component {
                 question: this.props.question
             })
         }
-        clearTimeout(this.fetchTimeout)
-
-        if (this.state.question.nextQ !== null && this.state.question.nextQ !== 2001) {
-            console.log("called fetch question")
-            this.fetchTimeout = setTimeout(() => {
-                this.props.fetchQuestion(this.state.question.nextQ);
-            }, 3000)
-        }
+        // clearTimeout(this.fetchTimeout)
+        //
+        // if (this.state.question.nextQ !== null && this.state.question.nextQ !== 2001) {
+        //     console.log("called fetch question")
+        //     this.fetchTimeout = setTimeout(() => {
+        //         this.props.fetchQuestion(this.state.question.nextQ);
+        //     }, 3000)
+        // }
     }
 
     render() {
         return (
             <div>
                 <p>{this.state.question.q}</p>
-                {
-                    this.state.question.nextQ === null &&
-                    this.state.question.id !== 2000 &&
-                    <span className="E-choice row">
-                        <span className="col-6 answer-box"
-                              onClick={() => this.props.fetchQuestion(this.state.question.a1Link)}>
-                            {this.state.question.a1}
-                        </span>
-                        <span className="col-6 answer-box"
-                              onClick={() => this.props.fetchQuestion(this.state.question.a2Link)}>
-                            {this.state.question.a2}
-                        </span>
-                    </span>
-                }
-                {
-                    this.state.question.nextQ === null &&
-                    this.state.question.id === 2000 &&
-                    <div className="row">
-                        <span className="col-12 answer-box"
-                              onClick={() => this.props.restart()}>
-                            {this.state.question.a1}
-                        </span>
-                    </div>
-                }
             </div>
         )
     }

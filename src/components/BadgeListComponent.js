@@ -45,7 +45,7 @@ export default class BadgeListComponent extends React.Component {
                     <hr className="col-sm-5"/>
                     <span className="col-sm-6"/>
                 </span>
-                <span className="row  ">
+                <span className="row">
                     <span className="col-sm-1"/>
                     <span className="col-sm-1">
                         <h6>ERA</h6>

@@ -4,7 +4,7 @@ import '../css/HomeStyling.css'
 
 const HomeComponent = () => {
         return(
-            <div>
+            <div className="container mt-5">
                 <h1>ENTROPY</h1>
                 <div>
                     <Link to="/start">

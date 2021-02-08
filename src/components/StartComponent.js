@@ -182,19 +182,19 @@ export default class StartComponent extends React.Component {
             <h1>Loading...</h1> :
             <div className="E-body">
                 <span className="row mt-5">
-                    <span className="col-sm-1"/>
-                    <span className="col-sm-1">
+                    <span className="col-1"/>
+                    <span className="col-2 text-left">
                         <h6>HOW TO PLAY</h6>
                     </span>
-                    <span className="col-sm-3"/>
-                    <span className="col-sm-2 text-center">
+                    <span className="col-1"/>
+                    <span className="col-4 text-center">
                         <h5>ENTROPY</h5>
                     </span>
-                    <span className="col-sm-3"/>
-                    <span className="col-sm-1 text-right">
+                    <span className="col-1"/>
+                    <span className="col-2 text-right">
                         <h6>ABOUT US</h6>
                     </span>
-                    <span className="col-sm-1"/>
+                    <span className="col-1"/>
                 </span>
 
 
@@ -219,13 +219,48 @@ export default class StartComponent extends React.Component {
                 </span>
 
                 <span className="row">
-                    <span className="E-badge-component-style">
-                        <span className="">
-                            <BadgeListComponent
-                                badge={this.state.badge}/>
-                        </span>
+                    <span className="col-2"/>
+                    <span className="col-4">
+                        {
+                            this.state.curQuestion.nextQ === null &&
+                            this.state.curQuestion.id !== 2000 &&
+                            <span className="row">
+                                <span className="col-6 answer-box"
+                                      onClick={() => this.fetchQuestion(this.state.curQuestion.a1Link)}>
+                                    {this.state.curQuestion.a1}
+                                </span>
+                                <span className="col-6 answer-box"
+                                      onClick={() => this.fetchQuestion(this.state.curQuestion.a2Link)}>
+                                    {this.state.curQuestion.a2}
+                                </span>
+                            </span>
+                        }
+                        {
+                            this.state.curQuestion.nextQ === null &&
+                            this.state.curQuestion.id === 2000 &&
+                            <div className="row">
+                                <span className="col-12 answer-box"
+                                      onClick={() => this.restart()}>
+                                    {this.state.curQuestion.a1}
+                                </span>
+                            </div>
+                        }
+                        {
+                            this.state.curQuestion.nextQ !== null &&
+                            <div className="row">
+                                <span className="col-12 answer-box"
+                                      onClick={() => this.fetchQuestion(this.state.curQuestion.nextQ)}>
+                                    NEXT
+                                </span>
+                            </div>
+                        }
                     </span>
+                    <span className="col-6"/>
                 </span>
+
+                <footer className="fixed-bottom">
+                    <BadgeListComponent badge={this.state.badge}/>
+                </footer>
 
             </div>
         )
