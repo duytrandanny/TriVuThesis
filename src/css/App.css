@@ -99,6 +99,13 @@
     max-height: 200px;
     overflow-y: auto;
     overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge hide scrollbar*/
+    scrollbar-width: none;  /* Firefox hide scrollbar */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.E-scrollable::-webkit-scrollbar {
+    display: none;
 }
 
 .answer-box {
