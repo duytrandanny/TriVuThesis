@@ -258,7 +258,7 @@ export default class StartComponent extends React.Component {
                     <span className="col-6"/>
                 </span>
 
-                <footer className="fixed-bottom">
+                <footer className="fixed-bottom E-antiscrolling">
                     <BadgeListComponent badge={this.state.badge}/>
                 </footer>
 

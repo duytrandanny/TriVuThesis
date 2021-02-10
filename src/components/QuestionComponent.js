@@ -5,7 +5,7 @@ export default class QuestionComponent extends React.Component {
         super(props);
 
         this.state = {
-            question: this.props.question
+            question: this.props.question.q
         }
     }
 
@@ -23,8 +23,9 @@ export default class QuestionComponent extends React.Component {
     componentDidUpdate(prevProps, prevState, snapshot) {
         if (prevProps.id !== this.props.id) {
             console.log("current: " + this.props.id)
+            const text = this.props.question.q.split('\n').map(str => <span><p>{str}</p><br/></span>);
             this.setState({
-                question: this.props.question
+                question: text
             })
         }
         // clearTimeout(this.fetchTimeout)
@@ -40,7 +41,7 @@ export default class QuestionComponent extends React.Component {
     render() {
         return (
             <div>
-                <p>{this.state.question.q}</p>
+                <p>{this.state.question}</p>
             </div>
         )
     }

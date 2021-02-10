@@ -3,26 +3,26 @@
     "id": 0,
     "category": 1,
     "name": "Stone Age",
-    "description": "Archaic humans first use to tools",
+    "description": "Archaic humans first use to tools.",
     "upgrade": true
   },
   {
     "id": 1,
-    "category": 5,
-    "name": "Sapiens",
-    "description": "The story for our species begins",
+    "category": 3,
+    "name": "Ancient Era",
+    "description": "Our species, Homo Sapiens appear, spawning the beginning of human civilization.",
     "upgrade": true
   },
   {
     "id": 2,
-    "category": 3,
+    "category": 2,
     "name": "Grain",
     "description": "Human species start eating cereal. The breakfast staple.",
     "upgrade": true
   },
   {
     "id": 3,
-    "category": 6,
+    "category": 4,
     "name": "Bigger Brain",
     "description": "The Cerebrel cortex of the brain is formed, responsible for the regulation of conscious life.",
     "upgrade": false
@@ -30,7 +30,7 @@
   },
   {
     "id": 4,
-    "category": 3,
+    "category": 2,
     "name": "Dog",
     "description": "Humans have started domesticating man's best friend.",
     "upgrade": true
@@ -38,39 +38,39 @@
   },
   {
     "id": 5,
-    "category": 6,
-    "name": "Cave Painting",
+    "category": 4,
+    "name": "Art",
     "description": "Humans have started to visualize ourselves in art. Artsy!",
     "upgrade": false
   },
   {
     "id": 6,
-    "category": 5,
-    "name": "Only Survivor",
-    "description": "Homo sapiens outlasts all the other human species and becomes the last human species.",
+    "category": 1,
+    "name": "Bronze Age",
+    "description": "",
     "upgrade": true
 
   },
   {
     "id": 7,
     "category": 2,
-    "name": "Agricultural Revolution",
-    "description": "Agriculture starts in the Levant (Eastern Mediterranean region of Western Asia)",
+    "name": "Agricultural",
+    "description": "Agriculture Revolution starts in the Levant (Eastern Mediterranean region of Western Asia).",
     "upgrade": true
 
   },
   {
     "id": 8,
     "category": 4,
-    "name": "First City",
+    "name": "City-states",
     "description": "A concentration of humans with domesticated livestock and plants.",
     "upgrade": true
   },
   {
     "id": 9,
-    "category": 3,
-    "name": "Cattle farming",
-    "description": "Dawn of the cheeseburger",
+    "category": 2,
+    "name": "Animal Husbandry",
+    "description": "Humans have successfully domesticated animals.",
     "upgrade": false
   },
   {
@@ -97,8 +97,8 @@
   {
     "id": 13,
     "category": 4,
-    "name": "Africa",
-    "description": "The continent of our common accestry.",
+    "name": "Writing",
+    "description": "Writing is first developed as a system to keep track of taxes.",
     "upgrade": false
   },
   {
@@ -110,7 +110,7 @@
   },
   {
     "id": 15,
-    "category": 3,
+    "category": 2,
     "name": "Meat Eaters",
     "description": "Animal meat becomes a staple of our diets.",
     "upgrade": true
@@ -118,8 +118,134 @@
   {
     "id": 16,
     "category": 2,
-    "name": "AG",
-    "description": "???",
+    "name": "",
+    "description": "",
+    "upgrade": false
+  },
+  {
+    "id": 17,
+    "category": 0,
+    "name": "Currency",
+    "description": "Bronze coins is used to establish medium ground in trade.",
+    "upgrade": false
+  },
+  {
+    "id": 18,
+    "category": 0,
+    "name": "Warriors",
+    "description": "Humans first wage war against one another. The first of many.",
+    "upgrade": false
+  },
+  {
+    "id": 19,
+    "category": 4,
+    "name": "Monarchy",
+    "description": "Though not this first monarch in history, this marks a dawn of the rule of kings, usually from a divine right.",
+    "upgrade": false
+  },
+  {
+    "id": 20,
+    "category": 4,
+    "name": "Slavery",
+    "description": "Though slavery has been around couple mellenia before. This was the first time, it came under a emperical rule.",
+    "upgrade": false
+  },
+  {
+    "id": 21,
+    "category": 1,
+    "name": "Iron Age",
+    "description": "",
+    "upgrade": false
+  },
+  {
+    "id": 22,
+    "category": 0,
+    "name": "Empire",
+    "description": "Political rule has lead to the quest and conquer of people and territories.",
+    "upgrade": false
+  },
+  {
+    "id": 23,
+    "category": 4,
+    "name": "Law",
+    "description": "First code of law is written.",
+    "upgrade": false
+  },
+  {
+    "id": 24,
+    "category": 0,
+    "name": "Military",
+    "description": "An empire cannot exist without an army.",
+    "upgrade": false
+  },
+  {
+    "id": 25,
+    "category": 4,
+    "name": "Hinduism",
+    "description": "One of humanities oldest religions is founded in the Indus Valley.",
+    "upgrade": false
+  },
+  {
+    "id": 26,
+    "category": 4,
+    "name": "Time",
+    "description": "Humans start to conceptualize as well as find means to track and measure time.",
+    "upgrade": false
+  },
+  {
+    "id": 27,
+    "category": 4,
+    "name": "Music",
+    "description": "",
+    "upgrade": false
+  },
+  {
+    "id": 28,
+    "category": 4,
+    "name": "Judaism",
+    "description": "Though Judaism has been around. The rise of Yahweh and the First Temple solidify this ancient religion.",
+    "upgrade": false
+  },
+  {
+    "id": 29,
+    "category": 3,
+    "name": "Classical Era",
+    "description": "Bronze becomes Iron and the beginnings of the age of Empires.",
+    "upgrade": false
+  },
+  {
+    "id": 30,
+    "category": 4,
+    "name": "Daoism",
+    "description": "China spawns Taoism or Daoism, \"Dao\" meaning \"the Way\".",
+    "upgrade": false
+  },
+  {
+    "id": 31,
+    "category": 4,
+    "name": "Philosophy",
+    "description": "With increased leisure time, some had more time to think than others.",
+    "upgrade": false
+  },
+  {
+    "id": 32,
+    "category": 4,
+    "name": "Buddhism",
+    "description": "The Indus Valley region spawns another ancient religion.",
+    "upgrade": false
+  },
+  {
+    "id": 33,
+    "category": 4,
+    "name": "Monotheism",
+    "description": "Monotheism is first recorded in a time and place where polytheism is practiced predominantly.",
+    "upgrade": false
+  },
+  {
+    "id": 34,
+    "category": 0,
+    "name": "Democracy",
+    "description": "\"Demos\" (common people) and \"kratos\" (strength)",
     "upgrade": false
   }
 ]

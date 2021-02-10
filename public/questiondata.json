@@ -1,16 +1,14 @@
 [
   {
     "id": 0,
-    "q": "First hominin of homo genus appeared in Africa.",
+    "q": "First hominin appeared in Africa. The hominin includes the Homo genus (humans) and Pan genus (chimpanzees).",
     "time": -7000000,
     "a1": null,
     "a2": null,
     "a1Link": null,
     "a2Link": null,
     "nextQ": 1,
-    "badgeEarn": [
-      13
-    ],
+    "badgeEarn": [],
     "requiredBadge": []
   },
   {
@@ -29,7 +27,7 @@
   },
   {
     "id": 2,
-    "q": "Homo erectus is the first hominin to migrate out of Africa.They have larger brains, dexterous fingers and long legs. They were the first to walk upright.",
+    "q": "Homo erectus is the first hominin to migrate out of Africa. They have larger brains, dexterous fingers and long legs. They were the first to walk upright.",
     "time": -2000000,
     "a1": null,
     "a2": null,
@@ -80,7 +78,7 @@
   {
     "id": 6,
     "q": "Basic communication and language is suggested among Homo genus.",
-    "time": "350,000 - 150,000 BCE",
+    "time": -350000,
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -103,7 +101,7 @@
   },
   {
     "id": 8,
-    "q": "Homo Heidelbergensis evolves further. Does this evolutionary process take place?",
+    "q": "Homo Heidelbergensis evolves further. \nDoes this evolutionary process take place?",
     "time": -315000,
     "a1": "Yes",
     "a2": "No",
@@ -155,7 +153,7 @@
   },
   {
     "id": 12,
-    "q": "The earliest structures are found. Archaelogy believes that behavioral modernity happens granting Sapiens behavioral and cognitive traits, abstract thinking, symbolic behavior, and planning depth. Does the evolutionary step take place?",
+    "q": "The earliest structures are found. \nArchaelogy believes that behavioral modernity happens granting Sapiens behavioral and cognitive traits, abstract thinking, symbolic behavior, and planning depth. \nDoes the evolutionary step take place?",
     "time": -100000,
     "a1": "Yes",
     "a2": "No",
@@ -168,7 +166,7 @@
   {
     "id": 13,
     "q": "Homo floresiensis also known as Hobbits died out.",
-    "time": "100,000 - 60,000 BCE",
+    "time": -100000,
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -236,7 +234,7 @@
   {
     "id": 18,
     "q": "Extinction of Neanderthal. Human settlement of Australia.",
-    "time": "40,000 - 30,000 BCE",
+    "time": -40000,
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -289,7 +287,7 @@
   },
   {
     "id": 22,
-    "q": "people around the world use fibers to make baby carriers, clothes, bags, baskets, and nets.",
+    "q": "People around the world use fibers to make baby carriers, clothes, bags, baskets, and nets.",
     "time": -26000,
     "a1": null,
     "a2": null,
@@ -352,9 +350,7 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 27,
-    "badgeEarn": [
-      6
-    ],
+    "badgeEarn": [],
     "requiredBadge": [
       3
     ]
@@ -403,7 +399,7 @@
   },
   {
     "id": 30,
-    "q": "In northern Mesopotamia, now Iraq, cultivation of barley and wheat begins. Some hunters and gatherers experience dreams of the beings, entrusting them these sacred grains, promising a future of food stability. Do these dreams influence their behavior?",
+    "q": "In northern Mesopotamia, now Iraq, cultivation of barley and wheat begins. \nSome hunters and gatherers experience dreams of the beings, entrusting them these sacred grains, promising a future of food stability. \nDo these dreams influence their behavior?",
     "time": -11500,
     "a1": "Yes",
     "a2": "No",
@@ -483,10 +479,7 @@
     "a2Link": null,
     "nextQ": 36,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 36,
@@ -526,10 +519,7 @@
     "a2Link": null,
     "nextQ": 39,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 39,
@@ -575,7 +565,7 @@
   },
   {
     "id": 42,
-    "q": "Wild game start to decrease. Humans have started domestication of animals but rarely for food. Desperate times, desperate measures?",
+    "q": "Wild game start to decrease. Humans have started domestication of animals but rarely for food. \nDesperate times, desperate measures?",
     "time": -7000,
     "a1": "Food",
     "a2": "Friend",
@@ -583,10 +573,7 @@
     "a2Link": 1004,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 43,
@@ -600,10 +587,7 @@
     "badgeEarn": [
       15
     ],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 44,
@@ -615,10 +599,7 @@
     "a2Link": null,
     "nextQ": 45,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 45,
@@ -630,10 +611,7 @@
     "a2Link": null,
     "nextQ": 46,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 46,
@@ -647,10 +625,7 @@
     "badgeEarn": [
       8
     ],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 47,
@@ -662,10 +637,7 @@
     "a2Link": null,
     "nextQ": 48,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 48,
@@ -693,10 +665,7 @@
     "a2Link": null,
     "nextQ": 50,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 50,
@@ -708,10 +677,7 @@
     "a2Link": null,
     "nextQ": 51,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 51,
@@ -723,10 +689,7 @@
     "a2Link": null,
     "nextQ": 52,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 52,
@@ -774,10 +737,7 @@
     "a2Link": null,
     "nextQ": 55,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 55,
@@ -789,10 +749,7 @@
     "a2Link": null,
     "nextQ": 56,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 56,
@@ -804,10 +761,7 @@
     "a2Link": null,
     "nextQ": 57,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 57,
@@ -819,10 +773,7 @@
     "a2Link": null,
     "nextQ": 58,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 58,
@@ -834,10 +785,7 @@
     "a2Link": null,
     "nextQ": 59,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 59,
@@ -849,10 +797,7 @@
     "a2Link": null,
     "nextQ": 60,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 60,
@@ -864,10 +809,7 @@
     "a2Link": null,
     "nextQ": 61,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 61,
@@ -879,10 +821,7 @@
     "a2Link": null,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 62,
@@ -893,11 +832,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 63,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      11
+    ],
+    "requiredBadge": []
   },
   {
     "id": 63,
@@ -909,10 +847,7 @@
     "a2Link": null,
     "nextQ": 64,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 64,
@@ -924,10 +859,7 @@
     "a2Link": null,
     "nextQ": 65,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 65,
@@ -938,11 +870,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 66,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      12
+    ],
+    "requiredBadge": []
   },
   {
     "id": 66,
@@ -953,11 +884,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 67,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      6
+    ],
+    "requiredBadge": []
   },
   {
     "id": 67,
@@ -969,10 +899,7 @@
     "a2Link": null,
     "nextQ": 68,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 68,
@@ -984,10 +911,7 @@
     "a2Link": null,
     "nextQ": 69,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 69,
@@ -998,11 +922,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 70,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      13
+    ],
+    "requiredBadge": []
   },
   {
     "id": 70,
@@ -1014,10 +937,7 @@
     "a2Link": null,
     "nextQ": 71,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 71,
@@ -1029,10 +949,7 @@
     "a2Link": null,
     "nextQ": 72,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 72,
@@ -1044,10 +961,7 @@
     "a2Link": null,
     "nextQ": 73,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 73,
@@ -1058,11 +972,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 74,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      17
+    ],
+    "requiredBadge": []
   },
   {
     "id": 74,
@@ -1074,10 +987,7 @@
     "a2Link": null,
     "nextQ": 75,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 75,
@@ -1089,10 +999,7 @@
     "a2Link": null,
     "nextQ": 76,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 76,
@@ -1104,10 +1011,7 @@
     "a2Link": null,
     "nextQ": 77,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 77,
@@ -1119,10 +1023,7 @@
     "a2Link": null,
     "nextQ": 78,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 78,
@@ -1134,10 +1035,7 @@
     "a2Link": null,
     "nextQ": 79,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 79,
@@ -1149,10 +1047,7 @@
     "a2Link": null,
     "nextQ": 80,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 80,
@@ -1164,10 +1059,7 @@
     "a2Link": null,
     "nextQ": 81,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 81,
@@ -1179,10 +1071,7 @@
     "a2Link": null,
     "nextQ": 82,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 82,
@@ -1194,14 +1083,11 @@
     "a2Link": null,
     "nextQ": 83,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 83,
-    "q": "First war is recorded in History between Elam and Sumer. The King of Kish commands the forces of the Sumer against the Elamites over what is now modern-day Iraq. Does this war proceed according to History?",
+    "q": "First war is recorded in History between Elam and Sumer. The King of Kish commands the forces of the Sumer against the Elamites over what is now modern-day Iraq. \nDoes this war proceed according to History?",
     "time": -2700,
     "a1": "Yes",
     "a2": "No",
@@ -1209,10 +1095,7 @@
     "a2Link": null,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 84,
@@ -1223,11 +1106,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 85,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      18
+    ],
+    "requiredBadge": []
   },
   {
     "id": 85,
@@ -1238,11 +1120,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 86,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      19
+    ],
+    "requiredBadge": []
   },
   {
     "id": 86,
@@ -1254,10 +1135,7 @@
     "a2Link": null,
     "nextQ": 87,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 87,
@@ -1269,10 +1147,7 @@
     "a2Link": null,
     "nextQ": 88,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 88,
@@ -1283,11 +1158,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 89,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      20
+    ],
+    "requiredBadge": []
   },
   {
     "id": 89,
@@ -1299,10 +1173,7 @@
     "a2Link": null,
     "nextQ": 90,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 90,
@@ -1314,10 +1185,7 @@
     "a2Link": null,
     "nextQ": 91,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 91,
@@ -1329,10 +1197,7 @@
     "a2Link": null,
     "nextQ": 92,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 92,
@@ -1343,11 +1208,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 93,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      21
+    ],
+    "requiredBadge": []
   },
   {
     "id": 93,
@@ -1359,10 +1223,7 @@
     "a2Link": null,
     "nextQ": 94,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 94,
@@ -1374,14 +1235,11 @@
     "a2Link": null,
     "nextQ": 95,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 95,
-    "q": "The reign of Sargon of Akkad begins in Mesopotamia. He intends to expand his land through conquest. Does he become the first known Empire?",
+    "q": "The reign of Sargon of Akkad begins in Mesopotamia. He intends to expand his land through conquest. \nDoes he become the first known Empire?",
     "time": -2300,
     "a1": "Yes",
     "a2": "No",
@@ -1389,10 +1247,7 @@
     "a2Link": null,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 96,
@@ -1404,10 +1259,7 @@
     "a2Link": null,
     "nextQ": 97,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 97,
@@ -1419,10 +1271,7 @@
     "a2Link": null,
     "nextQ": 98,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 98,
@@ -1433,11 +1282,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 99,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      23
+    ],
+    "requiredBadge": []
   },
   {
     "id": 99,
@@ -1449,14 +1297,11 @@
     "a2Link": null,
     "nextQ": 100,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 100,
-    "q": "The Indus Valley civilzation disappears. However civilizations spawn in North America, Europe and China. In Europe, the Minoans form on the Island of Crete. However a volcano erupts and the Mycenean Greeks arise. This eruption could have birthed the Atlantis myth. The Akkadian Empire evolves into the Babylonian Empire.",
+    "q": "The Indus Valley civilization disappears. However civilizations spawn in North America, Europe and China. \nIn Europe, the Minoans form on the Island of Crete. However a volcano erupts and the Mycenean Greeks arise. This eruption could have birthed the Atlantis myth. \nThe Akkadian Empire evolves into the Babylonian Empire.",
     "time": -2200,
     "a1": null,
     "a2": null,
@@ -1464,10 +1309,7 @@
     "a2Link": null,
     "nextQ": 101,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 101,
@@ -1479,10 +1321,7 @@
     "a2Link": null,
     "nextQ": 102,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 102,
@@ -1494,10 +1333,7 @@
     "a2Link": null,
     "nextQ": 103,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 103,
@@ -1509,10 +1345,7 @@
     "a2Link": null,
     "nextQ": 104,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 104,
@@ -1524,10 +1357,7 @@
     "a2Link": null,
     "nextQ": 105,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 105,
@@ -1538,11 +1368,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 106,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      24
+    ],
+    "requiredBadge": []
   },
   {
     "id": 106,
@@ -1554,10 +1383,7 @@
     "a2Link": null,
     "nextQ": 107,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 107,
@@ -1569,10 +1395,7 @@
     "a2Link": null,
     "nextQ": 108,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 108,
@@ -1584,10 +1407,7 @@
     "a2Link": null,
     "nextQ": 109,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 109,
@@ -1599,10 +1419,7 @@
     "a2Link": null,
     "nextQ": 110,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 110,
@@ -1614,10 +1431,7 @@
     "a2Link": null,
     "nextQ": 111,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 111,
@@ -1629,14 +1443,11 @@
     "a2Link": null,
     "nextQ": 112,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 112,
-    "q": "The Phoenician alphabet is developed.",
+    "q": "The Phoenician alphabet is developed which becomes the foundation for the Greeks.",
     "time": -1580,
     "a1": null,
     "a2": null,
@@ -1644,10 +1455,7 @@
     "a2Link": null,
     "nextQ": 113,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 113,
@@ -1659,10 +1467,7 @@
     "a2Link": null,
     "nextQ": 114,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 114,
@@ -1674,10 +1479,7 @@
     "a2Link": null,
     "nextQ": 115,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 115,
@@ -1688,11 +1490,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 116,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      25
+    ],
+    "requiredBadge": []
   },
   {
     "id": 116,
@@ -1703,11 +1504,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 117,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      26
+    ],
+    "requiredBadge": []
   },
   {
     "id": 117,
@@ -1719,10 +1519,7 @@
     "a2Link": null,
     "nextQ": 118,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 118,
@@ -1733,11 +1530,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 119,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      27
+    ],
+    "requiredBadge": []
   },
   {
     "id": 119,
@@ -1749,10 +1545,7 @@
     "a2Link": null,
     "nextQ": 120,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 120,
@@ -1764,10 +1557,7 @@
     "a2Link": null,
     "nextQ": 121,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 121,
@@ -1779,10 +1569,7 @@
     "a2Link": null,
     "nextQ": 122,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 122,
@@ -1794,10 +1581,7 @@
     "a2Link": null,
     "nextQ": 123,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 123,
@@ -1809,10 +1593,7 @@
     "a2Link": null,
     "nextQ": 124,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 124,
@@ -1824,10 +1605,7 @@
     "a2Link": null,
     "nextQ": 125,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 125,
@@ -1838,11 +1616,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 126,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      28
+    ],
+    "requiredBadge": []
   },
   {
     "id": 126,
@@ -1854,10 +1631,7 @@
     "a2Link": null,
     "nextQ": 127,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 127,
@@ -1869,10 +1643,7 @@
     "a2Link": null,
     "nextQ": 128,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 128,
@@ -1884,10 +1655,7 @@
     "a2Link": null,
     "nextQ": 129,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 129,
@@ -1899,10 +1667,7 @@
     "a2Link": null,
     "nextQ": 130,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 130,
@@ -1914,10 +1679,7 @@
     "a2Link": null,
     "nextQ": 131,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 131,
@@ -1929,10 +1691,7 @@
     "a2Link": null,
     "nextQ": 132,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 132,
@@ -1942,12 +1701,11 @@
     "a2": null,
     "a1Link": null,
     "a2Link": null,
-    "nextQ": 133,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "nextQ": 134,
+    "badgeEarn": [
+      29
+    ],
+    "requiredBadge": []
   },
   {
     "id": 133,
@@ -1959,10 +1717,7 @@
     "a2Link": null,
     "nextQ": 134,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 134,
@@ -1974,10 +1729,7 @@
     "a2Link": null,
     "nextQ": 135,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 135,
@@ -1989,10 +1741,7 @@
     "a2Link": null,
     "nextQ": 136,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 136,
@@ -2004,10 +1753,7 @@
     "a2Link": null,
     "nextQ": 137,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 137,
@@ -2019,10 +1765,7 @@
     "a2Link": null,
     "nextQ": 138,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 138,
@@ -2033,11 +1776,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 139,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      30
+    ],
+    "requiredBadge": []
   },
   {
     "id": 139,
@@ -2048,11 +1790,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 140,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      31
+    ],
+    "requiredBadge": []
   },
   {
     "id": 140,
@@ -2064,10 +1805,7 @@
     "a2Link": null,
     "nextQ": 141,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 141,
@@ -2079,10 +1817,7 @@
     "a2Link": null,
     "nextQ": 142,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 142,
@@ -2094,10 +1829,7 @@
     "a2Link": null,
     "nextQ": 143,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 143,
@@ -2108,11 +1840,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 144,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      32
+    ],
+    "requiredBadge": []
   },
   {
     "id": 144,
@@ -2124,10 +1855,7 @@
     "a2Link": null,
     "nextQ": 145,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 145,
@@ -2139,10 +1867,7 @@
     "a2Link": null,
     "nextQ": 146,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 146,
@@ -2154,10 +1879,7 @@
     "a2Link": null,
     "nextQ": 147,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 147,
@@ -2169,10 +1891,7 @@
     "a2Link": null,
     "nextQ": 148,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 148,
@@ -2184,10 +1903,7 @@
     "a2Link": null,
     "nextQ": 149,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 149,
@@ -2198,11 +1914,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 150,
-    "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "badgeEarn": [
+      34
+    ],
+    "requiredBadge": []
   },
   {
     "id": 150,
@@ -2214,10 +1929,7 @@
     "a2Link": null,
     "nextQ": 151,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 151,
@@ -2229,10 +1941,7 @@
     "a2Link": null,
     "nextQ": 2000,
     "badgeEarn": [],
-    "requiredBadge": [
-      3,
-      7
-    ]
+    "requiredBadge": []
   },
   {
     "id": 2000,
@@ -2380,7 +2089,7 @@
   },
   {
     "id": 1011,
-    "q": "To increase diets from lack of wild game, cultivation of barley and wheat begins. Some hunters and gatherers experience dreams of god beings, entrusting them these sacred grains, promising a future of food stability. Do these dreams influence their behavior?",
+    "q": "To increase diets from lack of wild game, cultivation of barley and wheat begins. Some hunters and gatherers experience dreams of god beings, entrusting them these sacred grains, promising a future of food stability. \nDo these dreams influence their behavior?",
     "time": -6700,
     "a1": "Yes",
     "a2": "No",
@@ -2400,7 +2109,7 @@
     "a2Link": null,
     "nextQ": 1013,
     "badgeEarn": [
-      16
+      7
     ],
     "requiredBadge": []
   },
