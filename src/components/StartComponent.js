@@ -113,10 +113,10 @@ export default class StartComponent extends React.Component {
         }
     }
 
-    replaceBadge = (newBadge, cat) => {
+    replaceBadge = (newBadge) => {
         if(this.state.badge.findIndex(x => x.id === newBadge.id) === -1) {
             const array = [...this.state.badge];
-            const oldBadge = this.state.badge.find(y => y.category === cat);
+            const oldBadge = this.state.badge.find(y => y.id === newBadge.upgrade);
             if(oldBadge !== undefined) {
                 array.splice(this.state.badge.indexOf(oldBadge), 1);
                 this.setState({
@@ -134,8 +134,8 @@ export default class StartComponent extends React.Component {
         console.log("Called updateBadge")
         const earnedBadge = this.state.badgeData.find(b => this.state.curQuestion.badgeEarn.includes(b.id));
         if (earnedBadge !== undefined) {
-            if(earnedBadge.upgrade) {
-                this.replaceBadge(earnedBadge, earnedBadge.category);
+            if(earnedBadge.upgrade !== null) {
+                this.replaceBadge(earnedBadge);
             } else {
                 this.setBadge(earnedBadge)
             }

@@ -213,9 +213,7 @@
     "a2Link": null,
     "nextQ": 17,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 17,
@@ -351,9 +349,7 @@
     "a2Link": null,
     "nextQ": 27,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 27,
@@ -365,9 +361,7 @@
     "a2Link": null,
     "nextQ": 28,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 28,
@@ -379,9 +373,7 @@
     "a2Link": null,
     "nextQ": 29,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 29,
@@ -393,13 +385,11 @@
     "a2Link": null,
     "nextQ": 30,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 30,
-    "q": "In northern Mesopotamia, now Iraq, cultivation of barley and wheat begins. \nSome hunters and gatherers experience dreams of the beings, entrusting them these sacred grains, promising a future of food stability. \nDo these dreams influence their behavior?",
+    "q": "In northern Mesopotamia, now Iraq, cultivation of barley and wheat begins. \nSome hunters and gatherers experience dreams of beings, entrusting them these sacred grains, promising a future of food stability. \nDo these dreams influence their behavior?",
     "time": -11500,
     "a1": "Yes",
     "a2": "No",
@@ -407,9 +397,7 @@
     "a2Link": 1002,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 31,
@@ -423,9 +411,7 @@
     "badgeEarn": [
       7
     ],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 32,
@@ -437,9 +423,7 @@
     "a2Link": null,
     "nextQ": 33,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 33,
@@ -451,9 +435,7 @@
     "a2Link": null,
     "nextQ": 34,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 34,
@@ -465,9 +447,7 @@
     "a2Link": null,
     "nextQ": 35,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 35,
@@ -491,9 +471,7 @@
     "a2Link": null,
     "nextQ": 37,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 37,
@@ -505,9 +483,7 @@
     "a2Link": null,
     "nextQ": 38,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 38,
@@ -531,9 +507,7 @@
     "a2Link": null,
     "nextQ": 40,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 40,
@@ -545,9 +519,7 @@
     "a2Link": null,
     "nextQ": 41,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 41,
@@ -559,18 +531,16 @@
     "a2Link": null,
     "nextQ": 42,
     "badgeEarn": [],
-    "requiredBadge": [
-      3
-    ]
+    "requiredBadge": []
   },
   {
     "id": 42,
-    "q": "Wild game start to decrease. Humans have started domestication of animals but rarely for food. \nDesperate times, desperate measures?",
+    "q": "Wild game start to decrease. Humans have started domestication of animals but rarely for food. \nDo humans domesticate animals for food?",
     "time": -7000,
-    "a1": "Food",
-    "a2": "Friend",
+    "a1": "Yes",
+    "a2": "No",
     "a1Link": 43,
-    "a2Link": 1004,
+    "a2Link": 1010,
     "nextQ": null,
     "badgeEarn": [],
     "requiredBadge": []
@@ -704,8 +674,6 @@
       9
     ],
     "requiredBadge": [
-      3,
-      7,
       15
     ]
   },
@@ -722,7 +690,6 @@
       10
     ],
     "requiredBadge": [
-      3,
       7,
       15
     ]
@@ -737,7 +704,9 @@
     "a2Link": null,
     "nextQ": 55,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      7
+    ]
   },
   {
     "id": 55,
@@ -761,7 +730,9 @@
     "a2Link": null,
     "nextQ": 57,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      9
+    ]
   },
   {
     "id": 57,
@@ -773,7 +744,9 @@
     "a2Link": null,
     "nextQ": 58,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      7
+    ]
   },
   {
     "id": 58,
@@ -813,12 +786,12 @@
   },
   {
     "id": 61,
-    "q": "People in Sumeria built their first temples.",
+    "q": "People in Sumeria built their first temples. \nDo the temples get built?",
     "time": -4500,
     "a1": "Yes",
     "a2": "No",
     "a1Link": 62,
-    "a2Link": null,
+    "a2Link": 1107,
     "nextQ": null,
     "badgeEarn": [],
     "requiredBadge": []
@@ -858,7 +831,9 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 65,
-    "badgeEarn": [],
+    "badgeEarn": [
+      12
+    ],
     "requiredBadge": []
   },
   {
@@ -870,10 +845,10 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 66,
-    "badgeEarn": [
-      12
-    ],
-    "requiredBadge": []
+    "badgeEarn": [],
+    "requiredBadge": [
+      9
+    ]
   },
   {
     "id": 66,
@@ -949,7 +924,9 @@
     "a2Link": null,
     "nextQ": 72,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      7
+    ]
   },
   {
     "id": 72,
@@ -1011,7 +988,9 @@
     "a2Link": null,
     "nextQ": 77,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      7
+    ]
   },
   {
     "id": 77,
@@ -1023,7 +1002,9 @@
     "a2Link": null,
     "nextQ": 78,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      9
+    ]
   },
   {
     "id": 78,
@@ -1083,7 +1064,9 @@
     "a2Link": null,
     "nextQ": 83,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      7
+    ]
   },
   {
     "id": 83,
@@ -1092,7 +1075,7 @@
     "a1": "Yes",
     "a2": "No",
     "a1Link": 84,
-    "a2Link": null,
+    "a2Link": 1108,
     "nextQ": null,
     "badgeEarn": [],
     "requiredBadge": []
@@ -1185,7 +1168,9 @@
     "a2Link": null,
     "nextQ": 91,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      11
+    ]
   },
   {
     "id": 91,
@@ -1223,7 +1208,9 @@
     "a2Link": null,
     "nextQ": 94,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      18
+    ]
   },
   {
     "id": 94,
@@ -1247,7 +1234,9 @@
     "a2Link": null,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      18
+    ]
   },
   {
     "id": 96,
@@ -1258,7 +1247,9 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 97,
-    "badgeEarn": [],
+    "badgeEarn": [
+      22
+    ],
     "requiredBadge": []
   },
   {
@@ -1309,7 +1300,9 @@
     "a2Link": null,
     "nextQ": 101,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      22
+    ]
   },
   {
     "id": 101,
@@ -1333,7 +1326,10 @@
     "a2Link": null,
     "nextQ": 103,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      9,
+      18
+    ]
   },
   {
     "id": 103,
@@ -1371,7 +1367,9 @@
     "badgeEarn": [
       24
     ],
-    "requiredBadge": []
+    "requiredBadge": [
+      22
+    ]
   },
   {
     "id": 106,
@@ -1407,7 +1405,9 @@
     "a2Link": null,
     "nextQ": 109,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      23
+    ]
   },
   {
     "id": 109,
@@ -1419,7 +1419,9 @@
     "a2Link": null,
     "nextQ": 110,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      22
+    ]
   },
   {
     "id": 110,
@@ -1467,7 +1469,9 @@
     "a2Link": null,
     "nextQ": 114,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      22
+    ]
   },
   {
     "id": 114,
@@ -1479,7 +1483,9 @@
     "a2Link": null,
     "nextQ": 115,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      22
+    ]
   },
   {
     "id": 115,
@@ -1493,7 +1499,9 @@
     "badgeEarn": [
       25
     ],
-    "requiredBadge": []
+    "requiredBadge": [
+      11
+    ]
   },
   {
     "id": 116,
@@ -1619,7 +1627,9 @@
     "badgeEarn": [
       28
     ],
-    "requiredBadge": []
+    "requiredBadge": [
+      11
+    ]
   },
   {
     "id": 126,
@@ -1643,7 +1653,9 @@
     "a2Link": null,
     "nextQ": 128,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      11
+    ]
   },
   {
     "id": 128,
@@ -1679,7 +1691,9 @@
     "a2Link": null,
     "nextQ": 131,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      11
+    ]
   },
   {
     "id": 131,
@@ -1729,7 +1743,9 @@
     "a2Link": null,
     "nextQ": 135,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      22
+    ]
   },
   {
     "id": 135,
@@ -1753,7 +1769,9 @@
     "a2Link": null,
     "nextQ": 137,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      22
+    ]
   },
   {
     "id": 137,
@@ -1779,7 +1797,9 @@
     "badgeEarn": [
       30
     ],
-    "requiredBadge": []
+    "requiredBadge": [
+      11
+    ]
   },
   {
     "id": 139,
@@ -1805,7 +1825,9 @@
     "a2Link": null,
     "nextQ": 141,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      22
+    ]
   },
   {
     "id": 141,
@@ -1817,7 +1839,9 @@
     "a2Link": null,
     "nextQ": 142,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      22
+    ]
   },
   {
     "id": 142,
@@ -1843,7 +1867,9 @@
     "badgeEarn": [
       32
     ],
-    "requiredBadge": []
+    "requiredBadge": [
+      11
+    ]
   },
   {
     "id": 144,
@@ -1855,11 +1881,13 @@
     "a2Link": null,
     "nextQ": 145,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      11
+    ]
   },
   {
     "id": 145,
-    "q": "The Persian Empire is founded by Cyrus the Great. It reigns over the Mesopotamia, Egypt and Central Asia.",
+    "q": "The Persian Empire by Cyrus the Great reigns over the Mesopotamia, Egypt and Central Asia. ",
     "time": -550,
     "a1": null,
     "a2": null,
@@ -1878,8 +1906,12 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 147,
-    "badgeEarn": [],
-    "requiredBadge": []
+    "badgeEarn": [
+      33
+    ],
+    "requiredBadge": [
+      11
+    ]
   },
   {
     "id": 147,
@@ -1891,7 +1923,9 @@
     "a2Link": null,
     "nextQ": 148,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      22
+    ]
   },
   {
     "id": 148,
@@ -1903,7 +1937,9 @@
     "a2Link": null,
     "nextQ": 149,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      22
+    ]
   },
   {
     "id": 149,
@@ -1929,7 +1965,9 @@
     "a2Link": null,
     "nextQ": 151,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [
+      11
+    ]
   },
   {
     "id": 151,
@@ -2206,6 +2244,30 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 2000,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1107,
+    "q": "The imagination of spiritual entities is not shared by the collective. Some people are just too busy to think about such things.",
+    "time": -4500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 62,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1108,
+    "q": "The Sumerians and the Elamites negotiate their differences.",
+    "time": -2700,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 85,
     "badgeEarn": [],
     "requiredBadge": []
   }
