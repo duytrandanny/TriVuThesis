@@ -6,7 +6,8 @@ export default class BadgeListComponent extends React.Component {
         super(props);
         
         this.state = {
-            badgeList: this.props.badge,
+            questionEarn: 100,
+            badgeList: [],
             era: [],
             technology: [],
             ecology: [],
@@ -21,19 +22,35 @@ export default class BadgeListComponent extends React.Component {
             technology: this.state.badgeList.filter(a => a.category === 1),
             ecology: this.state.badgeList.filter(a => a.category === 2),
             civics: this.state.badgeList.filter(a => a.category === 0),
-            culture: this.state.badgeList.filter(a => a.category === 4)
+            culture: this.state.badgeList.filter(a => a.category === 4),
+            questionEarn: 999999
+        }, () => {
+            this.forceUpdate()
+            this.props.turnOffForceUpdate()
         })
     }
 
     componentDidMount() {
-        this.updateLists();
+        
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
-        if(prevState.badgeList.length !== this.props.badge.length) {
+        if(this.props.curQuestion > this.state.questionEarn) {
+            console.log("cur question" + this.props.curQuestion.toString())
+            console.log("state question earn" + this.state.questionEarn.toString())
+            this.updateLists()
+        }
+        if(JSON.stringify(prevProps.badge) !== JSON.stringify(this.props.badge)) {
+            console.log("force update is " + this.props.forceUpdate.toString())
             this.setState({
+                questionEarn: this.props.questionEarn,
                 badgeList: this.props.badge
-            }, () => this.updateLists());
+            }, () => {
+                if(this.props.forceUpdate) {
+                    this.updateLists();
+                }
+                console.log(this.state.badgeList)
+            })
         }
     }
 
@@ -49,12 +66,12 @@ export default class BadgeListComponent extends React.Component {
                     <span className="col-sm-1 col-1"/>
                     <span className="col-sm-1 col-5">
                         <h6>ERA</h6>
-                {
-                    this.state.era.length > 0 &&
-                    <span className="E-scrollable">
-                        <BadgeComponent list={this.state.era}/>
-                    </span>
-                }
+                        {
+                            this.state.era.length > 0 &&
+                            <span className="E-scrollable">
+                                <BadgeComponent list={this.state.era}/>
+                            </span>
+                        }
                     </span>
                     <span className="col-sm-1 col-5">
                         <h6>CIVICS</h6>
@@ -67,19 +84,19 @@ export default class BadgeListComponent extends React.Component {
                     <span className="col-1 d-sm-none"/>
                     <span className="col-sm-1 col-5">
                         <h6>TECHNOLOGY</h6>
-                {
-                    this.state.technology.length > 0 &&
-                        <BadgeComponent list={this.state.technology}/>
-                }
+                        {
+                            this.state.technology.length > 0 &&
+                            <BadgeComponent list={this.state.technology}/>
+                        }
                     </span>
                     <span className="col-sm-1 col-5">
                         <h6>CULTURE</h6>
-                {
-                    this.state.culture.length > 0 &&
-                    <div className="E-scrollable">
-                        <BadgeComponent list={this.state.culture}/>
-                    </div>
-                }
+                        {
+                            this.state.culture.length > 0 &&
+                            <div className="E-scrollable">
+                                <BadgeComponent list={this.state.culture}/>
+                            </div>
+                        }
                     </span>
                     <span className="col-1 d-sm-none"/>
                     <span className="col-4 d-sm-none"/>

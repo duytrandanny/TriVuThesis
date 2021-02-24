@@ -15,6 +15,7 @@ export default class StartComponent extends React.Component {
             questionData: [],
             badgeData: [],
             curID: -1,
+            forceUpdate: false,
             curQuestion: {
                 "id": 0,
                 "q": "Init",
@@ -94,8 +95,7 @@ export default class StartComponent extends React.Component {
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
-        if(prevState.curQuestion.id !== this.state.curQuestion.id) {
-        }
+        
     }
 
     setTime = (newTime) => {
@@ -141,7 +141,6 @@ export default class StartComponent extends React.Component {
             }
         }
         console.log("Finished updateBadge")
-        console.log(this.state.badge)
     }
 
     fetchQuestion = link => {
@@ -167,6 +166,14 @@ export default class StartComponent extends React.Component {
             }
         }
     }
+
+    answerHandler = (link) => {
+        this.setState({
+            forceUpdate: true
+        }, () => this.fetchQuestion(link))
+    }
+
+    turnOffForceUpdate = () => {this.setState({ forceUpdate: false })}
 
     restart = () => {
         this.setState({
@@ -208,6 +215,7 @@ export default class StartComponent extends React.Component {
                     <span className="col-4">
                         <h6>EVENTS</h6>
                         <QuestionComponent
+                            key={this.state.curQuestion.id}
                             id={this.state.curQuestion.id}
                             restart={this.restart}
                             fetchQuestion={this.fetchQuestion}
@@ -226,11 +234,11 @@ export default class StartComponent extends React.Component {
                             this.state.curQuestion.id !== 2000 &&
                             <span className="row">
                                 <span className="col-6 answer-box"
-                                      onClick={() => this.fetchQuestion(this.state.curQuestion.a1Link)}>
+                                      onClick={() => this.answerHandler(this.state.curQuestion.a1Link)}>
                                     {this.state.curQuestion.a1}
                                 </span>
                                 <span className="col-6 answer-box"
-                                      onClick={() => this.fetchQuestion(this.state.curQuestion.a2Link)}>
+                                      onClick={() => this.answerHandler(this.state.curQuestion.a2Link)}>
                                     {this.state.curQuestion.a2}
                                 </span>
                             </span>
@@ -259,7 +267,12 @@ export default class StartComponent extends React.Component {
                 </span>
 
                 <footer className="fixed-bottom E-antiscrolling">
-                    <BadgeListComponent badge={this.state.badge}/>
+                    <BadgeListComponent 
+                        forceUpdate={this.state.forceUpdate}
+                        turnOffForceUpdate={this.turnOffForceUpdate}
+                        curQuestion={this.state.curQuestion.id}
+                        questionEarn={this.state.curQuestion.id}
+                        badge={this.state.badge}/>
                 </footer>
 
             </div>

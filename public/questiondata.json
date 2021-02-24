@@ -78,7 +78,7 @@
   {
     "id": 6,
     "q": "Basic communication and language is suggested among Homo genus.",
-    "time": -350000,
+    "time": "c. 350,000 BCE",
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -166,7 +166,7 @@
   {
     "id": 13,
     "q": "Homo floresiensis also known as Hobbits died out.",
-    "time": -100000,
+    "time": "c. 100,000 BCE",
     "a1": null,
     "a2": null,
     "a1Link": null,
@@ -2140,7 +2140,7 @@
   {
     "id": 1012,
     "q": "The eight Neolithic founder crops, emmer and einkorn wheat, hulled barley, peas, lentils, bitter vetch, chick peas and flax were cultivated",
-    "time": -6500,
+    "time": -6600,
     "a1": null,
     "a2": null,
     "a1Link": null,

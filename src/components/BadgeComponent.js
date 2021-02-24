@@ -6,7 +6,10 @@ const BadgeComponent = ({list}) => {
         <span>
             {
                 list.map(a =>
-                    <Tooltip title={a.description} arrow placement="right">
+                    <Tooltip 
+                    key={a.name}
+                    title={a.description} 
+                    arrow placement="right">
                         <p>{a.name}</p>
                     </Tooltip>)
             }
