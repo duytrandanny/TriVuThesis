@@ -177,7 +177,8 @@ export default class StartComponent extends React.Component {
 
     restart = () => {
         this.setState({
-            badge: []
+            badge: [],
+            forceUpdate: true
         }, () => {
             this.fetchQuestion(0)
         })
