@@ -246,5 +246,33 @@
     "name": "Democracy",
     "description": "\"Demos\" (common people) and \"kratos\" (strength)",
     "upgrade": null
+  },
+  {
+    "id": 35,
+    "category": 0,
+    "name": "History",
+    "description": "With the help of writing, the study of history becomes systematic.",
+    "upgrade": null
+  },
+  {
+    "id": 36,
+    "category": 0,
+    "name": "Atheism",
+    "description": "Socrates is one of the first atheist of Western culture.",
+    "upgrade": null
+  },
+  {
+    "id": 37,
+    "category": 0,
+    "name": "Foreign Trade",
+    "description": "East and West are connected via this large collection of trade routes.",
+    "upgrade": 12
+  },
+  {
+    "id": 38,
+    "category": 0,
+    "name": "Authoritarianism",
+    "description": "",
+    "upgrade": 12
   }
 ]

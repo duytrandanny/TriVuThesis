@@ -1231,7 +1231,7 @@
     "a1": "Yes",
     "a2": "No",
     "a1Link": 96,
-    "a2Link": null,
+    "a2Link": 1109,
     "nextQ": null,
     "badgeEarn": [],
     "requiredBadge": [
@@ -1977,10 +1977,828 @@
     "a2": null,
     "a1Link": null,
     "a2Link": null,
-    "nextQ": 2000,
+    "nextQ": 152,
     "badgeEarn": [],
     "requiredBadge": []
   },
+  {
+    "id": 152,
+    "q": "Around this time was the life of Sun-Tzu, a military strategist and writer of the Art of War.",
+    "time": -500,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 153,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 153,
+    "q": "Greek playwright Sophocles is born, who suggests a moderation in dreeking beer. The Romans build a temple dedicated to Saturn.",
+    "time": -496,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 154,
+    "badgeEarn": [],
+    "requiredBadge": [
+      11
+    ]
+  },
+  {
+    "id": 154,
+    "q": "The battle of Marathon, the Greek forces lead by Alexander the Great defeat the Persians Empire.",
+    "time": -490,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 155,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 155,
+    "q": "Herodotus is born. A Greek historian, he used systematic investigation to write history books and is the founder of modern history.",
+    "time": -484,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 156,
+    "badgeEarn": [
+      35
+    ],
+    "requiredBadge": []
+  },
+  {
+    "id": 156,
+    "q": "Socrates is born. He introduces morality and ethics and theorizes an ethics system based on human reason. He rejected the scientific teachings at the time as was accused of being an \"atheist\" and eventually trialed. He believed in technocracy and was a critic of democracy. \nSocrates was considered a controversial yet influencial philosopher, should his teachings be censored?",
+    "time": -470,
+    "a1": "Yes",
+    "a2": "No",
+    "a1Link": 157,
+    "a2Link": null,
+    "nextQ": null,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 157,
+    "q": "Democritus is born. He is the first to theorize the atom theory to explain the physical world. He is largely ignored.",
+    "time": -460,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 158,
+    "badgeEarn": [
+      36
+    ],
+    "requiredBadge": []
+  },
+  {
+    "id": 158,
+    "q": "Pericles, a democratic populist leader becomes ruler of Athens. He sparks an age of cultural innovation.",
+    "time": -460,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 159,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 159,
+    "q": "First klepsydra is made, a water time keeping device used in Athens.",
+    "time": -450,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 160,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 160,
+    "q": "The Pantheon, the Roman temple begins construction.",
+    "time": -432,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 161,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 161,
+    "q": "Plato is born. He introduces Plato school of thought.",
+    "time": -427,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 162,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 162,
+    "q": "Socrates is condemned to death for \"corrupting the youth\". Socrates states: \"All of philosophy is training for death.\"",
+    "time": -399,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 165,
+    "badgeEarn": [],
+    "requiredBadge": [
+      36
+    ]
+  },
+  {
+    "id": 165,
+    "q": "Plato writes about the Lost City of Atlantis.",
+    "time": -347,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 166,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 166,
+    "q": "Alexander the Great becomes the ruler of Macedonia, an allied kingdom to Athens.",
+    "time": -336,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 167,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 167,
+    "q": "Aristotle's the Politics is written which theorizes the \"mind\" over \"body\" and the supremacy of the civilized man.",
+    "time": -335,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 168,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 168,
+    "q": "Alexander the Great claims Persia and takes hold of Palestine. He is conquers Egypt and is crowned a Pharaoh.",
+    "time": -334,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 169,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 169,
+    "q": "Alexander the Great does not conquer any neighboring land. He rules over Macedonia and a general to the Greek forces. The lineage of Pharaohs rule Egypt.",
+    "time": -334,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 170,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  {
+    "id": 170,
+    "q": "Alexander the Great dies at age 32, the Macedonian empire spans across Pelly, Babylon, Egypt and even the Indus Valley.",
+    "time": -324,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 171,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 171,
+    "q": "Alexander the Great continues to rule over Macedonia and now Sparta, another city-state.",
+    "time": -324,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 172,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  {
+    "id": 172,
+    "q": "Ptolemy I becomes one of the successors of the Greek Empire. He weakens the Empire overtime and is eventually succeeded by Cleopatra a greek queen who rules only over Egypt.",
+    "time": -324,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 173,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 173,
+    "q": "Egypt is ruled by it's native kingdoms.",
+    "time": -324,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 174,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  {
+    "id": 174,
+    "q": "Jerusalem becomes absorbed into the Greek Empire. Hellenic culture and Jewish culture develop friction.",
+    "time": -324,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 175,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  {
+    "id": 175,
+    "q": "Chandragupta Maurya fends off the Seleucid Empire (remnants of Alexander the Great's Empire). He then forms the Mauryan Empire in India.",
+    "time": -317,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 176,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 176,
+    "q": "The Mauryan kingdom is founded in India.",
+    "time": -324,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 177,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  {
+    "id": 177,
+    "q": "Completion of Euclid's Elements. Euclid, a Greek mathematician is considered the father of geometry.",
+    "time": -300,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 178,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 178,
+    "q": "King Ptolemy II of Philadelphus of Egypt expands sea trade.",
+    "time": -285,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 179,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 179,
+    "q": "Reign of Ashoka the Great of the Mauryan Empire who establishes Buddhism across India.",
+    "time": -268,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 180,
+    "badgeEarn": [],
+    "requiredBadge": [
+      32
+    ]
+  },
+  {
+    "id": 180,
+    "q": "Ashoka sends a missionary lead by his son to spread Buddhism to Sri Lanka.",
+    "time": -255,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 181,
+    "badgeEarn": [],
+    "requiredBadge": [
+      32
+    ]
+  },
+  {
+    "id": 181,
+    "q": "The Parthian Empire is found in Greek Hellinistic kingdom, the second native dynasty of Persia.",
+    "time": -250,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 182,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 182,
+    "q": " In Greek Hellinistic kingdom, the second native dynasty of Persia rises. \nDoes this kingdom become the Parthian Empire?",
+    "time": -250,
+    "a1": "Yes",
+    "a2": "No",
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 183,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  {
+    "id": 183,
+    "q": "The Torah is translated into Greek in Alexandria, Egypt.",
+    "time": -250,
+    "a1": "Yes",
+    "a2": "No",
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 184,
+    "badgeEarn": [
+      
+    ],
+    "requiredBadge": [
+      28
+    ]
+  },
+  {
+    "id": 184,
+    "q": "The Qin dynasty unites China and begins construction on the Great Wall of China. He makes Daoism and legalism, state tenets.",
+    "time": -221,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 185,
+    "badgeEarn": [],
+    "requiredBadge": [
+      32
+    ]
+  },
+  {
+    "id": 185,
+    "q": "The Qin dynasty unites China and builds the Great Wall of China.",
+    "time": -221,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 186,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -32
+    ]
+  },
+  {
+    "id": 186,
+    "q": "Emperor Qin Shi Huang builds the terracotta army as a funeral art burried alongside him.",
+    "time": -210,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 187,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 187,
+    "q": "The Han dynasty establish Confucianism as the state religion. They also build ships with sails having learnt from Malaysian visitors.",
+    "time": -206,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 188,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 188,
+    "q": "Paper is invented in China under Liu Bang the first Han ruler.",
+    "time": -200,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 189,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 189,
+    "q": "China comes into contact with the Greco-Barbarian , descendants of Alexander the Great.",
+    "time": -200,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 190,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 190,
+    "q": "Iron manufacturing in the Celtics, North of Europe experiences a significant boom in weapons and tool manufacturing. In North America, the Mayan city of El Mirador thrives.",
+    "time": -200,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 191,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 191,
+    "q": "The Aryans, meaning \"free people\" from various ethnics from the Iran Plateau migrate to Eurasia and to India.",
+    "time": -200,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 192,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 192,
+    "q": "The Third Macedonian War between the Roman Republic and Macedon, the successor state of Alexander the Great's Empire.",
+    "time": -171,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 193,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 193,
+    "q": "The Romans defeat Carthage, a Phoenician colony. Rome extends to modern-day Tunisia and Libya.",
+    "time": -149,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 194,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 194,
+    "q": "The Roman Republic conquer Greece.",
+    "time": -146,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 195,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 195,
+    "q": "The Roman Republic and Greek Republic are the largest Western civiizations in Europe. The Phoenician Carthage civilization rules Libya and Tunisia. \nDo the Roman Republic conquer them?",
+    "time": -149,
+    "a1": "Yes",
+    "a2": "No",
+    "a1Link": 196,
+    "a2Link": null,
+    "nextQ": null,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  {
+    "id": 196,
+    "q": "The Romans defeat Carthage and then conquer Greece. The Ancient Greeks are absorbed into the Roman Republic. The Parthians see the new Roman Empire as an immediate threat and begins conquering more land.",
+    "time": -149,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 197,
+    "badgeEarn": [
+      22
+    ],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  {
+    "id": 197,
+    "q": "Zhang Qian, an envoy of Emperor Wu, opens the Silk Road, a major trading route between China and central Asia.",
+    "time": -139,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 198,
+    "badgeEarn": [
+      37
+    ],
+    "requiredBadge": []
+  },
+  {
+    "id": 198,
+    "q": "The Silk Road connects East and West worlds together for the first time. China conquests Vietnam.",
+    "time": -139,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 199,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 199,
+    "q": "The Parthians conquer Mesopotamia. The Silk Road to China is now controlled by the Parthians.",
+    "time": -129,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 200,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 200,
+    "q": "Roman armies enter Gaul for the first time what is now modern day France, Belgium and Luxembourg and Switzerland",
+    "time": -121,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 201,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 201,
+    "q": "The Celtics continue to occupy modern day . Germanic tribes move south from Scandinavia",
+    "time": -121,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 202,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  {
+    "id": 202,
+    "q": " Beginning of the Chinese occupation of Nanyue, modern day Vietnam",
+    "time": -111,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 203,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 203,
+    "q": "Bantu speaking tribes produce carbon steel in Africa.",
+    "time": -100,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 204,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 204,
+    "q": "The Han dynasty in China invades Mongolia.",
+    "time": -91,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 205,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 205,
+    "q": "Native civilizations of Vietnam and Mongolia thrive.",
+    "time": -91,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 206,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  {
+    "id": 206,
+    "q": "The Roman Republican standardizes Old Latin into Classical Latin.",
+    "time": -75,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 207,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 207,
+    "q": "The Roman Empire conquers Jerusalem.",
+    "time": -63,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 208,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 208,
+    "q": "Jerusalem remains a Jewish settlement.",
+    "time": -75,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 209,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  {
+    "id": 209,
+    "q": " Cleopatra IV is restored to the Ptolemy throne as ruler of Egypt. 15 years later She loses in battle to Octavian Caesar, Julius' adopted nephew and Egypt becomes part of the Roman Empire. Julius Caesar also establishes himself as dictator.",
+    "time": -47,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 210,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 210,
+    "q": "Apart from the Roman and Greek civilizations. Much of Europe is still sparsely populated. There still remains various groups of agrarian communities such as the Celtics and Germanic tribes in the North.",
+    "time": -55,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 211,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  {
+    "id": 211,
+    "q": "The Caesar Civil War in Rome, with Julius Caesar against the Roman Senate. Caesar emerges victorious.",
+    "time": "49-45 BCE",
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 212,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 212,
+    "q": "The Roman Republic prevails. Julius Caesar attempts to overthrow democracy and establish an dictatorship but is advised by his senators not to.",
+    "time": -50,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 213,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  {
+    "id": 213,
+    "q": "The Roman Republic prevails. Julius Caesar attempts to overthrow democracy and establish an dictatorship but is advised by his senators not to.",
+    "time": -50,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 214,
+    "badgeEarn": [],
+    "requiredBadge": [
+      -22
+    ]
+  },
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   {
     "id": 2000,
     "q": "The end",
@@ -2268,6 +3086,18 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 85,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 1109,
+    "q": "Sargon rules Mesopotamia and does not conquer.",
+    "time": -2300,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 97,
     "badgeEarn": [],
     "requiredBadge": []
   }

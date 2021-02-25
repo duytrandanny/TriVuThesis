@@ -41,6 +41,7 @@ export default class QuestionComponent extends React.Component {
     render() {
         return (
             <div>
+                {this.props.question.id}
                 <p>{this.state.question}</p>
             </div>
         )

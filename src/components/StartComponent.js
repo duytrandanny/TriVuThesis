@@ -146,18 +146,28 @@ export default class StartComponent extends React.Component {
     fetchQuestion = link => {
         console.log("fetching question: " + link)
         const fetchedQ = this.state.questionData.find(x => x.id === link)
+        // this question does NOT require any badge
         if(fetchedQ.requiredBadge.length === 0) {
             this.setState({
                 curQuestion: this.state.questionData.find(x => x.id === link)
             }, () => {
                 this.updateBadge()
             })
-        } else if (fetchedQ.requiredBadge.every(b => this.state.badge.find(x => b===x.id) !== undefined)) {
+        // this question requires some badges and player has it
+        } else if (fetchedQ.requiredBadge.every(b => b >= 0 && this.state.badge.find(x => b===x.id) !== undefined)) {
             this.setState({
                 curQuestion: this.state.questionData.find(x => x.id === link)
             }, () => {
                 this.updateBadge()
             })
+        // this question requires the absence of some badges
+        } else if (fetchedQ.requiredBadge.every(b => b < 0 && this.state.badge.find(x => (0-b)===x.id) === undefined)) {
+            this.setState({
+                curQuestion: this.state.questionData.find(x => x.id === link)
+            }, () => {
+                this.updateBadge()
+            })
+        // player does NOT have the required badge or absence of badge
         } else {
             if(fetchedQ.nextQ) {
                 this.fetchQuestion(fetchedQ.nextQ)
