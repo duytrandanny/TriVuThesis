@@ -34,15 +34,11 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 18px;
+    /*width: 100%;*/
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -114,7 +110,6 @@
     margin-top: 10px;
     padding: 3px;
     text-align: center;
-    font-family: 'Lexend Giga', monospace;
     text-transform: uppercase;
     font-size: 7pt;
     cursor: pointer;
@@ -126,4 +121,8 @@
 
 .E-antiscrolling {
     overflow: hidden;
+}
+
+.badge-text {
+    font-size: 11px;
 }

@@ -68,16 +68,18 @@ export default class BadgeListComponent extends React.Component {
                         <h6>ERA</h6>
                         {
                             this.state.era.length > 0 &&
-                            <span className="E-scrollable">
-                                <BadgeComponent list={this.state.era}/>
-                            </span>
+                            <div className="badge-text E-scrollable">
+                                <BadgeComponent className="badge-text" list={this.state.era}/>
+                            </div>
                         }
                     </span>
                     <span className="col-sm-1 col-5">
                         <h6>CIVICS</h6>
                         {
                             this.state.civics.length > 0 &&
-                            <BadgeComponent list={this.state.civics}/>
+                            <div className="badge-text E-scrollable">
+                                <BadgeComponent className="badge-text" list={this.state.civics}/>
+                            </div>
                         }
                     </span>
                     <span className="col-1 d-sm-none"/>
@@ -86,14 +88,16 @@ export default class BadgeListComponent extends React.Component {
                         <h6>TECHNOLOGY</h6>
                         {
                             this.state.technology.length > 0 &&
-                            <BadgeComponent list={this.state.technology}/>
+                            <div className="badge-text E-scrollable">
+                                <BadgeComponent list={this.state.technology}/>
+                            </div>
                         }
                     </span>
                     <span className="col-sm-1 col-5">
                         <h6>CULTURE</h6>
                         {
                             this.state.culture.length > 0 &&
-                            <div className="E-scrollable">
+                            <div className="badge-text E-scrollable">
                                 <BadgeComponent list={this.state.culture}/>
                             </div>
                         }
@@ -104,7 +108,9 @@ export default class BadgeListComponent extends React.Component {
                         <h6>ECOLOGY</h6>
                         {
                             this.state.ecology.length > 0 &&
-                            <BadgeComponent list={this.state.ecology}/>
+                            <div className="badge-text E-scrollable">
+                                <BadgeComponent list={this.state.ecology}/>
+                            </div>
                         }
                     </span>
                     <span className="col-sm-6"/>

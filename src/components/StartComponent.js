@@ -199,17 +199,16 @@ export default class StartComponent extends React.Component {
             this.state._isLoading ?
             <h1>Loading...</h1> :
             <div className="E-body">
-                <span className="row mt-5">
+                <span className="row mt-5 ">
                     <span className="col-1"/>
-                    <span className="col-2 text-left">
+                    <span className="col-1">
+                        <img className="App-logo" alt="entropy logo" src={process.env.PUBLIC_URL + '/entropy-logo.png'} />
+                    </span>
+                    <span className="col-7"/>
+                    <span className="col-1">
                         <h6>HOW TO PLAY</h6>
                     </span>
-                    <span className="col-1"/>
-                    <span className="col-4 text-center">
-                        <h5>ENTROPY</h5>
-                    </span>
-                    <span className="col-1"/>
-                    <span className="col-2 text-right">
+                    <span className="col-1">
                         <h6>ABOUT US</h6>
                     </span>
                     <span className="col-1"/>

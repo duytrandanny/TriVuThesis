@@ -1,6 +1,20 @@
+@font-face {
+  font-family: 'MarsExtended';
+  src: url('fonts/marsextended-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpaceMono';
+  src: url('fonts/SpaceMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: 'Overpass', sans-serif;
+  font-family: 'MarsExtended', sans-serif;
   /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
   /*  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
   /*  sans-serif;*/
@@ -11,12 +25,12 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'MarsExtended',
+  sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lexend Giga', monospace;
+  font-family: 'SpaceMono', monospace;
   color: white;
 }
 
@@ -25,7 +39,7 @@ h6 {
 }
 
 p, a, a:visited, a:active {
-  font-family: 'Overpass', sans-serif;
+  font-family: 'MarsExtended', sans-serif;
   color: white;
 }
 
