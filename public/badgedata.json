@@ -3,7 +3,7 @@
     "id": 0,
     "category": 1,
     "name": "Stone Age",
-    "description": "Archaic humans first use to tools.",
+    "description": "Archaic humans first use stone tools.",
     "upgrade": null
   },
   {
@@ -17,7 +17,7 @@
     "id": 2,
     "category": 2,
     "name": "Grain",
-    "description": "Human species start eating cereal. The breakfast staple.",
+    "description": "Human species start eating wild grain, such as cereal and legumes. Their durability allowed the beginnings of agriculture.",
     "upgrade": null
   },
   {
@@ -40,7 +40,7 @@
     "id": 5,
     "category": 4,
     "name": "Art",
-    "description": "Humans have started to visualize ourselves in art. Artsy!",
+    "description": "Humans have started to visualize ourselves in art.",
     "upgrade": 3
   },
   {
@@ -54,16 +54,16 @@
     "id": 7,
     "category": 2,
     "name": "Agriculture",
-    "description": "Agriculture Revolution starts in the Levant (Eastern Mediterranean region of Western Asia).",
+    "description": "Agriculture Revolution starts in the Levant (Eastern Mediterranean region of Western Asia). It increased food supply rapidly allowing human population to thrive and encouraged sedentism.",
     "upgrade": 2
 
   },
   {
     "id": 8,
-    "category": 4,
+    "category": 0,
     "name": "City-states",
     "description": "A concentration of humans with domesticated livestock and plants.",
-    "upgrade": true
+    "upgrade": null
   },
   {
     "id": 9,
@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "category": 6,
+    "category": 4,
     "name": "Religion",
     "description": "Our collective imagination of in spiritual entities are stronger than ever and have pushed us to cooperate in building the first places of worship.",
     "upgrade": null
@@ -137,14 +137,14 @@
   },
   {
     "id": 19,
-    "category": 4,
+    "category": 0,
     "name": "Monarchy",
     "description": "Though not this first monarch in history, this marks a dawn of the rule of kings, usually from a divine right.",
     "upgrade": null
   },
   {
     "id": 20,
-    "category": 4,
+    "category": 0,
     "name": "Slavery",
     "description": "Though slavery has been around couple mellenia before. This was the first time, it came under a emperical rule.",
     "upgrade": null
@@ -165,7 +165,7 @@
   },
   {
     "id": 23,
-    "category": 4,
+    "category": 0,
     "name": "Law",
     "description": "First code of law is written.",
     "upgrade": null
@@ -209,8 +209,8 @@
     "id": 29,
     "category": 3,
     "name": "Classical Era",
-    "description": "Bronze becomes Iron and the beginnings of the age of Empires.",
-    "upgrade": 21
+    "description": "",
+    "upgrade": null
   },
   {
     "id": 30,
@@ -256,7 +256,7 @@
   },
   {
     "id": 36,
-    "category": 0,
+    "category": 4,
     "name": "Atheism",
     "description": "Socrates is one of the first atheist of Western culture.",
     "upgrade": null

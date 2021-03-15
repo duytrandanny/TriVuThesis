@@ -2799,7 +2799,7 @@
     "a2": null,
     "a1Link": null,
     "a2Link": null,
-    "nextQ": 213,
+    "nextQ": 216,
     "badgeEarn": [],
     "requiredBadge": [
       22
@@ -2808,15 +2808,84 @@
   {
     "id": 215,
     "q": "Julius Caesar's powers gradually weaken.",
-    "time": -50,
+    "time": -43,
+    "a1": "Continue",
+    "a2": "Speculate",
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": null,
+    "badgeEarn": [],
+    "requiredBadge": []
+  },
+  {
+    "id": 216,
+    "q": "The Roman Republic conquest Egypt. Cleopatra ends her reign as the last ruler of the Ptolemic kingdom.",
+    "time": -30,
     "a1": null,
     "a2": null,
     "a1Link": null,
     "a2Link": null,
-    "nextQ": 213,
+    "nextQ": 217,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {  
+    "id": 217,
+    "q": "The Roman Republic turns into an Empire",
+    "time": -29,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 218,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 218,
+    "q": "The African Kingdom of Kush attacks the Romans lead by Amanirenas, the queen of the Kushites.",
+    "time": -27,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 220,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 219,
+    "q": "The African Kingdom of Kush attacks the Romans lead by Amanirenas, the queen of the Kushites.",
+    "time": -27,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 220,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 220,
+    "q": "Julius Caesar dies of old age and a democratic elected senator takes over",
+    "time": -24,
+    "a1": "Continue",
+    "a2": "Speculate",
+    "a1Link": 221,
+    "a2Link": null,
+    "nextQ": null,
     "badgeEarn": [],
     "requiredBadge": []
   },
+
   
   
   
