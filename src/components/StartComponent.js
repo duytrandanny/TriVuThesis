@@ -2,6 +2,7 @@ import React from 'react';
 import QuestionComponent from "./QuestionComponent";
 import BadgeListComponent from "./BadgeListComponent"
 import TimeComponent from "./TimeComponent"
+import RunningTitleComponent from "./RunningTitleComponent"
 
 
 export default class StartComponent extends React.Component {
@@ -14,6 +15,7 @@ export default class StartComponent extends React.Component {
             badge: [],
             questionData: [],
             badgeData: [],
+            runningTitleData: "",
             curID: -1,
             forceUpdate: false,
             curQuestion: {
@@ -86,12 +88,15 @@ export default class StartComponent extends React.Component {
                     curID: 0
                 })
             })
-            .then(() => {
-                this.updateBadge()
-                this.setState({
-                    _isLoading: false
-                })
-            });
+            .then(() => this.updateBadge());
+        
+        fetch('runningtitle.txt')
+            .then(t => t.text())
+            .then(text => this.setState({ runningTitleData: text}))
+            .then(() => 
+            this.setState({
+                _isLoading: false
+            }));
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
@@ -217,22 +222,33 @@ export default class StartComponent extends React.Component {
 
                 <span className="E-content row">
                     <span className="col-1"/>
-                    <span className="col-1">
-                        <h6>TIME</h6>
-                        <TimeComponent time={this.state.curQuestion.time}/>
+                    <span className="row col-5">
+                        <span className="d-flex flex-column">
+                            <span className="">
+                                <RunningTitleComponent text={this.state.runningTitleData}/>
+                            </span>
+
+                            <span className="row justify-content-start">
+                                <span className="col-3">
+                                    <h6>TIME</h6>
+                                    <TimeComponent time={this.state.curQuestion.time}/>
+                                </span>
+
+                                <span className="col-9">
+                                    <h6>EVENTS</h6>
+                                    <QuestionComponent
+                                        key={this.state.curQuestion.id}
+                                        id={this.state.curQuestion.id}
+                                        restart={this.restart}
+                                        fetchQuestion={this.fetchQuestion}
+                                        question={this.state.curQuestion}
+                                        setTime={this.setTime}
+                                        setBadge={this.setBadge}/>
+                                </span>
+                            </span>
+                        </span>
                     </span>
 
-                    <span className="col-4">
-                        <h6>EVENTS</h6>
-                        <QuestionComponent
-                            key={this.state.curQuestion.id}
-                            id={this.state.curQuestion.id}
-                            restart={this.restart}
-                            fetchQuestion={this.fetchQuestion}
-                            question={this.state.curQuestion}
-                            setTime={this.setTime}
-                            setBadge={this.setBadge}/>
-                    </span>
                     <span className="col-6"/>
                 </span>
 

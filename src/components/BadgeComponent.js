@@ -3,7 +3,7 @@ import { Tooltip } from '@material-ui/core';
 
 const BadgeComponent = ({list}) => {
     return(
-        <span>
+        <span className="pt-2 E-scrollable">
             {
                 list.map(a =>
                     <Tooltip 

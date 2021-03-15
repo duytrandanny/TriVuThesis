@@ -2728,7 +2728,9 @@
     "a1Link": null,
     "a2Link": null,
     "nextQ": 210,
-    "badgeEarn": [],
+    "badgeEarn": [
+      38
+    ],
     "requiredBadge": [
       22
     ]
@@ -2777,17 +2779,43 @@
   },
   {
     "id": 213,
-    "q": "The Roman Republic prevails. Julius Caesar attempts to overthrow democracy and establish an dictatorship but is advised by his senators not to.",
+    "q": "Roman senators become increasingly worried about Julius Caesar's tyrannical nature and plan to assassinate him. \nDoes this event take place?",
+    "time": -43,
+    "a1": "Yes",
+    "a2": "No",
+    "a1Link": 214,
+    "a2Link": 215,
+    "nextQ": null,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 214,
+    "q": "Julius Caesar is murdered by Marcus Brutus and other senators. Octavian Caesar takes over and changes his name to Augustus Caesar and founds the Roman Principate, a period with only one Roman Emperor.",
+    "time": -40,
+    "a1": null,
+    "a2": null,
+    "a1Link": null,
+    "a2Link": null,
+    "nextQ": 213,
+    "badgeEarn": [],
+    "requiredBadge": [
+      22
+    ]
+  },
+  {
+    "id": 215,
+    "q": "Julius Caesar's powers gradually weaken.",
     "time": -50,
     "a1": null,
     "a2": null,
     "a1Link": null,
     "a2Link": null,
-    "nextQ": 214,
+    "nextQ": 213,
     "badgeEarn": [],
-    "requiredBadge": [
-      -22
-    ]
+    "requiredBadge": []
   },
   
   
