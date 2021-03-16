@@ -9,17 +9,6 @@ export default class QuestionComponent extends React.Component {
         }
     }
 
-    componentDidMount() {
-        // if (this.state.question.nextQ !== null) {
-        //     setTimeout(() => {
-        //         this.props.fetchQuestion(this.state.question.nextQ);
-        //     }, 3000)
-        // }
-    }
-
-    componentWillUpdate(nextProps, nextState, nextContext) {
-    }
-
     componentDidUpdate(prevProps, prevState, snapshot) {
         if (prevProps.id !== this.props.id) {
             console.log("current: " + this.props.id)

@@ -15,7 +15,7 @@ export default class StartComponent extends React.Component {
             badge: [],
             questionData: [],
             badgeData: [],
-            runningTitleData: "",
+            runningTitleData: '' + Array(100).fill('\xa0').join(''),
             curID: -1,
             forceUpdate: false,
             curQuestion: {
@@ -92,10 +92,26 @@ export default class StartComponent extends React.Component {
                     })
                 })
                 .then(() => this.updateBadge()),
-
-            fetch('runningtitle.txt')
+                
+                fetch('runningtitle.txt')
                 .then(t => t.text())
-                .then(text => this.setState({ runningTitleData: text }))
+                .then(t => this.setState({ runningTitleData: this.state.runningTitleData + t }))
+
+            // fetch('runningtitle.json'
+            //     , {
+            //         headers: {
+            //             'Content-Type': 'application/json',
+            //             'Accept': 'application/json'
+            //         }
+            //     })
+            //     .then(response => {
+            //         if(response.ok) {
+            //             return response.json();
+            //         } else {
+            //             throw(new Error("Error fetching running title json"));
+            //         }
+            //     })
+            //     .then(r => this.setState({ runningTitleData: r }))
         ])
             .then(() =>
                 this.setState({
@@ -224,32 +240,32 @@ export default class StartComponent extends React.Component {
                         <span className="col-1" />
                     </span>
 
+                    
 
-                    <span className="E-content row">
-                        <span className="col-1" />
-                        <span className="row col-5">
-                            <span className="d-flex flex-column">
-                                <span className="">
-                                    <RunningTitleComponent text={this.state.runningTitleData} />
+                    <span className="row E-content">
+                        <span className="col-1"/>
+                        <span className="col-5 p-0">
+                            <RunningTitleComponent curTime={this.state.curQuestion.time} data={this.state.runningTitleData} />
+                        </span>
+                        <span className="col-6"/>
+                        <span className="w-100"/>
+                        <span className="col-1"/>
+                        <span className="col-5 E-main-content">
+                            <span className="row">
+                                <span className="col-3">
+                                    <h6>TIME</h6>
+                                    <TimeComponent time={this.state.curQuestion.time} />
                                 </span>
-
-                                <span className="row justify-content-start">
-                                    <span className="col-3">
-                                        <h6>TIME</h6>
-                                        <TimeComponent time={this.state.curQuestion.time} />
-                                    </span>
-
-                                    <span className="col-9">
-                                        <h6>EVENTS</h6>
-                                        <QuestionComponent
-                                            key={this.state.curQuestion.id}
-                                            id={this.state.curQuestion.id}
-                                            restart={this.restart}
-                                            fetchQuestion={this.fetchQuestion}
-                                            question={this.state.curQuestion}
-                                            setTime={this.setTime}
-                                            setBadge={this.setBadge} />
-                                    </span>
+                                <span className="col-9">
+                                    <h6>EVENTS</h6>
+                                    <QuestionComponent
+                                        key={this.state.curQuestion.id}
+                                        id={this.state.curQuestion.id}
+                                        restart={this.restart}
+                                        fetchQuestion={this.fetchQuestion}
+                                        question={this.state.curQuestion}
+                                        setTime={this.setTime}
+                                        setBadge={this.setBadge} />
                                 </span>
                             </span>
                         </span>
@@ -258,47 +274,52 @@ export default class StartComponent extends React.Component {
                     </span>
 
                     <span className="row">
-                        <span className="col-2" />
-                        <span className="col-4">
-                            {
-                                this.state.curQuestion.nextQ === null &&
-                                this.state.curQuestion.id !== 2000 &&
-                                <span className="row">
-                                    <span className="col-6 answer-box"
+                        <span className="col-1" />
+                        <span className="col-5">
+                            <span className="row">
+                                <span className="col-3"/>
+                                <span className="col-9 answer-box-wrap">
+                                {
+                                    this.state.curQuestion.nextQ === null &&
+                                    this.state.curQuestion.id !== 2000 && 
+                                    <span className="answer-box"
                                         onClick={() => this.answerHandler(this.state.curQuestion.a1Link)}>
                                         {this.state.curQuestion.a1}
                                     </span>
-                                    <span className="col-6 answer-box"
+                                }
+                                {
+                                    this.state.curQuestion.nextQ === null &&
+                                    this.state.curQuestion.id !== 2000 && 
+                                    <span className="answer-box"
                                         onClick={() => this.answerHandler(this.state.curQuestion.a2Link)}>
                                         {this.state.curQuestion.a2}
                                     </span>
-                                </span>
-                            }
-                            {
-                                this.state.curQuestion.nextQ === null &&
-                                this.state.curQuestion.id === 2000 &&
-                                <div className="row">
-                                    <span className="col-12 answer-box"
+                                }
+                                {
+                                    this.state.curQuestion.nextQ === null &&
+                                    this.state.curQuestion.id === 2000 &&
+                                    <span className="answer-box"
                                         onClick={() => this.restart()}>
                                         {this.state.curQuestion.a1}
                                     </span>
-                                </div>
-                            }
-                            {
-                                this.state.curQuestion.nextQ !== null &&
-                                <div className="row">
-                                    <span className="col-12 answer-box"
+                                }
+                                {
+                                    this.state.curQuestion.nextQ !== null &&
+                                    <span className="answer-box"
                                         onClick={() => this.fetchQuestion(this.state.curQuestion.nextQ)}>
                                         NEXT
+                                    </span>
+                                }
                                 </span>
-                                </div>
-                            }
+                            </span>
+                            
                         </span>
                         <span className="col-6" />
                     </span>
 
                     <footer className="fixed-bottom E-antiscrolling">
                         <BadgeListComponent
+                            className="row"
                             forceUpdate={this.state.forceUpdate}
                             turnOffForceUpdate={this.turnOffForceUpdate}
                             curQuestion={this.state.curQuestion.id}
