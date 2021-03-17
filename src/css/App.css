@@ -156,3 +156,7 @@
 .MarqueeContent {
   display: inline-block
 }
+
+.E-question {
+  white-space: pre-wrap;
+}
