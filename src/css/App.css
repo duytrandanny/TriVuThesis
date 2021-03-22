@@ -121,7 +121,7 @@
     border-width: 1px;
     border-style: solid;
     border-radius: 100px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin: 2px;
     padding: 3px;
     text-align: center;
@@ -129,6 +129,7 @@
     font-size: 7pt;
     cursor: pointer;
     flex-grow: 1;
+    flex-basis: 0;
 }
 
 .answer-box:hover {
@@ -155,4 +156,32 @@
 
 .MarqueeContent {
   display: inline-block
+}
+
+.E-question {
+  white-space: pre-wrap;
+}
+
+.E-intro-screen {
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index:1;
+}
+
+.E-dark-theme {
+  color: black !important;
+  border-color: black;
+}
+
+.E-dark-theme:hover {
+  background: lightgray;
+  color: white;
+}
+
+.react-player {
+  z-index:0;
 }

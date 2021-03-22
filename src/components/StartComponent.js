@@ -1,9 +1,7 @@
 import React from 'react';
-import QuestionComponent from "./QuestionComponent";
 import BadgeListComponent from "./BadgeListComponent"
 import TimeComponent from "./TimeComponent"
 import RunningTitleComponent from "./RunningTitleComponent"
-
 
 export default class StartComponent extends React.Component {
     constructor(props) {
@@ -15,7 +13,7 @@ export default class StartComponent extends React.Component {
             badge: [],
             questionData: [],
             badgeData: [],
-            runningTitleData: '' + Array(100).fill('\xa0').join(''),
+            runningTitleData: '', // + Array(100).fill('\xa0').join(''),
             curID: -1,
             forceUpdate: false,
             curQuestion: {
@@ -87,7 +85,7 @@ export default class StartComponent extends React.Component {
                 })
                 .then(() => {
                     this.setState({
-                        curQuestion: this.state.questionData[0],
+                        curQuestion: this.addNewLineHTML(this.state.questionData[0]),
                         curID: 0
                     })
                 })
@@ -123,6 +121,16 @@ export default class StartComponent extends React.Component {
     componentDidUpdate(prevProps, prevState, snapshot) {
 
     }
+
+    addNewLineHTML = (questionData) => {
+        const finalText = (questionData.q.split('\n')).map(str => <span><p>{str}</p><br/></span>);
+        console.log(`${finalText}`);
+        return {
+            ...questionData, 
+            q: finalText,
+        }
+    }
+    
 
     setTime = (newTime) => {
         this.setState({
@@ -175,21 +183,21 @@ export default class StartComponent extends React.Component {
         // this question does NOT require any badge
         if (fetchedQ.requiredBadge.length === 0) {
             this.setState({
-                curQuestion: this.state.questionData.find(x => x.id === link)
+                curQuestion: this.addNewLineHTML(this.state.questionData.find(x => x.id === link))
             }, () => {
                 this.updateBadge()
             })
             // this question requires some badges and player has it
         } else if (fetchedQ.requiredBadge.every(b => b >= 0 && this.state.badge.find(x => b === x.id) !== undefined)) {
             this.setState({
-                curQuestion: this.state.questionData.find(x => x.id === link)
+                curQuestion: this.addNewLineHTML(this.state.questionData.find(x => x.id === link))
             }, () => {
                 this.updateBadge()
             })
             // this question requires the absence of some badges
         } else if (fetchedQ.requiredBadge.every(b => b < 0 && this.state.badge.find(x => (0 - b) === x.id) === undefined)) {
             this.setState({
-                curQuestion: this.state.questionData.find(x => x.id === link)
+                curQuestion: this.addNewLineHTML(this.state.questionData.find(x => x.id === link))
             }, () => {
                 this.updateBadge()
             })
@@ -258,14 +266,7 @@ export default class StartComponent extends React.Component {
                                 </span>
                                 <span className="col-9">
                                     <h6>EVENTS</h6>
-                                    <QuestionComponent
-                                        key={this.state.curQuestion.id}
-                                        id={this.state.curQuestion.id}
-                                        restart={this.restart}
-                                        fetchQuestion={this.fetchQuestion}
-                                        question={this.state.curQuestion}
-                                        setTime={this.setTime}
-                                        setBadge={this.setBadge} />
+                                    <div className="E-question">{this.state.curQuestion.q}</div>
                                 </span>
                             </span>
                         </span>

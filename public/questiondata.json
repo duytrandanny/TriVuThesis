@@ -9,7 +9,8 @@
     "a2Link": null,
     "nextQ": 1,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1,
@@ -23,7 +24,8 @@
     "badgeEarn": [
       0
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 2,
@@ -35,7 +37,8 @@
     "a2Link": null,
     "nextQ": 3,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 3,
@@ -47,7 +50,8 @@
     "a2Link": null,
     "nextQ": 4,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 4,
@@ -61,7 +65,8 @@
     "badgeEarn": [
       14
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 5,
@@ -73,7 +78,8 @@
     "a2Link": null,
     "nextQ": 6,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 6,
@@ -85,7 +91,8 @@
     "a2Link": null,
     "nextQ": 7,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 7,
@@ -97,7 +104,8 @@
     "a2Link": null,
     "nextQ": 8,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 8,
@@ -109,7 +117,8 @@
     "a2Link": 1000,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 9,
@@ -123,7 +132,8 @@
     "badgeEarn": [
       1
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 10,
@@ -135,7 +145,8 @@
     "a2Link": null,
     "nextQ": 11,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 11,
@@ -149,7 +160,8 @@
     "badgeEarn": [
       2
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 12,
@@ -161,7 +173,8 @@
     "a2Link": 1001,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 13,
@@ -175,7 +188,8 @@
     "badgeEarn": [
       3
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 14,
@@ -187,7 +201,8 @@
     "a2Link": null,
     "nextQ": 15,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 15,
@@ -201,7 +216,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       3
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 16,
@@ -213,7 +229,8 @@
     "a2Link": null,
     "nextQ": 17,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 17,
@@ -227,7 +244,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       3
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 18,
@@ -239,7 +257,8 @@
     "a2Link": null,
     "nextQ": 19,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 19,
@@ -253,7 +272,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       3
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 20,
@@ -269,7 +289,8 @@
     ],
     "requiredBadge": [
       3
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 21,
@@ -281,7 +302,8 @@
     "a2Link": null,
     "nextQ": 22,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 22,
@@ -295,7 +317,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       3
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 23,
@@ -311,7 +334,8 @@
     ],
     "requiredBadge": [
       3
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 24,
@@ -325,7 +349,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       5
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 25,
@@ -337,7 +362,8 @@
     "a2Link": null,
     "nextQ": 26,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 26,
@@ -349,7 +375,8 @@
     "a2Link": null,
     "nextQ": 27,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 27,
@@ -361,7 +388,8 @@
     "a2Link": null,
     "nextQ": 28,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 28,
@@ -373,7 +401,8 @@
     "a2Link": null,
     "nextQ": 29,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 29,
@@ -385,7 +414,8 @@
     "a2Link": null,
     "nextQ": 30,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 30,
@@ -397,7 +427,8 @@
     "a2Link": 1002,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 31,
@@ -411,7 +442,8 @@
     "badgeEarn": [
       7
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 32,
@@ -423,7 +455,8 @@
     "a2Link": null,
     "nextQ": 33,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 33,
@@ -435,7 +468,8 @@
     "a2Link": null,
     "nextQ": 34,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 34,
@@ -447,7 +481,8 @@
     "a2Link": null,
     "nextQ": 35,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 35,
@@ -459,7 +494,8 @@
     "a2Link": null,
     "nextQ": 36,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 36,
@@ -471,7 +507,8 @@
     "a2Link": null,
     "nextQ": 37,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 37,
@@ -483,7 +520,8 @@
     "a2Link": null,
     "nextQ": 38,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 38,
@@ -495,7 +533,8 @@
     "a2Link": null,
     "nextQ": 39,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 39,
@@ -507,7 +546,8 @@
     "a2Link": null,
     "nextQ": 40,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 40,
@@ -519,7 +559,8 @@
     "a2Link": null,
     "nextQ": 41,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 41,
@@ -531,7 +572,8 @@
     "a2Link": null,
     "nextQ": 42,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 42,
@@ -543,7 +585,8 @@
     "a2Link": 1010,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 43,
@@ -557,7 +600,8 @@
     "badgeEarn": [
       15
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 44,
@@ -569,7 +613,8 @@
     "a2Link": null,
     "nextQ": 45,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 45,
@@ -581,7 +626,8 @@
     "a2Link": null,
     "nextQ": 46,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 46,
@@ -595,7 +641,8 @@
     "badgeEarn": [
       8
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 47,
@@ -607,7 +654,8 @@
     "a2Link": null,
     "nextQ": 48,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 48,
@@ -623,7 +671,8 @@
       3,
       7,
       15
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 49,
@@ -635,7 +684,8 @@
     "a2Link": null,
     "nextQ": 50,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 50,
@@ -647,7 +697,8 @@
     "a2Link": null,
     "nextQ": 51,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 51,
@@ -659,7 +710,8 @@
     "a2Link": null,
     "nextQ": 52,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 52,
@@ -675,7 +727,8 @@
     ],
     "requiredBadge": [
       15
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 53,
@@ -692,7 +745,8 @@
     "requiredBadge": [
       7,
       15
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 54,
@@ -706,7 +760,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       7
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 55,
@@ -718,7 +773,8 @@
     "a2Link": null,
     "nextQ": 56,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 56,
@@ -732,7 +788,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       9
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 57,
@@ -746,7 +803,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       7
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 58,
@@ -758,7 +816,8 @@
     "a2Link": null,
     "nextQ": 59,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 59,
@@ -770,7 +829,8 @@
     "a2Link": null,
     "nextQ": 60,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 60,
@@ -782,7 +842,8 @@
     "a2Link": null,
     "nextQ": 61,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 61,
@@ -791,10 +852,11 @@
     "a1": "Yes",
     "a2": "No",
     "a1Link": 62,
-    "a2Link": 1108,
+    "a2Link": 1107,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 62,
@@ -808,19 +870,21 @@
     "badgeEarn": [
       11
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 63,
     "q": "Rise of cities in Tigris and Euphrates river.",
-    "time": -4300,
+    "time": -4500,
     "a1": null,
     "a2": null,
     "a1Link": null,
     "a2Link": null,
     "nextQ": 64,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 64,
@@ -834,7 +898,8 @@
     "badgeEarn": [
       12
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 65,
@@ -848,7 +913,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       9
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 66,
@@ -862,7 +928,8 @@
     "badgeEarn": [
       6
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 67,
@@ -874,7 +941,8 @@
     "a2Link": null,
     "nextQ": 68,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 68,
@@ -886,7 +954,8 @@
     "a2Link": null,
     "nextQ": 69,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 69,
@@ -900,7 +969,8 @@
     "badgeEarn": [
       13
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 70,
@@ -912,7 +982,8 @@
     "a2Link": null,
     "nextQ": 71,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 71,
@@ -926,7 +997,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       7
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 72,
@@ -938,7 +1010,8 @@
     "a2Link": null,
     "nextQ": 73,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 73,
@@ -952,7 +1025,8 @@
     "badgeEarn": [
       17
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 74,
@@ -964,7 +1038,8 @@
     "a2Link": null,
     "nextQ": 75,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 75,
@@ -976,7 +1051,8 @@
     "a2Link": null,
     "nextQ": 76,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 76,
@@ -990,7 +1066,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       7
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 77,
@@ -1004,7 +1081,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       9
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 78,
@@ -1016,7 +1094,8 @@
     "a2Link": null,
     "nextQ": 79,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 79,
@@ -1028,7 +1107,8 @@
     "a2Link": null,
     "nextQ": 80,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 80,
@@ -1040,7 +1120,8 @@
     "a2Link": null,
     "nextQ": 81,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 81,
@@ -1052,7 +1133,8 @@
     "a2Link": null,
     "nextQ": 82,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 82,
@@ -1066,19 +1148,21 @@
     "badgeEarn": [],
     "requiredBadge": [
       7
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 83,
-    "q": "First war is recorded in History between Elam and Sumer. The King of Kish commands the forces of the Sumer against the Elamites over what is now modern-day Iraq. \nDoes this war proceed according to History?",
+    "q": "First war is recorded in history between Elam and Sumer. The King of Kish commands the forces of the Sumer against the Elamites over what is now modern-day Iraq. \nDoes this war proceed according to History?",
     "time": -2700,
     "a1": "Yes",
     "a2": "No",
     "a1Link": 84,
-    "a2Link": 1109,
+    "a2Link": 1108,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 84,
@@ -1092,7 +1176,8 @@
     "badgeEarn": [
       18
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 85,
@@ -1106,7 +1191,8 @@
     "badgeEarn": [
       19
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 86,
@@ -1118,7 +1204,8 @@
     "a2Link": null,
     "nextQ": 87,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 87,
@@ -1130,7 +1217,8 @@
     "a2Link": null,
     "nextQ": 88,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 88,
@@ -1144,7 +1232,8 @@
     "badgeEarn": [
       20
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 89,
@@ -1156,7 +1245,8 @@
     "a2Link": null,
     "nextQ": 90,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 90,
@@ -1170,7 +1260,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       11
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 91,
@@ -1182,7 +1273,8 @@
     "a2Link": null,
     "nextQ": 92,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 92,
@@ -1196,7 +1288,8 @@
     "badgeEarn": [
       21
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 93,
@@ -1210,7 +1303,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       18
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 94,
@@ -1222,7 +1316,8 @@
     "a2Link": null,
     "nextQ": 95,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 95,
@@ -1231,12 +1326,13 @@
     "a1": "Yes",
     "a2": "No",
     "a1Link": 96,
-    "a2Link": 1110,
+    "a2Link": 1109,
     "nextQ": null,
     "badgeEarn": [],
     "requiredBadge": [
       18
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 96,
@@ -1250,7 +1346,8 @@
     "badgeEarn": [
       22
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 97,
@@ -1262,7 +1359,8 @@
     "a2Link": null,
     "nextQ": 98,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 98,
@@ -1276,7 +1374,8 @@
     "badgeEarn": [
       23
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 99,
@@ -1288,7 +1387,8 @@
     "a2Link": null,
     "nextQ": 100,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 100,
@@ -1302,7 +1402,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 101,
@@ -1314,7 +1415,8 @@
     "a2Link": null,
     "nextQ": 102,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 102,
@@ -1329,7 +1431,8 @@
     "requiredBadge": [
       9,
       18
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 103,
@@ -1341,7 +1444,8 @@
     "a2Link": null,
     "nextQ": 104,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 104,
@@ -1353,7 +1457,8 @@
     "a2Link": null,
     "nextQ": 105,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 105,
@@ -1369,7 +1474,8 @@
     ],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 106,
@@ -1381,7 +1487,8 @@
     "a2Link": null,
     "nextQ": 107,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 107,
@@ -1393,7 +1500,8 @@
     "a2Link": null,
     "nextQ": 108,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 108,
@@ -1407,7 +1515,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       23
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 109,
@@ -1421,7 +1530,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 110,
@@ -1433,7 +1543,8 @@
     "a2Link": null,
     "nextQ": 111,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 111,
@@ -1445,7 +1556,8 @@
     "a2Link": null,
     "nextQ": 112,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 112,
@@ -1457,7 +1569,8 @@
     "a2Link": null,
     "nextQ": 113,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 113,
@@ -1471,7 +1584,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 114,
@@ -1485,7 +1599,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 115,
@@ -1501,7 +1616,8 @@
     ],
     "requiredBadge": [
       11
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 116,
@@ -1515,7 +1631,8 @@
     "badgeEarn": [
       26
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 117,
@@ -1527,7 +1644,8 @@
     "a2Link": null,
     "nextQ": 118,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 118,
@@ -1541,7 +1659,8 @@
     "badgeEarn": [
       27
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 119,
@@ -1553,7 +1672,8 @@
     "a2Link": null,
     "nextQ": 120,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 120,
@@ -1565,7 +1685,8 @@
     "a2Link": null,
     "nextQ": 121,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 121,
@@ -1577,7 +1698,8 @@
     "a2Link": null,
     "nextQ": 122,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 122,
@@ -1589,7 +1711,8 @@
     "a2Link": null,
     "nextQ": 123,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 123,
@@ -1601,7 +1724,8 @@
     "a2Link": null,
     "nextQ": 124,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 124,
@@ -1613,7 +1737,8 @@
     "a2Link": null,
     "nextQ": 125,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 125,
@@ -1629,7 +1754,8 @@
     ],
     "requiredBadge": [
       11
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 126,
@@ -1641,7 +1767,8 @@
     "a2Link": null,
     "nextQ": 127,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 127,
@@ -1655,7 +1782,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       11
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 128,
@@ -1667,7 +1795,8 @@
     "a2Link": null,
     "nextQ": 129,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 129,
@@ -1679,7 +1808,8 @@
     "a2Link": null,
     "nextQ": 130,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 130,
@@ -1693,7 +1823,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       11
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 131,
@@ -1705,7 +1836,8 @@
     "a2Link": null,
     "nextQ": 132,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 132,
@@ -1719,7 +1851,8 @@
     "badgeEarn": [
       29
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 133,
@@ -1731,7 +1864,8 @@
     "a2Link": null,
     "nextQ": 134,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 134,
@@ -1745,7 +1879,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 135,
@@ -1757,7 +1892,8 @@
     "a2Link": null,
     "nextQ": 136,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 136,
@@ -1771,7 +1907,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 137,
@@ -1783,7 +1920,8 @@
     "a2Link": null,
     "nextQ": 138,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 138,
@@ -1799,7 +1937,8 @@
     ],
     "requiredBadge": [
       11
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 139,
@@ -1813,7 +1952,8 @@
     "badgeEarn": [
       31
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 140,
@@ -1827,7 +1967,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 141,
@@ -1841,7 +1982,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 142,
@@ -1853,7 +1995,8 @@
     "a2Link": null,
     "nextQ": 143,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 143,
@@ -1869,7 +2012,8 @@
     ],
     "requiredBadge": [
       11
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 144,
@@ -1883,7 +2027,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       11
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 145,
@@ -1895,7 +2040,8 @@
     "a2Link": null,
     "nextQ": 146,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 146,
@@ -1911,7 +2057,8 @@
     ],
     "requiredBadge": [
       11
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 147,
@@ -1925,7 +2072,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 148,
@@ -1939,7 +2087,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 149,
@@ -1953,7 +2102,8 @@
     "badgeEarn": [
       34
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 150,
@@ -1967,7 +2117,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       11
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 151,
@@ -1979,7 +2130,8 @@
     "a2Link": null,
     "nextQ": 152,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 152,
@@ -1993,7 +2145,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 153,
@@ -2007,7 +2160,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       11
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 154,
@@ -2021,7 +2175,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 155,
@@ -2035,7 +2190,8 @@
     "badgeEarn": [
       35
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 156,
@@ -2047,7 +2203,8 @@
     "a2Link": null,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 157,
@@ -2061,7 +2218,8 @@
     "badgeEarn": [
       36
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 158,
@@ -2073,7 +2231,8 @@
     "a2Link": null,
     "nextQ": 159,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 159,
@@ -2085,7 +2244,8 @@
     "a2Link": null,
     "nextQ": 160,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 160,
@@ -2097,7 +2257,8 @@
     "a2Link": null,
     "nextQ": 161,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 161,
@@ -2109,7 +2270,8 @@
     "a2Link": null,
     "nextQ": 162,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 162,
@@ -2123,7 +2285,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       36
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 165,
@@ -2135,7 +2298,8 @@
     "a2Link": null,
     "nextQ": 166,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 166,
@@ -2147,7 +2311,8 @@
     "a2Link": null,
     "nextQ": 167,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 167,
@@ -2159,7 +2324,8 @@
     "a2Link": null,
     "nextQ": 168,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 168,
@@ -2173,7 +2339,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 169,
@@ -2187,7 +2354,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       -22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 170,
@@ -2201,7 +2369,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 171,
@@ -2215,7 +2384,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       -22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 172,
@@ -2229,7 +2399,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 173,
@@ -2243,7 +2414,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       -22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 174,
@@ -2257,7 +2429,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       -22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 175,
@@ -2271,7 +2444,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 176,
@@ -2285,7 +2459,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       -22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 177,
@@ -2297,7 +2472,8 @@
     "a2Link": null,
     "nextQ": 178,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 178,
@@ -2309,7 +2485,8 @@
     "a2Link": null,
     "nextQ": 179,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 179,
@@ -2323,7 +2500,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       32
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 180,
@@ -2337,7 +2515,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       32
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 181,
@@ -2351,7 +2530,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 182,
@@ -2365,7 +2545,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       -22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 183,
@@ -2381,7 +2562,8 @@
     ],
     "requiredBadge": [
       28
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 184,
@@ -2395,7 +2577,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       32
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 185,
@@ -2409,7 +2592,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       -32
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 186,
@@ -2421,7 +2605,8 @@
     "a2Link": null,
     "nextQ": 187,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 187,
@@ -2433,7 +2618,8 @@
     "a2Link": null,
     "nextQ": 188,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 188,
@@ -2445,7 +2631,8 @@
     "a2Link": null,
     "nextQ": 189,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 189,
@@ -2459,7 +2646,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 190,
@@ -2471,7 +2659,8 @@
     "a2Link": null,
     "nextQ": 191,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 191,
@@ -2483,7 +2672,8 @@
     "a2Link": null,
     "nextQ": 192,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 192,
@@ -2497,7 +2687,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 193,
@@ -2511,7 +2702,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 194,
@@ -2525,7 +2717,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 195,
@@ -2539,7 +2732,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       -22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 196,
@@ -2555,7 +2749,8 @@
     ],
     "requiredBadge": [
       -22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 197,
@@ -2569,7 +2764,8 @@
     "badgeEarn": [
       37
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 198,
@@ -2581,7 +2777,8 @@
     "a2Link": null,
     "nextQ": 199,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 199,
@@ -2595,7 +2792,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 200,
@@ -2609,7 +2807,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 201,
@@ -2623,7 +2822,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       -22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 202,
@@ -2637,7 +2837,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 203,
@@ -2649,7 +2850,8 @@
     "a2Link": null,
     "nextQ": 204,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 204,
@@ -2663,7 +2865,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 205,
@@ -2677,7 +2880,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       -22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 206,
@@ -2689,7 +2893,8 @@
     "a2Link": null,
     "nextQ": 207,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 207,
@@ -2703,7 +2908,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 208,
@@ -2717,7 +2923,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       -22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 209,
@@ -2733,7 +2940,8 @@
     ],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 210,
@@ -2747,7 +2955,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       -22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 211,
@@ -2761,7 +2970,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 212,
@@ -2775,7 +2985,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       -22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 213,
@@ -2789,7 +3000,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 214,
@@ -2803,7 +3015,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 215,
@@ -2815,7 +3028,8 @@
     "a2Link": null,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 216,
@@ -2829,7 +3043,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {  
     "id": 217,
@@ -2843,7 +3058,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 218,
@@ -2857,7 +3073,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 219,
@@ -2871,7 +3088,8 @@
     "badgeEarn": [],
     "requiredBadge": [
       22
-    ]
+    ],
+    "speculate": false
   },
   {
     "id": 220,
@@ -2883,7 +3101,8 @@
     "a2Link": null,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
 
   
@@ -2906,7 +3125,8 @@
     "a2Link": null,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1000,
@@ -2918,7 +3138,8 @@
     "a2Link": null,
     "nextQ": 2000,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1001,
@@ -2930,7 +3151,8 @@
     "a2Link": null,
     "nextQ": 1100,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1002,
@@ -2942,7 +3164,8 @@
     "a2Link": null,
     "nextQ": 1003,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1003,
@@ -2954,7 +3177,8 @@
     "a2Link": null,
     "nextQ": 1004,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1004,
@@ -2966,7 +3190,8 @@
     "a2Link": null,
     "nextQ": 1005,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1005,
@@ -2978,7 +3203,8 @@
     "a2Link": null,
     "nextQ": 1006,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1006,
@@ -2990,7 +3216,8 @@
     "a2Link": null,
     "nextQ": 1007,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1007,
@@ -3002,7 +3229,8 @@
     "a2Link": null,
     "nextQ": 1008,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1008,
@@ -3014,7 +3242,8 @@
     "a2Link": null,
     "nextQ": 1009,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1009,
@@ -3026,7 +3255,8 @@
     "a2Link": null,
     "nextQ": 1010,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1010,
@@ -3038,7 +3268,8 @@
     "a2Link": null,
     "nextQ": 1011,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1011,
@@ -3050,7 +3281,8 @@
     "a2Link": null,
     "nextQ": null,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1012,
@@ -3064,7 +3296,8 @@
     "badgeEarn": [
       7
     ],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1013,
@@ -3076,7 +3309,8 @@
     "a2Link": null,
     "nextQ": 45,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1100,
@@ -3088,7 +3322,8 @@
     "a2Link": null,
     "nextQ": 1101,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1101,
@@ -3100,7 +3335,8 @@
     "a2Link": null,
     "nextQ": 1102,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1102,
@@ -3112,7 +3348,8 @@
     "a2Link": null,
     "nextQ": 1103,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1103,
@@ -3124,7 +3361,8 @@
     "a2Link": null,
     "nextQ": 1104,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1104,
@@ -3136,7 +3374,8 @@
     "a2Link": null,
     "nextQ": 1105,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1105,
@@ -3148,7 +3387,8 @@
     "a2Link": null,
     "nextQ": 1106,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1106,
@@ -3160,7 +3400,8 @@
     "a2Link": null,
     "nextQ": 2000,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1107,
@@ -3170,24 +3411,13 @@
     "a2": null,
     "a1Link": null,
     "a2Link": null,
-    "nextQ": 1108,
+    "nextQ": 62,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
     "id": 1108,
-    "q": "Invention of the plow.",
-    "time": -4500,
-    "a1": null,
-    "a2": null,
-    "a1Link": null,
-    "a2Link": null,
-    "nextQ": 63,
-    "badgeEarn": [],
-    "requiredBadge": []
-  },
-  {
-    "id": 1109,
     "q": "The Sumerians and the Elamites negotiate their differences.",
     "time": -2700,
     "a1": null,
@@ -3196,10 +3426,11 @@
     "a2Link": null,
     "nextQ": 85,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   },
   {
-    "id": 1110,
+    "id": 1109,
     "q": "Sargon rules Mesopotamia and does not conquer.",
     "time": -2300,
     "a1": null,
@@ -3208,6 +3439,7 @@
     "a2Link": null,
     "nextQ": 97,
     "badgeEarn": [],
-    "requiredBadge": []
+    "requiredBadge": [],
+    "speculate": false
   }
 ]
