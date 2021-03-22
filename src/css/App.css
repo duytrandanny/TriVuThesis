@@ -160,6 +160,7 @@
 
 .E-question {
   white-space: pre-wrap;
+<<<<<<< HEAD
 }
 
 .E-intro-screen {
@@ -184,4 +185,6 @@
 
 .react-player {
   z-index:0;
+=======
+>>>>>>> aaee75a749af32d8c9c1ff428bca58496c053c92
 }
