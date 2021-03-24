@@ -7,23 +7,26 @@ export default class HomeComponent extends React.Component {
         super(props);
 
         this.state = {
+            url: 'https://vimeo.com/527694042',
+            loop: false,
             isButtonOn: false,
             mute: true,
-            buttonClass: 'E-dark-theme'
+            isIntroFinished: false
         }
     }
 
     handleProgress = () => {
-        if (this.player.getCurrentTime() > 47) {
+        if (this.player.getCurrentTime() > 30) {
             this.setState({
-                isButtonOn: true
+                isIntroFinished: true
             })
         }
     }
 
     handleEnded = () => {
+        console.log("video ended")
         this.setState({
-            buttonClass: ''
+            isButtonOn: true,
         })
     }
 
@@ -44,34 +47,54 @@ export default class HomeComponent extends React.Component {
     render() {
         return (
             <div className="">
-                <ReactPlayer
-                    ref={this.ref}
-                    className='react-player fixed-bottom'
-                    url='videos/titlesequence.MP4'
-                    playing={true}
-                    muted={true}
-                    width='100%'
-                    height='100%'
-                    controls={true}
-                    onProgress={this.handleProgress}
-                    onEnded={this.handleEnded}
-                />
+                {
+                    this.state.isIntroFinished &&
+                    <ReactPlayer
+                        ref={this.ref}
+                        className='react-player fixed-bottom'
+                        url='https://vimeo.com/527694350'
+                        playing={true}
+                        muted={true}
+                        width='100%'
+                        height='100%'
+                        controls={false}
+                        loop={true}
+                        vimeoConfig={{preload: true}}
+                    />
+                }
+                {
+                    !this.state.isButtonOn &&
+                    <ReactPlayer
+                        ref={this.ref}
+                        className='react-player fixed-bottom'
+                        url='https://vimeo.com/527694042'
+                        playing={true}
+                        muted={false}
+                        width='100%'
+                        height='100%'
+                        controls={false}
+                        onProgress={this.handleProgress}
+                        onEnded={this.handleEnded}
+                    />
+                }
                 {
                     this.state.isButtonOn &&
-                    <Fade in={this.state.isButtonOn}>
-                        <div className="row E-intro-screen">
-                            <span className="col-4"></span>
-                            <span className="col-4 answer-box-wrap">
-                                <span className={`answer-box ${this.state.buttonClass}`} onClick={() => this.handleOnClick('howtoplay')}>
-                                    HOW TO PLAY
+                    <span>
+                        <Fade in={this.state.isButtonOn}>
+                            <div className="row E-intro-screen">
+                                <span className="col-4"></span>
+                                <span className="col-4 answer-box-wrap">
+                                    <span className='answer-box E-dark-theme' onClick={() => this.handleOnClick('howtoplay')}>
+                                        HOW TO PLAY
+                                    </span>
+                                    <span className='answer-box E-dark-theme' onClick={() => this.handleOnClick('start')}>
+                                        PLAY NOW
+                                    </span>
                                 </span>
-                                <span className={`answer-box ${this.state.buttonClass}`} onClick={() => this.handleOnClick('start')}>
-                                    PLAY NOW
-                                </span>
-                            </span>
-                            <span className="col-4"></span>
-                        </div>
-                    </Fade>
+                                <span className="col-4"></span>
+                            </div>
+                        </Fade>
+                    </span>
                 }
             </div>
         )
