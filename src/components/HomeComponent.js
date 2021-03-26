@@ -21,6 +21,12 @@ export default class HomeComponent extends React.Component {
         })
     }
 
+    handleProgress = () => {
+        if(this.player.playing === false) {
+            this.player.playing = true
+        }
+    }
+
     handleAudioLoop = () => {
         this.player.seekTo(50.0);
     }
@@ -46,14 +52,17 @@ export default class HomeComponent extends React.Component {
                 {/** audio */}
                 <ReactPlayer
                     ref={this.ref}
-                    url='https://soundcloud.com/trivu6198/entropy-intro-track'
+                    url='audio/ENTROPY_INTRO_TRACK.mp3'
+                    onProgress={this.handleProgress}
                     onEnded={this.handleAudioLoop}
+                    onPause={() => this.player.playing=true}
                     playing={true}
                     width='0'
                     height='0'
                     config={{
-                        soundcloud: {
-                            auto_play: true
+                        file: {
+                            forceAudio: true
+                            
                         }
                     }}
                 />
