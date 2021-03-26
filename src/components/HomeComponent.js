@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import { Fade } from "@chakra-ui/react"
+import { Fade } from "@chakra-ui/react";
 
 export default class HomeComponent extends React.Component {
     constructor(props) {
@@ -11,23 +11,18 @@ export default class HomeComponent extends React.Component {
             loop: false,
             isButtonOn: false,
             mute: true,
-            isIntroFinished: false
-        }
-    }
-
-    handleProgress = () => {
-        if (this.player.getCurrentTime() > 30) {
-            this.setState({
-                isIntroFinished: true
-            })
+            isIntroFinished: true
         }
     }
 
     handleEnded = () => {
-        console.log("video ended")
         this.setState({
-            isButtonOn: true,
+            isButtonOn: true
         })
+    }
+
+    handleAudioLoop = () => {
+        this.player.seekTo(50.0);
     }
 
     handleOnClick = (link) => this.props.history.push(`/${link}`);
@@ -40,6 +35,7 @@ export default class HomeComponent extends React.Component {
         }, 500)
     }
 
+
     ref = player => {
         this.player = player
     }
@@ -47,10 +43,23 @@ export default class HomeComponent extends React.Component {
     render() {
         return (
             <div className="">
-                {
+                {/** audio */}
+                <ReactPlayer
+                    ref={this.ref}
+                    url='https://soundcloud.com/trivu6198/entropy-intro-track'
+                    onEnded={this.handleAudioLoop}
+                    playing={true}
+                    width='0'
+                    height='0'
+                    config={{
+                        soundcloud: {
+                            auto_play: true
+                        }
+                    }}
+                />
+                { /** loop video */
                     this.state.isIntroFinished &&
                     <ReactPlayer
-                        ref={this.ref}
                         className='react-player fixed-bottom'
                         url='https://vimeo.com/527694350'
                         playing={true}
@@ -59,21 +68,18 @@ export default class HomeComponent extends React.Component {
                         height='100%'
                         controls={false}
                         loop={true}
-                        vimeoConfig={{preload: true}}
                     />
                 }
-                {
+                { /** intro video */
                     !this.state.isButtonOn &&
                     <ReactPlayer
-                        ref={this.ref}
                         className='react-player fixed-bottom'
                         url='https://vimeo.com/527694042'
                         playing={true}
-                        muted={false}
+                        muted={true}
                         width='100%'
                         height='100%'
                         controls={false}
-                        onProgress={this.handleProgress}
                         onEnded={this.handleEnded}
                     />
                 }
