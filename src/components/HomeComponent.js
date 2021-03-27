@@ -7,11 +7,13 @@ export default class HomeComponent extends React.Component {
         super(props);
 
         this.state = {
+            start: false,
             url: 'https://vimeo.com/527694042',
             loop: false,
             isButtonOn: false,
             mute: true,
-            isIntroFinished: true
+            isIntroFinished: true,
+            isBlackBackgroundOn: 'E-black-background'
         }
     }
 
@@ -33,14 +35,19 @@ export default class HomeComponent extends React.Component {
 
     handleOnClick = (link) => this.props.history.push(`/${link}`);
 
+    startPage = () => this.setState({
+            start: true,
+            isBlackBackgroundOn: ''
+        })
+
     componentDidMount() {
-        setTimeout(() => {
-            this.setState({
-                mute: false
-            })
-        }, 500)
     }
 
+    componentDidUpdate() {
+        if(!this.player.muted) {
+            this.player.muted = true
+        }
+    }
 
     ref = player => {
         this.player = player
@@ -48,70 +55,87 @@ export default class HomeComponent extends React.Component {
 
     render() {
         return (
-            <div className="">
-                {/** audio */}
-                <ReactPlayer
-                    ref={this.ref}
-                    url='audio/ENTROPY_INTRO_TRACK.mp3'
-                    onProgress={this.handleProgress}
-                    onEnded={this.handleAudioLoop}
-                    onPause={() => this.player.playing=true}
-                    playing={true}
-                    width='0'
-                    height='0'
-                    config={{
-                        file: {
-                            forceAudio: true
-                            
-                        }
-                    }}
-                />
-                { /** loop video */
-                    this.state.isIntroFinished &&
-                    <ReactPlayer
-                        className='react-player fixed-bottom'
-                        url='https://vimeo.com/527694350'
-                        playing={true}
-                        muted={true}
-                        width='100%'
-                        height='100%'
-                        controls={false}
-                        loop={true}
-                    />
-                }
-                { /** intro video */
-                    !this.state.isButtonOn &&
-                    <ReactPlayer
-                        className='react-player fixed-bottom'
-                        url='https://vimeo.com/527694042'
-                        playing={true}
-                        muted={true}
-                        width='100%'
-                        height='100%'
-                        controls={false}
-                        onEnded={this.handleEnded}
-                    />
-                }
-                {
-                    this.state.isButtonOn &&
-                    <span>
-                        <Fade in={this.state.isButtonOn}>
-                            <div className="row E-intro-screen">
-                                <span className="col-4"></span>
-                                <span className="col-4 answer-box-wrap">
-                                    <span className='answer-box E-dark-theme' onClick={() => this.handleOnClick('howtoplay')}>
-                                        HOW TO PLAY
-                                    </span>
-                                    <span className='answer-box E-dark-theme' onClick={() => this.handleOnClick('start')}>
-                                        PLAY NOW
-                                    </span>
+            <span>
+                <Fade in={!this.state.start}>
+                    <span className='E-intro-screen-start'>
+                        <span className="row justify-content-center">
+                            <img className="App-logo-intro" alt="entropy logo" src={process.env.PUBLIC_URL + '/entropy-logo.png'} />
+                        </span>
+                        <div className="row justify-content-center" style={{paddingTop: "50px"}}>
+                            <span className="col-md-5 col-4"></span>
+                            <span className="col-md-2 col-4 answer-box-wrap">
+                                <span className='answer-box' onClick={this.startPage}>
+                                    START
                                 </span>
-                                <span className="col-4"></span>
-                            </div>
-                        </Fade>
+                            </span>
+                            <span className="col-md-5 col-4"></span>
+                        </div>
                     </span>
-                }
-            </div>
+                </Fade> 
+                <div className={this.state.isBlackBackgroundOn}/>
+                <div className="">
+                    <ReactPlayer
+                        ref={this.ref}
+                        url='audio/ENTROPY_INTRO_TRACK.mp3'
+                        onProgress={this.handleProgress}
+                        onEnded={this.handleAudioLoop}
+                        playing={this.state.start}
+                        width='100'
+                        height='100'
+                        config={{
+                            file: {
+                                forceAudio: true
+                            }
+                        }}
+                    />
+                    { /** loop video */
+                        this.state.isIntroFinished &&
+                        <div className='player-wrapper'>
+                            <ReactPlayer
+                                className='react-player'
+                                url='https://vimeo.com/527694350'
+                                playing={this.state.start}
+                                muted={true}
+                                controls={false}
+                                loop={true}
+                            />
+                        </div>
+                    }
+                    { /** intro video */
+                        !this.state.isButtonOn &&
+                        <div className='player-wrapper'>
+                            <ReactPlayer
+                                className='react-player'
+                                url='https://vimeo.com/527694042'
+                                playing={this.state.start}
+                                muted={true}
+                                controls={false}
+                                loop={false}
+                                onEnded={this.handleEnded}
+                            />
+                        </div>
+                    }
+                    {
+                        this.state.isButtonOn &&
+                        <span>
+                            <Fade in={this.state.isButtonOn}>
+                                <div className="row E-intro-screen">
+                                    <span className="col-4"></span>
+                                    <span className="col-4 answer-box-wrap">
+                                        <span className='answer-box E-dark-theme' onClick={() => this.handleOnClick('howtoplay')}>
+                                            HOW TO PLAY
+                                        </span>
+                                        <span className='answer-box E-dark-theme' onClick={() => this.handleOnClick('start')}>
+                                            PLAY NOW
+                                        </span>
+                                    </span>
+                                    <span className="col-4"></span>
+                                </div>
+                            </Fade>
+                        </span>
+                    }
+                </div>
+            </span>
         )
     }
 }
