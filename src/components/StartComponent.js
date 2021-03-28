@@ -2,6 +2,8 @@ import React from 'react';
 import BadgeListComponent from "./BadgeListComponent"
 import TimeComponent from "./TimeComponent"
 import RunningTitleComponent from "./RunningTitleComponent"
+import ReactPlayer from 'react-player';
+import Header from './Header'
 
 export default class StartComponent extends React.Component {
     constructor(props) {
@@ -217,6 +219,8 @@ export default class StartComponent extends React.Component {
         }, () => this.fetchQuestion(link))
     }
 
+    handleReroute = (page) => this.props.history.push(`/${page}`);
+
     turnOffForceUpdate = () => { this.setState({ forceUpdate: false }) }
 
     restart = () => {
@@ -228,107 +232,113 @@ export default class StartComponent extends React.Component {
         })
     }
 
+    ref = player => {
+        this.player = player
+    }
+
     render() {
         return (
             this.state._isLoading ?
                 <h1>Loading...</h1> :
-                <div className="E-body">
-                    <span className="row mt-5 ">
-                        <span className="col-1" />
-                        <span className="col-1">
-                            <img className="App-logo" alt="entropy logo" src={process.env.PUBLIC_URL + '/entropy-logo.png'} />
-                        </span>
-                        <span className="col-7" />
-                        <span className="col-1">
-                            <h6>HOW TO PLAY</h6>
-                        </span>
-                        <span className="col-1">
-                            <h6>ABOUT US</h6>
-                        </span>
-                        <span className="col-1" />
-                    </span>
-
-                    
-
-                    <span className="row E-content">
-                        <span className="col-1"/>
-                        <span className="col-5 p-0">
-                            <RunningTitleComponent curTime={this.state.curQuestion.time} data={this.state.runningTitleData} />
-                        </span>
-                        <span className="col-6"/>
-                        <span className="w-100"/>
-                        <span className="col-1"/>
-                        <span className="col-5 E-main-content">
-                            <span className="row">
-                                <span className="col-3">
-                                    <h6>TIME</h6>
-                                    <TimeComponent time={this.state.curQuestion.time} />
+                <span>
+                    <div className="E-body">
+                        <span className="row">
+                            <span className="col-6"/>
+                            <div className="col-6 d-flex justify-content-center">
+                                <span className="E-viewport-wrapper">
+                                    <ReactPlayer
+                                        ref={this.player}
+                                        className='react-player E-viewport'
+                                        url='https://www.youtube.com/watch?v=m6PGIto3FuI'
+                                        playing={true}
+                                        muted={true}
+                                        width= "326px"
+                                        height= "760px"
+                                        controls={false}
+                                        loop={true}
+                                    />
                                 </span>
-                                <span className="col-9">
-                                    <h6>EVENTS</h6>
-                                    <div className="E-question">{this.state.curQuestion.q}</div>
+                            </div>
+                        </span>
+                        <span className="row E-content">
+                            <span className="col-1"/>
+                            <span className="col-5 p-0">
+                                <RunningTitleComponent curTime={this.state.curQuestion.time} data={this.state.runningTitleData} />
+                            </span>
+                            <span className="col-6"/>
+                            <span className="w-100"/>
+                            <span className="col-1"/>
+                            <span className="col-5 E-main-content">
+                                <span className="row">
+                                    <span className="col-3">
+                                        <h6>TIME</h6>
+                                        <TimeComponent time={this.state.curQuestion.time} />
+                                    </span>
+                                    <span className="col-9">
+                                        <h6>EVENTS</h6>
+                                        <div className="E-question">{this.state.curQuestion.q}</div>
+                                    </span>
                                 </span>
+                            </span>
+
+                            <span className="col-6">
                             </span>
                         </span>
 
-                        <span className="col-6" />
-                    </span>
-
-                    <span className="row">
-                        <span className="col-1" />
-                        <span className="col-5">
-                            <span className="row">
-                                <span className="col-3"/>
-                                <span className="col-9 answer-box-wrap">
-                                {
-                                    this.state.curQuestion.nextQ === null &&
-                                    this.state.curQuestion.id !== 2000 && 
-                                    <span className="answer-box"
-                                        onClick={() => this.answerHandler(this.state.curQuestion.a1Link)}>
-                                        {this.state.curQuestion.a1}
+                        <span className="row">
+                            <span className="col-1" />
+                            <span className="col-5" style={{padding: 0}}>
+                                <span className="row">
+                                    <span className="col-3"/>
+                                    <span className="col-9 answer-box-wrap">
+                                    {
+                                        this.state.curQuestion.nextQ === null &&
+                                        this.state.curQuestion.id !== 2000 && 
+                                        <span className="answer-box"
+                                            onClick={() => this.answerHandler(this.state.curQuestion.a1Link)}>
+                                            {this.state.curQuestion.a1}
+                                        </span>
+                                    }
+                                    {
+                                        this.state.curQuestion.nextQ === null &&
+                                        this.state.curQuestion.id !== 2000 && 
+                                        <span className="answer-box"
+                                            onClick={() => this.answerHandler(this.state.curQuestion.a2Link)}>
+                                            {this.state.curQuestion.a2}
+                                        </span>
+                                    }
+                                    {
+                                        this.state.curQuestion.nextQ === null &&
+                                        this.state.curQuestion.id === 2000 &&
+                                        <span className="answer-box"
+                                            onClick={() => this.restart()}>
+                                            {this.state.curQuestion.a1}
+                                        </span>
+                                    }
+                                    {
+                                        this.state.curQuestion.nextQ !== null &&
+                                        <span className="answer-box"
+                                            onClick={() => this.fetchQuestion(this.state.curQuestion.nextQ)}>
+                                            NEXT
+                                        </span>
+                                    }
                                     </span>
-                                }
-                                {
-                                    this.state.curQuestion.nextQ === null &&
-                                    this.state.curQuestion.id !== 2000 && 
-                                    <span className="answer-box"
-                                        onClick={() => this.answerHandler(this.state.curQuestion.a2Link)}>
-                                        {this.state.curQuestion.a2}
-                                    </span>
-                                }
-                                {
-                                    this.state.curQuestion.nextQ === null &&
-                                    this.state.curQuestion.id === 2000 &&
-                                    <span className="answer-box"
-                                        onClick={() => this.restart()}>
-                                        {this.state.curQuestion.a1}
-                                    </span>
-                                }
-                                {
-                                    this.state.curQuestion.nextQ !== null &&
-                                    <span className="answer-box"
-                                        onClick={() => this.fetchQuestion(this.state.curQuestion.nextQ)}>
-                                        NEXT
-                                    </span>
-                                }
                                 </span>
                             </span>
-                            
+                            <span className="col-6" />
                         </span>
-                        <span className="col-6" />
-                    </span>
 
-                    <footer className="fixed-bottom E-antiscrolling">
-                        <BadgeListComponent
-                            className="row"
-                            forceUpdate={this.state.forceUpdate}
-                            turnOffForceUpdate={this.turnOffForceUpdate}
-                            curQuestion={this.state.curQuestion.id}
-                            questionEarn={this.state.curQuestion.id}
-                            badge={this.state.badge} />
-                    </footer>
-
-                </div>
+                        <footer className="fixed-bottom E-antiscrolling">
+                            <BadgeListComponent
+                                forceUpdate={this.state.forceUpdate}
+                                turnOffForceUpdate={this.turnOffForceUpdate}
+                                curQuestion={this.state.curQuestion.id}
+                                questionEarn={this.state.curQuestion.id}
+                                badge={this.state.badge} />
+                        </footer>
+                    </div>
+                </span>
+                
         )
     }
 }

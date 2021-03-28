@@ -59,11 +59,11 @@ hr {
 }
 
 footer {
-  max-width: 1800px;
-  background-color: black;
-  margin: 0 auto;
+  /* max-width: 1800px; */
+  /* background-color: black; */
+  margin: 0;
   display: flex;
-  height: 250px;
+  height: 300px;
   flex-direction: column;
   overflow-x: hidden;
 }

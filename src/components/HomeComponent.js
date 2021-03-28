@@ -92,7 +92,7 @@ export default class HomeComponent extends React.Component {
                         this.state.isIntroFinished &&
                         <div className='player-wrapper'>
                             <ReactPlayer
-                                className='react-player'
+                                className='E-react-player react-player'
                                 url='https://vimeo.com/527694350'
                                 playing={this.state.start}
                                 muted={true}
@@ -105,7 +105,7 @@ export default class HomeComponent extends React.Component {
                         !this.state.isButtonOn &&
                         <div className='player-wrapper'>
                             <ReactPlayer
-                                className='react-player'
+                                className='E-react-player react-player'
                                 url='https://vimeo.com/527694042'
                                 playing={this.state.start}
                                 muted={true}
