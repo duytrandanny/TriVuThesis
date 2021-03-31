@@ -1,0 +1,372 @@
+.mediaViewInfo {
+  --web-view-name: About;
+  --web-view-id: About;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: About;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.E-about-wrap {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  /* font-size: 85%; */
+}
+
+#About {
+  transform: scale(.845);
+  transform-origin: 0 0;
+  box-sizing: border-box;
+  background: #E5E5E5;
+  width: 1920px;
+  height: 3240px;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  --web-view-name: About;
+  --web-view-id: About;
+  --web-enable-deep-linking: true;
+}
+.Rectangle_10 {
+  position: absolute;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  /* background-image:linear-gradient(180deg, #5e2ced 0%, #a485fd 100%);  */
+}
+#ENTROPY_ {
+  position: absolute;
+  left: 0px;
+  top: 704px;
+  overflow: hidden;
+  width: 1921px;
+  height: 376px;
+  text-align: center;
+  font-family: Hatton;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 400px;
+  color: rgba(0,0,0,1);
+}
+#ELEMENTS {
+  position: absolute;
+  left: 0px;
+  top: 1746px;
+  overflow: hidden;
+  width: 1921px;
+  height: 376px;
+  text-align: center;
+  font-family: Hatton;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 405px;
+  color: rgba(0,0,0,1);
+}
+#Entropy_is_a_interactive_specu {
+  position: absolute;
+  left: 692px;
+  top: 1112px;
+  overflow: hidden;
+  width: 951px;
+  height: 235px;
+  line-height: 32px;
+  margin-top: -3px;
+  text-align: left;
+  font-family: 'MarsExtended';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: rgba(0,0,0,1);
+}
+#HAVE {
+  position: absolute;
+  left: 0px;
+  top: 2868px;
+  overflow: hidden;
+  width: 1082px;
+  height: 372px;
+  text-align: left;
+  font-family: Hatton;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 405px;
+  color: rgba(0,0,0,1);
+}
+#WHAT {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  width: 1082px;
+  height: 346px;
+  text-align: left;
+  font-family: Hatton;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 405px;
+  color: rgba(255,255,255,1);
+}
+#FUN_ {
+  position: absolute;
+  left: 839px;
+  top: 2868px;
+  overflow: hidden;
+  width: 1082px;
+  height: 372px;
+  text-align: right;
+  font-family: Hatton;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 405px;
+  color: rgba(0,0,0,1);
+}
+#IS {
+  position: absolute;
+  left: 839px;
+  top: 0px;
+  overflow: hidden;
+  width: 1082px;
+  height: 346px;
+  text-align: right;
+  font-family: Hatton;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 405px;
+  color: rgba(255,255,255,1);
+}
+.Rectangle_24 {
+  position: absolute;
+  overflow: visible;
+  width: 1640px;
+  height: 1194px;
+  left: 140px;
+  top: 1827px;
+}
+#Events___Choices__ {
+  position: absolute;
+  left: 692px;
+  top: 1934px;
+  overflow: hidden;
+  width: 261px;
+  height: 62px;
+  text-align: left;
+  font-family: 'MarsExtended';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: rgba(255,255,255,1);
+}
+#Badges__ {
+  position: absolute;
+  left: 692px;
+  top: 2358px;
+  overflow: hidden;
+  width: 261px;
+  height: 62px;
+  text-align: left;
+  font-family: 'MarsExtended';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: rgba(255,255,255,1);
+}
+#Viewport__ {
+  position: absolute;
+  left: 692px;
+  top: 2744px;
+  overflow: hidden;
+  width: 261px;
+  height: 62px;
+  text-align: left;
+  font-family: 'MarsExtended';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: rgba(255,255,255,1);
+}
+#You_start_at_the_beginning_of_ {
+  position: absolute;
+  left: 692px;
+  top: 1998px;
+  overflow: hidden;
+  width: 951px;
+  height: 124px;
+  text-align: left;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255,255,255,1);
+}
+#en_tro_py___entr_p____the_traj {
+  position: absolute;
+  left: 1741px;
+  top: 1080px;
+  transform: rotate(90deg);
+  transform-origin: left;
+  overflow: hidden;
+  width: 667px;
+  height: 39px;
+  text-align: center;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(0,0,0,1);
+}
+#Badges_are_achieved_after_a_ma {
+  position: absolute;
+  left: 692px;
+  top: 2422px;
+  overflow: hidden;
+  width: 951px;
+  height: 73px;
+  text-align: left;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255,255,255,1);
+}
+#The_viewport_on_the_right_hand {
+  position: absolute;
+  left: 692px;
+  top: 2806px;
+  overflow: hidden;
+  width: 951px;
+  height: 97px;
+  text-align: left;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255,255,255,1);
+}
+.Rectangle_21 {
+  position: absolute;
+  overflow: visible;
+  width: 398px;
+  height: 398px;
+  left: 140px;
+  top: 1827px;
+}
+.Rectangle_22 {
+  position: absolute;
+  overflow: visible;
+  width: 398px;
+  height: 398px;
+  left: 140px;
+  top: 2225px;
+}
+.Rectangle_23 {
+  position: absolute;
+  overflow: visible;
+  width: 398px;
+  height: 398px;
+  left: 140px;
+  top: 2623px;
+}
+.Line_1 {
+  overflow: visible;
+  position: absolute;
+  top: 2225.5px;
+  left: 140.5px;
+  width: 1640px;
+  height: 2px;
+}
+.Line_2 {
+  overflow: visible;
+  position: absolute;
+  top: 2623.5px;
+  left: 140.5px;
+  width: 1640px;
+  height: 2px;
+}
+#Group_1 {
+  position: absolute;
+  width: 1226px;
+  height: 690px;
+  left: 142px;
+  top: 195px;
+  overflow: visible;
+}
+.Rectangle_3 {
+  position: absolute;
+  overflow: visible;
+  width: 1226px;
+  height: 690px;
+  left: 0px;
+  top: 0px;
+}
+.Rectangle_25 {
+  position: absolute;
+  overflow: visible;
+  width: 397px;
+  height: 397px;
+  left: 140px;
+  top: 2624px;
+}
+#Video {
+  position: absolute;
+  left: 623px;
+  top: 514px;
+  overflow: visible;
+  width: 266px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(0,0,0,1);
+}
+#Video_A0_Text_16 {
+  position: absolute;
+  left: 207px;
+  top: 2013px;
+  overflow: visible;
+  width: 266px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(255,255,255,1);
+}
+#Video_A0_Text_17 {
+  position: absolute;
+  left: 207px;
+  top: 2407px;
+  overflow: visible;
+  width: 266px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(255,255,255,1);
+}
+#Video_A0_Text_18 {
+  position: absolute;
+  left: 207px;
+  top: 2814px;
+  overflow: visible;
+  width: 266px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(0,0,0,1);
+}

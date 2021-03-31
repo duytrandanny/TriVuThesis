@@ -59,16 +59,22 @@ export default class HomeComponent extends React.Component {
                 <Fade in={!this.state.start}>
                     <span className='E-intro-screen-start'>
                         <span className="row justify-content-center">
-                            <img className="App-logo-intro" alt="entropy logo" src={process.env.PUBLIC_URL + '/entropy-logo.png'} />
+                            <img className="App-logo-intro" alt="entropy logo" src={process.env.PUBLIC_URL + '/metallic.png'} />
                         </span>
                         <div className="row justify-content-center" style={{paddingTop: "50px"}}>
-                            <span className="col-md-5 col-4"></span>
-                            <span className="col-md-2 col-4 answer-box-wrap">
+                            <span className="col-lg-4 col-3"></span>
+                            <span className="col-lg-3 col-6 answer-box-wrap">
+                                <span className='answer-box' onClick={() => this.handleOnClick('about')}>
+                                    ABOUT
+                                </span>
+                                <span className='answer-box' onClick={() => this.handleOnClick('start')}>
+                                    PLAY NOW
+                                </span>
                                 <span className='answer-box' onClick={this.startPage}>
-                                    START
+                                    INTRO
                                 </span>
                             </span>
-                            <span className="col-md-5 col-4"></span>
+                            <span className="col-lg-4 col-3"></span>
                         </div>
                     </span>
                 </Fade> 
@@ -122,8 +128,8 @@ export default class HomeComponent extends React.Component {
                                 <div className="row E-intro-screen">
                                     <span className="col-4"></span>
                                     <span className="col-4 answer-box-wrap">
-                                        <span className='answer-box E-dark-theme' onClick={() => this.handleOnClick('howtoplay')}>
-                                            HOW TO PLAY
+                                        <span className='answer-box E-dark-theme' onClick={() => this.handleOnClick('about')}>
+                                            ABOUT
                                         </span>
                                         <span className='answer-box E-dark-theme' onClick={() => this.handleOnClick('start')}>
                                             PLAY NOW

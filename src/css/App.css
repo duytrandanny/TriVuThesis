@@ -1,6 +1,6 @@
 .App {
     /*padding-top: 20vh;*/
-    justify-content: start;
+    /* justify-content: start; */
     /* max-width: 1800px; */
     margin: 0 auto;
     display: flex;
@@ -39,7 +39,7 @@
 }
 
 .App-logo-intro {
-  height: 70px;
+  height: 185px;
   pointer-events: none;
 }
 

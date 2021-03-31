@@ -11,10 +11,10 @@ function Header() {
         </span>
         <span className="col-7" />
         <span className="col-1">
-            <Link to="/howtoplay"><h6>HOW TO PLAY</h6></Link>
+            <Link to="/about"><h6>ABOUT</h6></Link>
         </span>
         <span className="col-1">
-            <Link to="/aboutus"><h6>ABOUT US</h6></Link>
+            <Link to="/contact"><h6>CONTACT</h6></Link>
         </span>
         <span className="col-1" />
     </span>)
