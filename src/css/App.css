@@ -227,7 +227,7 @@
 }
 
 .E-react-player {
-  background-color: pink;
+  /* background-color: pink; */
   z-index:0;
   object-fit: cover;
   position: absolute;
