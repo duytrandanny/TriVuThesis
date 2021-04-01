@@ -6,24 +6,40 @@
 :root {
   --web-view-ids: About;
 }
+@font-face {
+  font-family: 'Hatton';
+  src: url('fonts/Hatton-Ultralight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
 }
+
 .E-about-wrap {
-  max-width: 100vw;
+  width: 100%;
+  min-height: 500px;
+  height: auto;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-  /* font-size: 85%; */
+  justify-content: center;
+}
+
+.E-about-content {
+  width: 1618px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
 }
 
 #About {
-  transform: scale(.845);
+  transform: scale(.843) ;
   transform-origin: 0 0;
   box-sizing: border-box;
   background: #E5E5E5;
   width: 1920px;
+  /* height: 3000px; */
   height: 3240px;
   background-color: rgba(255,255,255,1);
   overflow: hidden;
@@ -50,10 +66,11 @@
   width: 1921px;
   height: 376px;
   text-align: center;
-  font-family: Hatton;
+  font-family: 'Hatton';
   font-style: normal;
   font-weight: lighter;
   font-size: 400px;
+  line-height: 1.12;
   color: rgba(0,0,0,1);
 }
 #ELEMENTS {
@@ -64,10 +81,11 @@
   width: 1921px;
   height: 376px;
   text-align: center;
-  font-family: Hatton;
+  font-family: 'Hatton';
   font-style: normal;
   font-weight: lighter;
   font-size: 405px;
+  line-height: 1.12;
   color: rgba(0,0,0,1);
 }
 #Entropy_is_a_interactive_specu {
@@ -94,10 +112,11 @@
   width: 1082px;
   height: 372px;
   text-align: left;
-  font-family: Hatton;
+  font-family: 'Hatton';
   font-style: normal;
   font-weight: lighter;
   font-size: 405px;
+  line-height: 1.12;
   color: rgba(0,0,0,1);
 }
 #WHAT {
@@ -108,10 +127,11 @@
   width: 1082px;
   height: 346px;
   text-align: left;
-  font-family: Hatton;
+  font-family: 'Hatton';
   font-style: normal;
   font-weight: lighter;
   font-size: 405px;
+  line-height: 1.12;
   color: rgba(255,255,255,1);
 }
 #FUN_ {
@@ -122,8 +142,9 @@
   width: 1082px;
   height: 372px;
   text-align: right;
-  font-family: Hatton;
+  font-family: 'Hatton';
   font-style: normal;
+  line-height: 1.12;
   font-weight: lighter;
   font-size: 405px;
   color: rgba(0,0,0,1);
@@ -136,10 +157,11 @@
   width: 1082px;
   height: 346px;
   text-align: right;
-  font-family: Hatton;
+  font-family: 'Hatton';
   font-style: normal;
   font-weight: lighter;
   font-size: 405px;
+  line-height: 1.12;
   color: rgba(255,255,255,1);
 }
 .Rectangle_24 {
