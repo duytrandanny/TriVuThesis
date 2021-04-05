@@ -6,12 +6,6 @@
 :root {
   --web-view-ids: About;
 }
-@font-face {
-  font-family: 'Hatton';
-  src: url('fonts/Hatton-Ultralight.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +13,7 @@
 
 .E-about-wrap {
   width: 100%;
-  min-height: 500px;
+  /* min-height: 500px; */
   height: auto;
   display: flex;
   flex-direction: column;
@@ -27,19 +21,18 @@
 }
 
 .E-about-content {
-  width: 1618px;
+  width: 1618.56px;
   height: auto;
   margin: 0 auto;
   position: relative;
 }
-
 #About {
   transform: scale(.843) ;
   transform-origin: 0 0;
+  position: absolute;
   box-sizing: border-box;
   background: #E5E5E5;
   width: 1920px;
-  /* height: 3000px; */
   height: 3240px;
   background-color: rgba(255,255,255,1);
   overflow: hidden;
@@ -49,43 +42,58 @@
   --web-view-id: About;
   --web-enable-deep-linking: true;
 }
-.Rectangle_10 {
+#Group_5 {
   position: absolute;
-  overflow: hidden;
   width: 1920px;
-  height: 1080px;
-  left: 0px;
-  top: 0px;
-  /* background-image:linear-gradient(180deg, #5e2ced 0%, #a485fd 100%);  */
-}
-#ENTROPY_ {
-  position: absolute;
-  left: 0px;
-  top: 704px;
-  overflow: hidden;
-  width: 1921px;
-  height: 376px;
-  text-align: center;
-  font-family: 'Hatton';
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 400px;
-  line-height: 1.12;
-  color: rgba(0,0,0,1);
-}
-#ELEMENTS {
-  position: absolute;
+  height: 1494px;
   left: 0px;
   top: 1746px;
+  overflow: visible;
+}
+#HAVE {
+  position: absolute;
+  left: 0px;
+  top: 1122px;
   overflow: hidden;
-  width: 1921px;
-  height: 376px;
-  text-align: center;
+  width: 1082px;
+  height: 372px;
+  text-align: left;
+  line-height: 1.12;
   font-family: 'Hatton';
   font-style: normal;
   font-weight: lighter;
   font-size: 405px;
+  color: rgba(0,0,0,1);
+}
+#FUN_ {
+  position: absolute;
+  left: 839px;
+  top: 1122px;
+  overflow: hidden;
+  width: 1082px;
   line-height: 1.12;
+  height: 372px;
+  text-align: right;
+  font-family: 'Hatton';
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 405px;
+  color: rgba(0,0,0,1);
+}
+#ELEMENTS {
+  z-index: -1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  width: 1921px;
+  height: 376px;
+  text-align: center;
+  line-height: 1.12;
+  font-family: 'Hatton';
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 405px;
   color: rgba(0,0,0,1);
 }
 #Entropy_is_a_interactive_specu {
@@ -96,6 +104,7 @@
   width: 951px;
   height: 235px;
   line-height: 32px;
+  line-height: 1.12;
   margin-top: -3px;
   text-align: left;
   font-family: 'MarsExtended';
@@ -104,213 +113,84 @@
   font-size: 26px;
   color: rgba(0,0,0,1);
 }
-#HAVE {
+#Group_4 {
   position: absolute;
+  width: 1920px;
+  height: 1080px;
   left: 0px;
-  top: 2868px;
+  top: 0px;
+  overflow: visible;
+}
+.Rectangle_30 {
+  position: absolute;
+  overflow: visible;
+  width: 1918px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  transform: rotate(180deg);
+  /* transform-origin: left; */
+}
+#ENTROPY_ {
+  position: absolute;
+  left: 2px;
+  top: 704px;
   overflow: hidden;
-  width: 1082px;
-  height: 372px;
-  text-align: left;
+  width: 1919px;
+  height: 376px;
+  line-height: 1.12;
+  text-align: center;
   font-family: 'Hatton';
   font-style: normal;
   font-weight: lighter;
-  font-size: 405px;
-  line-height: 1.12;
+  font-size: 400px;
   color: rgba(0,0,0,1);
 }
 #WHAT {
   position: absolute;
-  left: 0px;
+  left: 2px;
   top: 0px;
   overflow: hidden;
   width: 1082px;
   height: 346px;
+  line-height: 1.12;
   text-align: left;
   font-family: 'Hatton';
   font-style: normal;
   font-weight: lighter;
   font-size: 405px;
-  line-height: 1.12;
   color: rgba(255,255,255,1);
-}
-#FUN_ {
-  position: absolute;
-  left: 839px;
-  top: 2868px;
-  overflow: hidden;
-  width: 1082px;
-  height: 372px;
-  text-align: right;
-  font-family: 'Hatton';
-  font-style: normal;
-  line-height: 1.12;
-  font-weight: lighter;
-  font-size: 405px;
-  color: rgba(0,0,0,1);
 }
 #IS {
   position: absolute;
-  left: 839px;
+  left: 1344px;
   top: 0px;
   overflow: hidden;
-  width: 1082px;
-  height: 346px;
+  width: 577px;
+  height: 389px;
+  line-height: 1.12;
   text-align: right;
   font-family: 'Hatton';
   font-style: normal;
   font-weight: lighter;
   font-size: 405px;
-  line-height: 1.12;
-  color: rgba(255,255,255,1);
-}
-.Rectangle_24 {
-  position: absolute;
-  overflow: visible;
-  width: 1640px;
-  height: 1194px;
-  left: 140px;
-  top: 1827px;
-}
-#Events___Choices__ {
-  position: absolute;
-  left: 692px;
-  top: 1934px;
-  overflow: hidden;
-  width: 261px;
-  height: 62px;
-  text-align: left;
-  font-family: 'MarsExtended';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  color: rgba(255,255,255,1);
-}
-#Badges__ {
-  position: absolute;
-  left: 692px;
-  top: 2358px;
-  overflow: hidden;
-  width: 261px;
-  height: 62px;
-  text-align: left;
-  font-family: 'MarsExtended';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  color: rgba(255,255,255,1);
-}
-#Viewport__ {
-  position: absolute;
-  left: 692px;
-  top: 2744px;
-  overflow: hidden;
-  width: 261px;
-  height: 62px;
-  text-align: left;
-  font-family: 'MarsExtended';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  color: rgba(255,255,255,1);
-}
-#You_start_at_the_beginning_of_ {
-  position: absolute;
-  left: 692px;
-  top: 1998px;
-  overflow: hidden;
-  width: 951px;
-  height: 124px;
-  text-align: left;
-  font-family: 'SpaceMono';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
   color: rgba(255,255,255,1);
 }
 #en_tro_py___entr_p____the_traj {
   position: absolute;
-  left: 1741px;
+  left: 1752px;
   top: 1080px;
   transform: rotate(90deg);
   transform-origin: left;
   overflow: hidden;
   width: 667px;
-  height: 39px;
+  height: 28px;
   text-align: center;
   font-family: 'SpaceMono';
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   color: rgba(0,0,0,1);
-}
-#Badges_are_achieved_after_a_ma {
-  position: absolute;
-  left: 692px;
-  top: 2422px;
-  overflow: hidden;
-  width: 951px;
-  height: 73px;
-  text-align: left;
-  font-family: 'SpaceMono';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  color: rgba(255,255,255,1);
-}
-#The_viewport_on_the_right_hand {
-  position: absolute;
-  left: 692px;
-  top: 2806px;
-  overflow: hidden;
-  width: 951px;
-  height: 97px;
-  text-align: left;
-  font-family: 'SpaceMono';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  color: rgba(255,255,255,1);
-}
-.Rectangle_21 {
-  position: absolute;
-  overflow: visible;
-  width: 398px;
-  height: 398px;
-  left: 140px;
-  top: 1827px;
-}
-.Rectangle_22 {
-  position: absolute;
-  overflow: visible;
-  width: 398px;
-  height: 398px;
-  left: 140px;
-  top: 2225px;
-}
-.Rectangle_23 {
-  position: absolute;
-  overflow: visible;
-  width: 398px;
-  height: 398px;
-  left: 140px;
-  top: 2623px;
-}
-.Line_1 {
-  overflow: visible;
-  position: absolute;
-  top: 2225.5px;
-  left: 140.5px;
-  width: 1640px;
-  height: 2px;
-}
-.Line_2 {
-  overflow: visible;
-  position: absolute;
-  top: 2623.5px;
-  left: 140.5px;
-  width: 1640px;
-  height: 2px;
 }
 #Group_1 {
   position: absolute;
@@ -328,20 +208,11 @@
   left: 0px;
   top: 0px;
 }
-.Rectangle_25 {
-  position: absolute;
-  overflow: visible;
-  width: 397px;
-  height: 397px;
-  left: 140px;
-  top: 2624px;
-}
 #Video {
   position: absolute;
   left: 623px;
   top: 514px;
   overflow: visible;
-  width: 266px;
   white-space: nowrap;
   text-align: center;
   font-family: 'SpaceMono';
@@ -350,45 +221,179 @@
   font-size: 18px;
   color: rgba(0,0,0,1);
 }
-#Video_A0_Text_16 {
-  position: absolute;
-  left: 207px;
-  top: 2013px;
-  overflow: visible;
-  width: 266px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: 'SpaceMono';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  color: rgba(255,255,255,1);
+#Rectangle_24 {
+  /* 15.095px */
+  /* -webkit-filter:blur(15.095px); */
+  /* filter: blur(15.095px); */
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(15.095px);
 }
-#Video_A0_Text_17 {
+.Rectangle_24 {
   position: absolute;
-  left: 207px;
-  top: 2407px;
   overflow: visible;
-  width: 266px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: 'SpaceMono';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  color: rgba(255,255,255,1);
+  width: 1226px;
+  height: 398px;
+  left: 554px;
+  top: 1858px;
 }
-#Video_A0_Text_18 {
+#Timeline__ {
   position: absolute;
-  left: 207px;
-  top: 2814px;
-  overflow: visible;
-  width: 266px;
-  white-space: nowrap;
-  text-align: center;
-  font-family: 'SpaceMono';
+  left: 692px;
+  top: 1975px;
+  overflow: hidden;
+  width: 261px;
+  height: 62px;
+  text-align: left;
+  font-family: 'MarsExtended';
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 26px;
   color: rgba(0,0,0,1);
+}
+#The_timeline_begins_at_the_daw {
+  position: absolute;
+  left: 692px;
+  top: 2039px;
+  overflow: hidden;
+  width: 951px;
+  height: 100px;
+  text-align: left;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(0,0,0,1);
+}
+.Rectangle_43 {
+  position: absolute;
+  overflow: visible;
+  width: 398px;
+  height: 398px;
+  left: 140px;
+  top: 1858px;
+}
+#Group_30 {
+  position: absolute;
+  width: 1640px;
+  height: 398px;
+  left: 140px;
+  top: 2256px;
+  overflow: visible;
+}
+.Rectangle_47 {
+  position: absolute;
+  overflow: visible;
+  width: 1226px;
+  height: 398px;
+  left: 414px;
+  top: 0px;
+}
+#Viewport__ {
+  position: absolute;
+  left: 552px;
+  top: 142px;
+  overflow: hidden;
+  width: 261px;
+  height: 62px;
+  text-align: left;
+  font-family: 'MarsExtended';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: rgba(255,255,255,1);
+}
+#The_viewport_on_the_right_hand {
+  position: absolute;
+  left: 552px;
+  top: 204px;
+  overflow: hidden;
+  width: 951px;
+  height: 53px;
+  text-align: left;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255,255,255,1);
+}
+.Rectangle_52 {
+  position: absolute;
+  overflow: visible;
+  width: 398px;
+  height: 398px;
+  left: 0px;
+  top: 0px;
+}
+#Group_33 {
+  position: absolute;
+  width: 1640px;
+  height: 398px;
+  left: 140px;
+  top: 2656px;
+  overflow: visible;
+}
+#Group_32 {
+  position: absolute;
+  width: 1226px;
+  height: 398px;
+  left: 414px;
+  top: 0px;
+  overflow: visible;
+}
+#Rectangle_44 {
+  /* filter: blur(15.095px); */
+  -webkit-backdrop-filter: blur(15.095px);
+  backdrop-filter: blur(15.095px);
+}
+.Rectangle_44 {
+  position: absolute;
+  overflow: visible;
+  width: 1226px;
+  height: 398px;
+  left: 0px;
+  top: 0px;
+}
+#Group_31 {
+  position: absolute;
+  width: 950px;
+  height: 137px;
+  left: 138px;
+  top: 129px;
+  overflow: visible;
+}
+#Badges__ {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  width: 261px;
+  height: 62px;
+  text-align: left;
+  font-family: 'MarsExtended';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: rgba(0,0,0,1);
+}
+#Badges_are_achieved_after_a_ma {
+  position: absolute;
+  left: 0px;
+  top: 64px;
+  overflow: hidden;
+  width: 951px;
+  height: 73px;
+  text-align: left;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(0,0,0,1);
+}
+.Rectangle_46 {
+  position: absolute;
+  overflow: visible;
+  width: 398px;
+  height: 398px;
+  left: 0px;
+  top: 0px;
 }

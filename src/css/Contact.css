@@ -1,0 +1,316 @@
+.mediaViewInfo {
+  --web-view-name: Contact;
+  --web-view-id: Contact;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: Contact;
+}
+@font-face {
+  font-family: 'Hatton';
+  src: url('fonts/Hatton-Ultralight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.E-contact-wrap {
+  width: 100%;
+  /* min-height: 500px; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.E-contact-content {
+  width: 1618px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+#Contact {
+  transform: scale(.843) ;
+  transform-origin: 0 0;
+  box-sizing: border-box;
+  background: #E5E5E5;
+  width: 1920px;
+  height: 1620px;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  --web-view-name: Contact;
+  --web-view-id: Contact;
+  --web-enable-deep-linking: true;
+}
+#Group_34 {
+  position: absolute;
+  width: 1920px;
+  height: 1065px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.Rectangle_40 {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 1065px;
+  left: 0px;
+  top: 0px;
+  transform: rotate(180deg);
+  /* transform-origin: left; */
+}
+#GET {
+  position: absolute;
+  left: 0px;
+  top: 13px;
+  overflow: hidden;
+  width: 1427px;
+  height: 372px;
+  text-align: left;
+  line-height: 1.12;
+  font-family: 'Hatton';
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 405px;
+  color: rgba(255,255,255,1);
+}
+#IN {
+  position: absolute;
+  left: 839px;
+  top: 13px;
+  overflow: hidden;
+  width: 1082px;
+  height: 372px;
+  text-align: right;
+  line-height: 1.12;
+  font-family: 'Hatton';
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 405px;
+  color: rgba(255,255,255,1);
+}
+#CONTACT {
+  position: absolute;
+  left: 0px;
+  top: 689.268px;
+  overflow: hidden;
+  width: 1921px;
+  height: 345px;
+  text-align: center;
+  line-height: 1.12;
+  font-family: 'Hatton';
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 400px;
+  color: rgba(0,0,0,1);
+}
+#Group_21 {
+  position: absolute;
+  width: 1226px;
+  height: 398px;
+  left: 554px;
+  top: 142px;
+  overflow: visible;
+}
+#Group_10 {
+  position: absolute;
+  width: 1226px;
+  height: 398px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.Rectangle_53 {
+  position: absolute;
+  overflow: visible;
+  width: 812px;
+  height: 398px;
+  left: 414px;
+  top: 0px;
+}
+.ID26195729_583036962051449_801 {
+  position: absolute;
+  overflow: visible;
+  width: 398px;
+  height: 398px;
+  left: 0px;
+  top: 0px;
+}
+#Component_2___1 {
+  position: absolute;
+  width: 536.5px;
+  height: 88.261px;
+  left: 552px;
+  top: 154.869px;
+  overflow: visible;
+}
+#Group_13 {
+  position: absolute;
+  width: 536px;
+  height: 88.261px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Tien_Vu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+  width: 537px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'MarsExtended';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: rgba(0,0,0,1);
+}
+#Website___Behance___Instagram {
+  position: absolute;
+  left: 138px;
+  top: 54.349px;
+  overflow: hidden;
+  width: 399px;
+  height: 27px;
+  text-align: right;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(0,0,0,1);
+}
+#Designer {
+  position: absolute;
+  left: 0px;
+  top: 54.261px;
+  overflow: hidden;
+  width: 301px;
+  height: 34px;
+  text-align: left;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(0,0,0,1);
+}
+.Line_1 {
+  overflow: visible;
+  position: absolute;
+  top: 44.631px;
+  left: 0.5px;
+  width: 536px;
+  height: 2px;
+}
+#Group_20 {
+  position: absolute;
+  width: 1226px;
+  height: 398px;
+  left: 140px;
+  top: 540px;
+  overflow: visible;
+}
+#Group_19 {
+  position: absolute;
+  width: 1226px;
+  height: 398px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.Rectangle_51 {
+  position: absolute;
+  overflow: visible;
+  width: 398px;
+  height: 398px;
+  left: 828px;
+  top: 0px;
+}
+.Rectangle_48 {
+  position: absolute;
+  overflow: visible;
+  width: 812px;
+  height: 398px;
+  left: 0px;
+  top: 0px;
+}
+#Component_1___1 {
+  position: absolute;
+  width: 536px;
+  height: 88.261px;
+  left: 138px;
+  top: 154.817px;
+  overflow: visible;
+}
+#Danny_Tran {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+  width: 537px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'MarsExtended';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: rgba(255,255,255,1);
+}
+#Website___Behance___Instagram_A1_Text_8 {
+  position: absolute;
+  left: 138px;
+  top: 54.349px;
+  overflow: hidden;
+  width: 399px;
+  height: 27px;
+  text-align: right;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255,255,255,1);
+}
+#Designer_A1_Text_9 {
+  position: absolute;
+  left: 0px;
+  top: 54.261px;
+  overflow: hidden;
+  width: 301px;
+  height: 34px;
+  text-align: left;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255,255,255,1);
+}
+.Line_2 {
+  overflow: visible;
+  position: absolute;
+  top: 44.183px;
+  left: 0px;
+  width: 536px;
+  height: 2px;
+}
+#Entropy_is_a_fictional_digital {
+  position: absolute;
+  left: 140px;
+  top: 1516px;
+  overflow: hidden;
+  width: 1641px;
+  height: 104px;
+  line-height: 20px;
+  margin-top: -2px;
+  text-align: center;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(0,0,0,1);
+}

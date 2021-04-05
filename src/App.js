@@ -1,6 +1,7 @@
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import './css/App.css';
 import './css/About.css';
+import './css/Contact.css';
 import React from "react";
 import StartComponent from "./components/StartComponent";
 import HomeComponent from "./components/HomeComponent";
