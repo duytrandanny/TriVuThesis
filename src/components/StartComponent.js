@@ -18,6 +18,8 @@ export default class StartComponent extends React.Component {
             runningTitleData: '', // + Array(100).fill('\xa0').join(''),
             curID: -1,
             forceUpdate: false,
+            speculateTime: '',
+            speculateEvent: '',
             curQuestion: {
                 "id": 0,
                 "q": "Init",
@@ -182,6 +184,13 @@ export default class StartComponent extends React.Component {
     fetchQuestion = link => {
         console.log("fetching question: " + link)
         const fetchedQ = this.state.questionData.find(x => x.id === link)
+        if(link === 3000) {
+            this.setState({
+                speculateEvent: '',
+                speculateTime: ''
+            })
+            return;
+        }
         // this question does NOT require any badge
         if (fetchedQ.requiredBadge.length === 0) {
             this.setState({
@@ -272,11 +281,19 @@ export default class StartComponent extends React.Component {
                                 <span className="row">
                                     <span className="col-3">
                                         <h6>TIME</h6>
-                                        <TimeComponent time={this.state.curQuestion.time} />
+                                        {
+                                            this.state.curQuestion.id === 3000? 
+                                            <input className="form-control" placeholder="Year" value={this.state.speculateTime} onChange={event=> this.setState({speculateTime: event.target.value})}/> :
+                                            <TimeComponent time={this.state.curQuestion.time} />
+                                        }
                                     </span>
                                     <span className="col-9">
                                         <h6>EVENTS</h6>
-                                        <div className="E-question">{this.state.curQuestion.q}</div>
+                                        {
+                                            this.state.curQuestion.id === 3000? 
+                                            <input className="form-control" placeholder="Event" value={this.state.speculateEvent} onChange={event=> this.setState({speculateEvent: event.target.value})}/> :
+                                            <div className="E-question">{this.state.curQuestion.q}</div>
+                                        }
                                     </span>
                                 </span>
                             </span>
@@ -320,6 +337,13 @@ export default class StartComponent extends React.Component {
                                         <span className="answer-box"
                                             onClick={() => this.fetchQuestion(this.state.curQuestion.nextQ)}>
                                             NEXT
+                                        </span>
+                                    }
+                                    {
+                                        this.state.curQuestion.id === 3000 &&
+                                        <span className="answer-box"
+                                            onClick={() => this.restart()}>
+                                            RESTART
                                         </span>
                                     }
                                     </span>
