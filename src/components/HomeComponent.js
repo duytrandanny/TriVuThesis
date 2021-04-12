@@ -99,7 +99,7 @@ export default class HomeComponent extends React.Component {
                         <div className='player-wrapper'>
                             <ReactPlayer
                                 className='E-react-player react-player'
-                                style={{ 'min-height': '56.25vw' }}
+                                style={{ minHeight: '56.25vw' }}
                                 url='https://vimeo.com/527694350'
                                 playing={this.state.start}
                                 muted={true}

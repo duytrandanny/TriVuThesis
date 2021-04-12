@@ -250,6 +250,15 @@ export default class StartComponent extends React.Component {
             this.state._isLoading ?
                 <h1>Loading...</h1> :
                 <span>
+                    <ReactPlayer
+                        className='react-player'
+                        url="https://soundcloud.com/the-dream-chimney/dc-promo-tracks-645-xyr-echoes-of-time"
+                        playing={true}
+                        loop={true}
+                        muted={false}
+                        height={0}
+                        width={0}
+                        />
                     <div className="E-body">
                         <span className="row">
                             <span className="col-6"/>
