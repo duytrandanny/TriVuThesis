@@ -245,6 +245,10 @@ export default class StartComponent extends React.Component {
         this.player = player
     }
 
+    handleBackTrackStart = () => {
+        this.player.seekTo(8, "seconds")
+    }
+
     render() {
         return (
             this.state._isLoading ?
@@ -252,12 +256,14 @@ export default class StartComponent extends React.Component {
                 <span>
                     <ReactPlayer
                         className='react-player'
+                        ref={this.ref}
                         url="https://soundcloud.com/the-dream-chimney/dc-promo-tracks-645-xyr-echoes-of-time"
                         playing={true}
                         loop={true}
                         muted={false}
                         height={0}
                         width={0}
+                        onStart={this.handleBackTrackStart}
                         />
                     <div className="E-body">
                         <span className="row">
@@ -265,7 +271,6 @@ export default class StartComponent extends React.Component {
                             <div className="col-6 d-flex justify-content-center">
                                 <span className="E-viewport-wrapper">
                                     <ReactPlayer
-                                        ref={this.player}
                                         className='react-player E-viewport'
                                         url='https://www.youtube.com/watch?v=m6PGIto3FuI'
                                         playing={true}
