@@ -28,19 +28,20 @@
 }
 
 .E-contact-content {
-  width: 2560px;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   position: relative;
+  left: 0;
+  top: 0;
 }
 #Contact {
-  /* transform: scale(.843) ; */
-  /* transform: scale(.5) ; */
-  /* transform-origin: 0 0; */
   position: absolute;
   box-sizing: border-box;
+  transform: translateX(-50%);
+  left: 50%;
   background: #E5E5E5;
-  width: 2560px;
+  width: 1920px;
   height: 2160px;
   background-color: rgba(255,255,255,1);
   overflow: hidden;
@@ -48,14 +49,16 @@
   padding: 0;
   --web-view-name: Contact;
   --web-view-id: Contact;
+  --web-enable-scale-up: true;
+  --web-center-horizontally: true;
   --web-enable-deep-linking: true;
 }
 .Rectangle_40 {
   position: absolute;
   overflow: visible;
-  width: 2560px;
-  height: 1436px;
-  left: 0px;
+  width: 2357px;
+  height: 1080px;
+  left: -218px;
   top: 0px;
   transform: rotate(180deg);
   /* transform-origin: left; */
@@ -65,84 +68,76 @@
   left: 0px;
   top: 13px;
   overflow: hidden;
-  width: 2067px;
-  height: 569px;
+  width: 815px;
+  height: 368px;
   text-align: left;
   line-height: 1.12;
   font-family: 'Hatton';
   font-style: normal;
   font-weight: lighter;
-  font-size: 540px;
+  font-size: 400px;
   color: rgba(255,255,255,1);
 }
 #IN {
   position: absolute;
-  left: 1479px;
+  left: 1549px;
   top: 13px;
   overflow: hidden;
-  width: 1082px;
-  height: 527px;
-  line-height: 1.12;
+  width: 372px;
+  height: 388px;
   text-align: right;
   font-family: 'Hatton';
+  line-height: 1.12;
   font-style: normal;
   font-weight: lighter;
-  font-size: 540px;
+  font-size: 400px;
   color: rgba(255,255,255,1);
 }
 #CONTACT {
   position: absolute;
   left: 0px;
-  top: 939.009px;
+  top: 889px;
   overflow: hidden;
-  width: 2561px;
-  line-height: 1.12;
-  height: 447px;
+  width: 1921px;
+  height: 382px;
   text-align: center;
   font-family: 'Hatton';
+  line-height: 1.12;
   font-style: normal;
   font-weight: lighter;
-  font-size: 540px;
+  font-size: 400px;
   color: rgba(0,0,0,1);
-}
-#Group_52 {
-  position: absolute;
-  width: 1321px;
-  height: 366px;
-  left: 524px;
-  top: 348px;
-  overflow: visible;
 }
 .ID26195729_583036962051449_801 {
   position: absolute;
   overflow: visible;
-  width: 366px;
-  height: 366px;
-  left: 0px;
-  top: 0px;
+  width: 260px;
+  height: 260px;
+  left: 416px;
+  top: 239px;
 }
-#Group_51 {
+#Group_18 {
   position: absolute;
-  width: 939px;
-  height: 366px;
-  left: 382px;
-  top: 0px;
+  width: 674px;
+  height: 260px;
+  left: 692px;
+  top: 239px;
   overflow: visible;
 }
 .Rectangle_53 {
   position: absolute;
   overflow: visible;
-  width: 939px;
-  height: 366px;
+  width: 674px;
+  height: 260px;
   left: 0px;
   top: 0px;
 }
-#Group_50 {
+#Group_17 {
   position: absolute;
-  width: 557.5px;
-  height: 81px;
-  left: 190.5px;
-  top: 146px;
+  width: 398px;
+  height: 48.364px;
+  left: 138px;
+  top: 105.818px;
   overflow: visible;
 }
 #Tien_Vu {
@@ -150,145 +145,146 @@
   left: 0px;
   top: 0px;
   overflow: visible;
-  width: 537px;
+  width: 381px;
   white-space: nowrap;
   text-align: left;
   font-family: 'MarsExtended';
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
-  color: rgba(0,0,0,1);
-}
-.contact-link-style {
-  font-family: 'SpaceMono';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   color: rgba(0,0,0,1);
 }
 #Website___Behance___Instagram {
   position: absolute;
-  left: 159px;
-  top: 46.592px;
+  left: 130.955px;
+  top: 31.025px;
   overflow: hidden;
-  width: 399px;
-  height: 27px;
+  width: 267.633px;
+  height: 17.339px;
   text-align: right;
   font-family: 'SpaceMono';
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: rgba(0,0,0,1);
 }
 #Designer {
   position: absolute;
   left: 0px;
-  top: 47px;
+  top: 31.361px;
   overflow: hidden;
-  width: 301px;
-  height: 34px;
+  width: 248.086px;
+  height: 17.003px;
   text-align: left;
   font-family: 'SpaceMono';
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: rgba(0,0,0,1);
 }
 .Line_1 {
   overflow: visible;
   position: absolute;
-  top: 41.114px;
-  left: 0.5px;
-  width: 557px;
+  top: 26.513px;
+  left: 0.412px;
+  width: 397.588px;
   height: 2px;
 }
-.Rectangle_51 {
+#Group_20 {
   position: absolute;
-  overflow: visible;
-  width: 366px;
-  height: 366px;
-  left: 1670px;
-  top: 714px;
-}
-#Group_53 {
-  position: absolute;
-  width: 939px;
-  height: 366px;
-  left: 715px;
-  top: 714px;
+  width: 674px;
+  height: 260px;
+  left: 554px;
+  top: 499px;
   overflow: visible;
 }
 .Rectangle_48 {
   position: absolute;
   overflow: visible;
-  width: 939px;
-  height: 366px;
+  width: 674px;
+  height: 260px;
   left: 0px;
   top: 0px;
 }
+#Group_19 {
+  position: absolute;
+  width: 398px;
+  height: 48.364px;
+  left: 138px;
+  top: 105.818px;
+  overflow: visible;
+}
 #Danny_Tran {
   position: absolute;
-  left: 191px;
-  top: 141px;
+  left: 0px;
+  top: 0px;
   overflow: visible;
-  width: 537px;
+  width: 381px;
   white-space: nowrap;
   text-align: left;
   font-family: 'MarsExtended';
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 18px;
   color: rgba(255,255,255,1);
 }
 #Website___Behance___Instagram_A1_Text_8 {
   position: absolute;
-  left: 350px;
-  top: 194px;
+  left: 130.955px;
+  top: 31.025px;
   overflow: hidden;
-  width: 399px;
-  height: 27px;
+  width: 267.633px;
+  height: 17.339px;
   text-align: right;
   font-family: 'SpaceMono';
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: rgba(255,255,255,1);
 }
-#Designer_A1_Text_9 {
+#Developer {
   position: absolute;
-  left: 191px;
-  top: 193.592px;
+  left: 0px;
+  top: 31.361px;
   overflow: hidden;
-  width: 301px;
-  height: 34px;
+  width: 248.086px;
+  height: 17.003px;
   text-align: left;
   font-family: 'SpaceMono';
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: rgba(255,255,255,1);
 }
-.Line_2 {
+.Line_3 {
   overflow: visible;
   position: absolute;
-  top: 183.801px;
-  left: 191.5px;
-  width: 556px;
+  top: 26.513px;
+  left: 0.412px;
+  width: 397.588px;
   height: 2px;
+}
+.Rectangle_51 {
+  position: absolute;
+  overflow: visible;
+  width: 260px;
+  height: 260px;
+  left: 1244px;
+  top: 499px;
 }
 #Entropy_is_a_fictional_digital {
   position: absolute;
-  left: 140px;
+  left: 416px;
   top: 2056px;
   overflow: hidden;
-  width: 2281px;
+  width: 1089px;
   height: 104px;
   line-height: 20px;
-  margin-top: -2px;
+  margin-top: -3px;
   text-align: center;
   font-family: 'SpaceMono';
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: rgba(0,0,0,1);
 }
