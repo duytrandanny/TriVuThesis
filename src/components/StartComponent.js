@@ -272,7 +272,7 @@ export default class StartComponent extends React.Component {
                                 <span className="E-viewport-wrapper">
                                     <ReactPlayer
                                         className='react-player E-viewport'
-                                        url='https://www.youtube.com/watch?v=m6PGIto3FuI'
+                                        url='https://vimeo.com/530063749'
                                         playing={true}
                                         muted={true}
                                         width= "326px"

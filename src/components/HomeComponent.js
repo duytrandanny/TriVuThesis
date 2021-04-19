@@ -56,7 +56,33 @@ export default class HomeComponent extends React.Component {
     render() {
         return (
             <span>
-                <Fade in={!this.state.start}>
+                {
+                    !this.state.start &&
+                    <div className='E-intro-screen-2 d-flex align-content-center flex-column'>
+                        <span className='d-flex justify-content-between mb-auto'>
+                            <span className='E-intro-text E-intro-choice' onClick={() => this.handleOnClick('about')}>HOW TO PLAY</span>
+                            <span className='E-intro-text E-intro-choice'onClick={this.startPage}>PLAY INTRO</span>
+                        </span>
+                        <div className='d-flex'>
+                            <ReactPlayer
+                                className='E-player-intro react-player'
+                                style={{}}
+                                height="700px"
+                                url='https://vimeo.com/537598246'
+                                playing={true}
+                                muted={true}
+                                controls={false}
+                                loop={true}
+                            />
+                        </div>
+                        <span className='d-flex justify-content-between align-items-end mt-auto'>
+                            <span className='E-intro-text '>ENTROPY</span>
+                            <span className='E-intro-text E-intro-choice ' onClick={() => this.handleOnClick('start')}>PLAY NOW</span>
+                        </span>
+                    </div>
+                }
+                
+                {/* <Fade in={true}>
                     <span className='E-intro-screen-start'>
                         <span className="row justify-content-center">
                             <img className="App-logo-intro" alt="entropy logo" src={process.env.PUBLIC_URL + '/metallic.png'} />
@@ -77,7 +103,7 @@ export default class HomeComponent extends React.Component {
                             <span className="col-lg-4 col-3"></span>
                         </div>
                     </span>
-                </Fade> 
+                </Fade> */}
                 <div className={this.state.isBlackBackgroundOn}/>
                 <div className="">
                     <ReactPlayer
