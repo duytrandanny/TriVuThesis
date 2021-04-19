@@ -60,8 +60,8 @@ export default class HomeComponent extends React.Component {
                     !this.state.start &&
                     <div className='E-intro-screen-2 d-flex align-content-center flex-column'>
                         <span className='d-flex justify-content-between mb-auto'>
-                            <span className='E-intro-text E-intro-choice' onClick={() => this.handleOnClick('about')}>HOW TO PLAY</span>
-                            <span className='E-intro-text E-intro-choice'onClick={this.startPage}>PLAY INTRO</span>
+                            <span className='E-intro-text E-intro-choice' onClick={() => this.handleOnClick('about')}>ABOUT</span>
+                            <span className='E-intro-text E-intro-choice'onClick={this.startPage}>INTRO</span>
                         </span>
                         <div className='d-flex'>
                             <ReactPlayer
@@ -77,7 +77,7 @@ export default class HomeComponent extends React.Component {
                         </div>
                         <span className='d-flex justify-content-between align-items-end mt-auto'>
                             <span className='E-intro-text '>ENTROPY</span>
-                            <span className='E-intro-text E-intro-choice ' onClick={() => this.handleOnClick('start')}>PLAY NOW</span>
+                            <span className='E-intro-text E-intro-choice ' onClick={() => this.handleOnClick('start')}>PLAY</span>
                         </span>
                     </div>
                 }
