@@ -66,7 +66,6 @@ export default class HomeComponent extends React.Component {
                         <div className='d-flex'>
                             <ReactPlayer
                                 className='E-player-intro react-player'
-                                style={{}}
                                 height="700px"
                                 url='https://vimeo.com/537598246'
                                 playing={true}

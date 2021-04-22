@@ -21,125 +21,110 @@
 }
 
 .E-about-content {
-  width: 1618.56px;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   position: relative;
 }
 #About {
-  transform: scale(.843) ;
-  transform-origin: 0 0;
   position: absolute;
   box-sizing: border-box;
+  transform: translateX(-50%);
+  left: 50%;
   background: #E5E5E5;
   width: 1920px;
-  height: 3240px;
+  height: 3780px;
   background-color: rgba(255,255,255,1);
   overflow: hidden;
   margin: 0;
   padding: 0;
   --web-view-name: About;
   --web-view-id: About;
+  --web-enable-scale-up: true;
+  --web-center-horizontally: true;
   --web-enable-deep-linking: true;
 }
-#Group_5 {
+.Rectangle_64 {
   position: absolute;
-  width: 1920px;
-  height: 1494px;
-  left: 0px;
-  top: 1746px;
   overflow: visible;
+  width: 2382px;
+  height: 1053px;
+  left: -244px;
+  top: 2130px;
 }
-#HAVE {
+.Rectangle_65 {
   position: absolute;
-  left: 0px;
-  top: 1122px;
-  overflow: hidden;
-  width: 1082px;
-  height: 372px;
-  text-align: left;
-  line-height: 1.12;
-  font-family: 'Hatton';
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 405px;
-  color: rgba(0,0,0,1);
-}
-#FUN_ {
-  position: absolute;
-  left: 839px;
-  top: 1122px;
-  overflow: hidden;
-  width: 1082px;
-  line-height: 1.12;
-  height: 372px;
-  text-align: right;
-  font-family: 'Hatton';
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 405px;
-  color: rgba(0,0,0,1);
-}
-#ELEMENTS {
-  z-index: -1;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-  width: 1921px;
-  height: 376px;
-  text-align: center;
-  line-height: 1.12;
-  font-family: 'Hatton';
-  font-style: normal;
-  font-weight: lighter;
-  font-size: 405px;
-  color: rgba(0,0,0,1);
-}
-#Entropy_is_a_interactive_specu {
-  position: absolute;
-  left: 692px;
-  top: 1112px;
-  overflow: hidden;
-  width: 951px;
-  height: 235px;
-  line-height: 32px;
-  line-height: 1.12;
-  margin-top: -3px;
-  text-align: left;
-  font-family: 'MarsExtended';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  color: rgba(0,0,0,1);
-}
-#Group_4 {
-  position: absolute;
-  width: 1920px;
-  height: 1080px;
-  left: 0px;
-  top: 0px;
   overflow: visible;
+  width: 2382px;
+  height: 733px;
+  left: -244px;
+  top: 3181px;
 }
 .Rectangle_30 {
   position: absolute;
   overflow: visible;
-  width: 1918px;
-  height: 1080px;
-  left: 0px;
+  width: 2421px;
+  height: 1082px;
+  left: -283px;
   top: 0px;
   transform: rotate(180deg);
   /* transform-origin: left; */
 }
+#HAVE___FUN {
+  position: absolute;
+  left: 0px;
+  top: 2818px;
+  overflow: hidden;
+  width: 1921px;
+  height: 363px;
+  text-align: center;
+  line-height: 1.12;
+  font-family: 'Hatton';
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 400px;
+  color: rgba(255,255,255,1);
+}
+#ELEMENTS {
+  position: absolute;
+  left: 0px;
+  top: 1941px;
+  overflow: hidden;
+  width: 1921px;
+  height: 363px;
+  text-align: center;
+  font-family: 'Hatton';
+  font-style: normal;
+  line-height: 1.12;
+  font-weight: lighter;
+  font-size: 400px;
+  color: rgba(0,0,0,1);
+}
+#Entropy_is_a_interactive_specu {
+  position: absolute;
+  left: 554px;
+  top: 1526.831px;
+  overflow: hidden;
+  width: 813px;
+  height: 142px;
+  line-height: 24px;
+  margin-top: -3px;
+  text-align: center;
+  font-family: 'MarsExtended';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(0,0,0,1);
+}
 #ENTROPY_ {
   position: absolute;
-  left: 2px;
-  top: 704px;
+  left: 0px;
+  top: 906.366px;
   overflow: hidden;
-  width: 1919px;
-  height: 376px;
-  line-height: 1.12;
+  width: 1921px;
+  height: 364px;
   text-align: center;
+  line-height: 1.12;
   font-family: 'Hatton';
   font-style: normal;
   font-weight: lighter;
@@ -151,14 +136,14 @@
   left: 2px;
   top: 0px;
   overflow: hidden;
-  width: 1082px;
-  height: 346px;
   line-height: 1.12;
+  width: 1401px;
+  height: 359px;
   text-align: left;
   font-family: 'Hatton';
   font-style: normal;
   font-weight: lighter;
-  font-size: 405px;
+  font-size: 400px;
   color: rgba(255,255,255,1);
 }
 #IS {
@@ -167,233 +152,174 @@
   top: 0px;
   overflow: hidden;
   width: 577px;
-  height: 389px;
-  line-height: 1.12;
+  height: 718px;
   text-align: right;
+  line-height: 1.12;
   font-family: 'Hatton';
   font-style: normal;
   font-weight: lighter;
-  font-size: 405px;
+  font-size: 400px;
   color: rgba(255,255,255,1);
-}
-#en_tro_py___entr_p____the_traj {
-  position: absolute;
-  left: 1752px;
-  top: 1080px;
-  transform: rotate(90deg);
-  transform-origin: left;
-  overflow: hidden;
-  width: 667px;
-  height: 28px;
-  text-align: center;
-  font-family: 'SpaceMono';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  color: rgba(0,0,0,1);
 }
 #Group_1 {
   position: absolute;
-  width: 1226px;
-  height: 690px;
-  left: 142px;
-  top: 195px;
+  width: 1080px;
+  height: 608px;
+  left: 420px;
+  top: 237px;
   overflow: visible;
 }
 .Rectangle_3 {
   position: absolute;
   overflow: visible;
-  width: 1226px;
-  height: 690px;
+  width: 1080px;
+  height: 608px;
   left: 0px;
   top: 0px;
 }
-#Video {
+#en_tro_py___entr_p____the_traj {
   position: absolute;
-  left: 623px;
-  top: 514px;
-  overflow: visible;
-  white-space: nowrap;
+  left: 968px;
+  top: 1925.295px;
+  overflow: hidden;
+  width: 807px;
+  height: 23.409px;
+  text-align: right;
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(0,0,0,1);
+}
+#Entropy_is_a_fictional_digital_about {
+  position: absolute;
+  left: 416px;
+  /* bottom: 0; */
+  top: 3676px;
+  overflow: hidden;
+  width: 1089px;
+  height: 104px;
+  line-height: 20px;
+  margin-top: -3px;
   text-align: center;
   font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: white;
+}
+.Rectangle_60 {
+  position: absolute;
+  overflow: visible;
+  width: 256px;
+  height: 256px;
+  left: 282px;
+  top: 2295px;
+}
+#Group_21 {
+  position: absolute;
+  width: 800px;
+  height: 256px;
+  left: 559px;
+  top: 2295px;
+  overflow: visible;
+}
+.Rectangle_59 {
+  position: absolute;
+  overflow: visible;
+  width: 800px;
+  height: 256px;
+  left: 0px;
+  top: 0px;
+}
+#Timeline___The_timeline_begins {
+  position: absolute;
+  left: 134px;
+  top: 56px;
+  overflow: hidden;
+  width: 533px;
+  height: 136px;
+  text-align: left;
+  font-family: 'MarsExtended';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   color: rgba(0,0,0,1);
 }
-#Rectangle_24 {
-  /* 15.095px */
-  /* -webkit-filter:blur(15.095px); */
-  /* filter: blur(15.095px); */
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(15.095px);
-}
-.Rectangle_24 {
+#Group_22 {
   position: absolute;
-  overflow: visible;
-  width: 1226px;
-  height: 398px;
-  left: 554px;
-  top: 1858px;
-}
-#Timeline__ {
-  position: absolute;
-  left: 692px;
-  top: 1975px;
-  overflow: hidden;
-  width: 261px;
-  height: 62px;
-  text-align: left;
-  font-family: 'MarsExtended';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  color: rgba(0,0,0,1);
-}
-#The_timeline_begins_at_the_daw {
-  position: absolute;
-  left: 692px;
-  top: 2039px;
-  overflow: hidden;
-  width: 951px;
-  height: 100px;
-  text-align: left;
-  font-family: 'SpaceMono';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  color: rgba(0,0,0,1);
-}
-.Rectangle_43 {
-  position: absolute;
-  overflow: visible;
-  width: 398px;
-  height: 398px;
-  left: 140px;
-  top: 1858px;
-}
-#Group_30 {
-  position: absolute;
-  width: 1640px;
-  height: 398px;
-  left: 140px;
-  top: 2256px;
+  width: 806px;
+  height: 256px;
+  left: 419px;
+  top: 2529.5px;
   overflow: visible;
 }
 .Rectangle_47 {
   position: absolute;
   overflow: visible;
-  width: 1226px;
-  height: 398px;
-  left: 414px;
+  width: 806px;
+  height: 256px;
+  left: 0px;
   top: 0px;
 }
-#Viewport__ {
+#Viewport___The_viewport_on_the {
   position: absolute;
-  left: 552px;
-  top: 142px;
+  left: 136px;
+  top: 84.5px;
   overflow: hidden;
-  width: 261px;
-  height: 62px;
+  width: 533px;
+  height: 87px;
   text-align: left;
   font-family: 'MarsExtended';
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 18px;
   color: rgba(255,255,255,1);
 }
-#The_viewport_on_the_right_hand {
+.Rectangle_62 {
   position: absolute;
-  left: 552px;
-  top: 204px;
+  overflow: visible;
+  width: 256px;
+  height: 256px;
+  left: 1243px;
+  top: 2529.5px;
+}
+#Group_16 {
+  position: absolute;
+  width: 808px;
+  height: 256px;
+  left: 830px;
+  top: 2763px;
+  overflow: visible;
+}
+.Rectangle_57 {
+  position: absolute;
+  overflow: visible;
+  width: 808px;
+  height: 256px;
+  left: 0px;
+  top: 0px;
+}
+#Badges___Badges_are_achieved_a {
+  position: absolute;
+  left: 137px;
+  top: 69px;
   overflow: hidden;
-  width: 951px;
-  height: 53px;
-  text-align: left;
-  font-family: 'SpaceMono';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  color: rgba(255,255,255,1);
-}
-.Rectangle_52 {
-  position: absolute;
-  overflow: visible;
-  width: 398px;
-  height: 398px;
-  left: 0px;
-  top: 0px;
-}
-#Group_33 {
-  position: absolute;
-  width: 1640px;
-  height: 398px;
-  left: 140px;
-  top: 2656px;
-  overflow: visible;
-}
-#Group_32 {
-  position: absolute;
-  width: 1226px;
-  height: 398px;
-  left: 414px;
-  top: 0px;
-  overflow: visible;
-}
-#Rectangle_44 {
-  /* filter: blur(15.095px); */
-  -webkit-backdrop-filter: blur(15.095px);
-  backdrop-filter: blur(15.095px);
-}
-.Rectangle_44 {
-  position: absolute;
-  overflow: visible;
-  width: 1226px;
-  height: 398px;
-  left: 0px;
-  top: 0px;
-}
-#Group_31 {
-  position: absolute;
-  width: 950px;
-  height: 137px;
-  left: 138px;
-  top: 129px;
-  overflow: visible;
-}
-#Badges__ {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-  width: 261px;
-  height: 62px;
+  width: 551px;
+  height: 118px;
   text-align: left;
   font-family: 'MarsExtended';
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 18px;
   color: rgba(0,0,0,1);
 }
-#Badges_are_achieved_after_a_ma {
-  position: absolute;
-  left: 0px;
-  top: 64px;
+.Rectangle_58 {
+  border-radius: 100%;
   overflow: hidden;
-  width: 951px;
-  height: 73px;
-  text-align: left;
-  font-family: 'SpaceMono';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  color: rgba(0,0,0,1);
-}
-.Rectangle_46 {
   position: absolute;
-  overflow: visible;
-  width: 398px;
-  height: 398px;
-  left: 0px;
-  top: 0px;
+  width: 256px;
+  height: 256px;
+  left: 558px;
+  top: 2763px;
 }

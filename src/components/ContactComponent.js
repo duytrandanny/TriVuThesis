@@ -78,7 +78,7 @@ export default class ContactComponent extends React.Component {
               <rect fill="rgba(0,0,0,1)" id="Rectangle_51" rx="0" ry="0" x="0" y="0" width="260" height="260">
               </rect>
             </svg>
-            <div id="Entropy_is_a_fictional_digital">
+            <div id="Entropy_is_a_fictional_digital_contact">
               <span>Entropy is a fictional digital platform meant to allow players to theorize alternate realities that could have happened as consequences of changing real historical events. Through fictional elements such as machine learning and generated simulations, it is intended to show a critical way of looking at history and explores ideas of determinism and multiple realities.</span>
             </div>
           </div>
