@@ -279,3 +279,38 @@
   color: white;
   cursor: pointer;
 }
+
+.contact-link-style {
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+}
+
+.contact-link-style:hover {
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+}
+
+.contact-link-style:active {
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+}
+
+.contact-link-style:link {
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+}
+
+.contact-link-style:visited {
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+}

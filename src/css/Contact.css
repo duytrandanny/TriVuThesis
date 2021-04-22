@@ -159,6 +159,7 @@
   left: 130.955px;
   top: 31.025px;
   overflow: hidden;
+  line-height: 1.12;
   width: 267.633px;
   height: 17.339px;
   text-align: right;
@@ -173,8 +174,9 @@
   left: 0px;
   top: 31.361px;
   overflow: hidden;
-  width: 248.086px;
+  /* width: 248.086px; */
   height: 17.003px;
+  line-height: 1.12;
   text-align: left;
   font-family: 'SpaceMono';
   font-style: normal;
@@ -233,6 +235,7 @@
   left: 130.955px;
   top: 31.025px;
   overflow: hidden;
+  line-height: 1.12;
   width: 267.633px;
   height: 17.339px;
   text-align: right;
@@ -247,11 +250,12 @@
   left: 0px;
   top: 31.361px;
   overflow: hidden;
-  width: 248.086px;
+  /* width: 248.086px; */
   height: 17.003px;
   text-align: left;
   font-family: 'SpaceMono';
   font-style: normal;
+  line-height: 1.12;
   font-weight: normal;
   font-size: 14px;
   color: rgba(255,255,255,1);

@@ -42,7 +42,11 @@ export default class ContactComponent extends React.Component {
                   <span>Tien Vu</span>
                 </div>
                 <div id="Website___Behance___Instagram">
-                  <span>Website / Behance / Instagram</span>
+                  <span>
+                    <a href="https://tienvu.format.com/" className="contact-link-style">Website</a> / 
+                    <a href="https://www.behance.net/trivu6198" className="contact-link-style"> Behance</a> / 
+                    <a href="https://www.instagram.com/xtienvux/" className="contact-link-style"> Instagram</a>
+                  </span>
                 </div>
                 <div id="Designer">
                   <span>Designer</span>
