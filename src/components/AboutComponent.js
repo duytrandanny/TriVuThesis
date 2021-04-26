@@ -74,7 +74,7 @@ export default class AboutComponent extends React.Component {
             <div class="Rectangle_60">
                 <ReactPlayer
                   className='E-react-player react-player'
-                  url='https://vimeo.com/533029322'
+                  url='https://vimeo.com/540468470'
                   height="100"
                   playing={true}
                   loop={true}
