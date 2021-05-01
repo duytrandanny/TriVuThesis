@@ -40,21 +40,21 @@
     "id": 5,
     "category": 4,
     "name": "Art",
-    "description": "Humans have started to visualize ourselves in art.",
+    "description": "Upgraded from Bigger Brain. Humans have started to visualize ourselves in art.",
     "upgrade": 3
   },
   {
     "id": 6,
     "category": 1,
     "name": "Bronze Age",
-    "description": "",
+    "description": "Upgraded from Stone Age. This prehistory period is characterized by Bronze tools and proto-writing.",
     "upgrade": 0
   },
   {
     "id": 7,
     "category": 2,
     "name": "Agriculture",
-    "description": "Agriculture Revolution starts in the Levant (Eastern Mediterranean region of Western Asia). It increased food supply rapidly allowing human population to thrive and encouraged sedentism.",
+    "description": "Upgraded from Grain. Agriculture Revolution starts in the Levant (Eastern Mediterranean region of Western Asia). It increased food supply rapidly allowing human population to thrive and encouraged sedentism.",
     "upgrade": 2
 
   },
@@ -69,7 +69,7 @@
     "id": 9,
     "category": 2,
     "name": "Animal Husbandry",
-    "description": "Humans have successfully domesticated animals.",
+    "description": "Upgraded from Meat Eaters. Humans have successfully domesticated animals.",
     "upgrade": 15
   },
   {
@@ -111,7 +111,7 @@
     "id": 15,
     "category": 2,
     "name": "Meat Eaters",
-    "description": "Animal meat becomes a staple of our diets.",
+    "description": "Upgraded from our domestication of dogs. Animal meat becomes a staple of our diets.",
     "upgrade": 4
   },
   {
@@ -273,6 +273,20 @@
     "category": 0,
     "name": "Authoritarianism",
     "description": "",
-    "upgrade": 12
+    "upgrade": null
+  },
+  {
+    "id": 39,
+    "category": 4,
+    "name": "Christianity",
+    "description": "",
+    "upgrade": 11
+  },
+  {
+    "id": 39,
+    "category": 4,
+    "name": "Christianity",
+    "description": "",
+    "upgrade": 11
   }
 ]
